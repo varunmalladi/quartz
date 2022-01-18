@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Key Ideas/Homotopy theory/Ho(C) is badly behaved.md",
+            "file": "Key Ideas/Stabilization.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Key Ideas/Homotopy theory/Ho(C) is badly behaved.md",
+                "file": "Key Ideas/Stabilization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "aa5c302946140b5e",
   "lastOpenFiles": [
+    "Key Ideas/Stabilization.md",
+    "Key Ideas/Solutions to polynomials determine a topology.md",
+    "Key Ideas/Semisimplicity.md",
+    "Key Ideas/RS are domain of MV-functions.md",
     "Key Ideas/Homotopy theory/Ho(C) is badly behaved.md",
     "Key Ideas/Homotopy theory/cohomology is dual to homotopy.md",
     "Detailed Notes/Math in Moscow/Representation Theory/1- Introduction.md",
     "Detailed Notes/Math in Moscow/CommHomAlg/Class 5.md",
     "Detailed Notes/Math in Moscow/CommHomAlg/Class 4.md",
-    "Detailed Notes/Math in Moscow/CommHomAlg/Class 3.md",
-    "Detailed Notes/Math in Moscow/Algebraic Geometry/Class 7.md",
-    "Detailed Notes/Math in Moscow/Algebraic Geometry/Class 6.md",
-    "Detailed Notes/Math in Moscow/Algebraic Geometry/Class 5.md",
-    "Detailed Notes/Math in Moscow/Algebraic Geometry/Class 4.md"
+    "Detailed Notes/Math in Moscow/CommHomAlg/Class 3.md"
   ]
 }
