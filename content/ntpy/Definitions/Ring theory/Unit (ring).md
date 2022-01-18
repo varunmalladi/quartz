@@ -1,3 +1,7 @@
+---
+title: "Unit (ring)"
+---
+
 Let $A$ be a commutative ring with identity. 
 
 **Definition.** A _unit_ is an element $x\in A$ such that $xy=1$ for some $y\in A$.

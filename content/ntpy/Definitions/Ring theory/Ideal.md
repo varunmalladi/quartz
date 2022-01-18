@@ -1,3 +1,7 @@
+---
+title: "Ideal"
+---
+
 Let $A$ be a commutative ring with unit.
 
 # Idea

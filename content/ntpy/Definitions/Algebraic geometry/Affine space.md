@@ -1,3 +1,7 @@
+---
+title: "Affine space"
+---
+
 Let $K$ be an algebraically closed field. Let $A=K[x_1,\dots,x_n]$.
 
 **Definition.** The _affine space_ of dimension $n$, denoted $\mathbb{A}_K^n$ (or just $\mathbb{A}^n$ if context is clear) is defined to be the set of $n$-tuples of $K$:

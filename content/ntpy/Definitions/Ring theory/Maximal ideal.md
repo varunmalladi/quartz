@@ -1,3 +1,7 @@
+---
+title: "Maximal ideal"
+---
+
 Let $A$ be a commutative ring with unit.
 
 **Definition.** A proper ideal $M\subset A$ is called _maximial_ if any of the following equivalent conditions hold:

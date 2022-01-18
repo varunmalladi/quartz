@@ -1,3 +1,7 @@
+---
+title: "Automorphisms of a category"
+---
+
 Consider two categories $C$ and $D$. Let $F:C\to D$ be a functor. 
 
 **Proposition.** $F$ induces a group homomorphism between the automorphism groups of $C$ and $D$. 

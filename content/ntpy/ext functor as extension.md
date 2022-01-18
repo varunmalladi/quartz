@@ -1,3 +1,7 @@
+---
+title: "ext functor as extension"
+---
+
 # Definitions
 Recall that an extension of $C$ by $A$ is an exact sequence of the form $$0\to A\to B\to C\to 0.$$ We say that two extensions are equivalent if there is a commuting diagram of the form 
 <img align="center" src="https://i.upmath.me/svg/%5Cbegin%7Btikzcd%7D%0A%090%20%26%20A%20%26%20B%20%26%20C%20%26%200%20%5C%5C%0A%090%20%26%20A%20%26%20%7B%5Ctilde%7BB%7D%7D%20%26%20C%20%26%200%0A%09%5Carrow%5B%22%7B%5Ctilde%7Bf%7D%7D%22%2C%20from%3D1-3%2C%20to%3D2-3%5D%0A%09%5Carrow%5BRightarrow%2C%20no%20head%2C%20from%3D1-4%2C%20to%3D2-4%5D%0A%09%5Carrow%5BRightarrow%2C%20no%20head%2C%20from%3D1-2%2C%20to%3D2-2%5D%0A%09%5Carrow%5Bfrom%3D1-1%2C%20to%3D1-2%5D%0A%09%5Carrow%5Bfrom%3D1-2%2C%20to%3D1-3%5D%0A%09%5Carrow%5Bfrom%3D1-3%2C%20to%3D1-4%5D%0A%09%5Carrow%5Bfrom%3D1-4%2C%20to%3D1-5%5D%0A%09%5Carrow%5Bfrom%3D2-1%2C%20to%3D2-2%5D%0A%09%5Carrow%5Bfrom%3D2-2%2C%20to%3D2-3%5D%0A%09%5Carrow%5Bfrom%3D2-3%2C%20to%3D2-4%5D%0A%09%5Carrow%5Bfrom%3D2-4%2C%20to%3D2-5%5D%0A%5Cend%7Btikzcd%7D" alt="\begin{tikzcd}

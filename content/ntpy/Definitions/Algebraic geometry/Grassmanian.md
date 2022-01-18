@@ -1,3 +1,7 @@
+---
+title: "Grassmanian"
+---
+
 # Definition
 The Grassmanian $Gr(k,n)$ is, as a set, the collection of $k$-dimensional subspaces of the $n$-dimensional vector space $V$.
 $$Gr(k,n)=Gr(k,V)=\{W\subset V\mid \text{dim }W=k\}$$

@@ -1,3 +1,7 @@
+---
+title: "coordinate ring"
+---
+
 # Definition
 Let $V$ be an [[Algebraic subset]] of $k^n$, $k$ algebraically closed. 
 - The *coordinate ring* of $V$, denoted $k[V]$, is the $k$-algebra of $k$-valued functions on $V$ obtained by restricting polynomial functions to $V$.

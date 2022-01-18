@@ -1,3 +1,7 @@
+---
+title: "Holomorphic function"
+---
+
 Let $f$ be a complex valued function of a single variable.
 
 On an open set:

@@ -1,3 +1,7 @@
+---
+title: "P-adic numbers"
+---
+
 Define $v_p(x)$ to be the largest power of $p$ that divides $x$. Define $v_p(0)=\infty$. Clearly 
 $$
 v_p(xy)=v_p(x)+v_p(y),\quad v_p(x+y)\geq\min\{v_p(x),v_p(y)\}

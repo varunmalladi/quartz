@@ -1,3 +1,7 @@
+---
+title: "reflective subcategory"
+---
+
 # Idea
 Let $C$ be a category and $U$ a class of morphisms. An object $c\in C$ is called $U$-local if its representable functor $C(-,c)$ is an isomorphism for all $f\in U$. One way to think about why it is called "local" is that, from the perspective of $c$, maps in $U$ look like isomorphisms. Indeed generally if $f:a\to b$ is an isomorphism then the precomposition $C(b,c)\to C(a,c)$ is an isomorphism.
 

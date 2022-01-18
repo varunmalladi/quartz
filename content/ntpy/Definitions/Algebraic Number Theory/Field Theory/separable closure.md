@@ -1,3 +1,7 @@
+---
+title: "separable closure"
+---
+
 # Idea
 The separable closure of $F$, denoted $F^\text{sep}$, is the "biggest Galois extension of $F$". This is the result of two facts:
 1. $F^\text{sep}$ is the maximal separable extension of $F$

@@ -1,3 +1,7 @@
+---
+title: "Subobjects, quotient objects"
+---
+
 # Definition
 Let $A$ be the object of some category.
 

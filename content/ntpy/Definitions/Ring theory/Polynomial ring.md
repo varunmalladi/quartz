@@ -1,3 +1,7 @@
+---
+title: "Polynomial ring"
+---
+
 # Properties
 ## Prime ideals
 If $R$ is a [[Principal ideal domain]], then the prime ideals of $R[y]$ are of the following form:

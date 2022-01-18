@@ -1,3 +1,7 @@
+---
+title: "absolute galois group"
+---
+
 # Idea
 The absolute Galois group of $F$ can be thought of as the Galois group of the maximal Galois extension of $F$, namely the [[separable closure]] $F^\text{sep}/F$.
 

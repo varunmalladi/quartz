@@ -1,3 +1,7 @@
+---
+title: "discrete G-set"
+---
+
 # Definition
 - A topological group is say to *act* (continuously) on a topological space $X$ if the action map $$G\times X\to X$$ is continuous
 	- Here $G\times X$ has the product topology. 

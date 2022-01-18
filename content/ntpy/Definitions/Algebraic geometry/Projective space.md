@@ -1,3 +1,7 @@
+---
+title: "Projective space"
+---
+
 # Algebraic sets
 Recall that a polynomial $F\in k[x_0,\dots,x_n]$ is called _homogeneous_ of degree $d$ if $F(\lambda x_0,\dots,\lambda x_n)=\lambda^d\cdot F(x_0,\dots,x_n)$. 
 

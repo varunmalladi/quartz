@@ -1,3 +1,7 @@
+---
+title: "(co)fiber sequences"
+---
+
 # Idea
 Taking the ordinary fiber twice is always trivial, meaning given a morphism $f:X\to Y$, we can take the fiber once to obtain $\text{fib}(f)\to X\to Y$. We can then take the fiber of the first morphism, and this is  what we claim to be completely trivial:
 $$

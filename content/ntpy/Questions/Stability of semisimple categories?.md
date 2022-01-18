@@ -1,3 +1,7 @@
+---
+title: "Stability of semisimple categories?"
+---
+
       
 
 If a category is not semi simple, are its higher categories semisimple? I.e, does the property of semisimiplicity stabilize?

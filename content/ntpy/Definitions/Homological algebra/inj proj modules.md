@@ -1,3 +1,7 @@
+---
+title: "inj proj modules"
+---
+
 # Definition
 All modules will be assumed to be $A$-modules where $A$ is a commutative ring with identity.
 

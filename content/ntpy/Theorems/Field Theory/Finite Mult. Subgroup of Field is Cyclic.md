@@ -1,3 +1,7 @@
+---
+title: "Finite Mult"
+---
+
 # Statement
 Let $K$ be a field and $K^\ast$ be its multiplicative group. Suppose $G\subset K^\ast$ is a finite subgroup. Then $G$ is cyclic.
 

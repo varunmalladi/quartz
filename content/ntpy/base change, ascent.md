@@ -1,3 +1,7 @@
+---
+title: "base change, ascent"
+---
+
 # Vector spaces
 Consider a field extension $L/K$. Given a $K$-vector space $W$, how may we extend this to an $L$-vector space? In what way can we do this "canonically"?
 

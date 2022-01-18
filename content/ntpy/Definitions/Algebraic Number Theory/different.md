@@ -1,3 +1,7 @@
+---
+title: "different"
+---
+
 # Definition
 Let $\mathcal{O}$ be a [[dedekind domain]], $k$ its field of fractions and $K/k$ a finite separable [[Field extension|extension]]. Let $\mathcal{O}_K$ be the [[Integral element|integral closure]], and $D_\mathcal{O}(\mathcal{O}_K)$ for the dual [[Module|module]].
 

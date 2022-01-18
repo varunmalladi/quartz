@@ -1,3 +1,7 @@
+---
+title: "Ford's Theorem"
+---
+
 For every $k\geq 2$, there exists a totient number of multiplicity $n$ [[Euler totient function]].
 
 # References

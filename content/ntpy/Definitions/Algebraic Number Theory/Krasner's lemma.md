@@ -1,3 +1,7 @@
+---
+title: "Krasner's lemma"
+---
+
 # Statement
 
 1. Suppose $k$ is a field complete with respect to a non-archimedean absolute value $\|\cdot\|$. This can extended to the algebraic extensions. 

@@ -1,3 +1,7 @@
+---
+title: "Frobenius Map"
+---
+
 Suppose $K$ is a field of characteristic $p$. The **absolute Frobenius map** is the map
 $$
 \begin{gathered}

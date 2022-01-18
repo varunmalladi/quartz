@@ -1,3 +1,7 @@
+---
+title: "pullback and pushforward of ES"
+---
+
 # Pullback
 
 Given a short exact sequence $$0\to A\to B\to C\to 0$$ and a map $g:C_1\to C$, we may construct the pullback along this map such that the following diagram commutes:

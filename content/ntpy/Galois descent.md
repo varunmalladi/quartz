@@ -1,3 +1,7 @@
+---
+title: "Galois descent"
+---
+
 # Idea
 The oppose of ascent, see [[base change, ascent]]. 
 

@@ -1,3 +1,7 @@
+---
+title: "To What Extent does the Euler function determine n?"
+---
+
 # Totient numbers
 For a definition, see [[Euler totient function]].
 

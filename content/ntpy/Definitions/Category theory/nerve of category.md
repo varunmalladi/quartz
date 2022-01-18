@@ -1,3 +1,7 @@
+---
+title: "nerve of category"
+---
+
 # Idea
 
 # Relation to homotopy

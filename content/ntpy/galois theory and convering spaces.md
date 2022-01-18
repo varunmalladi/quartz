@@ -1,3 +1,7 @@
+---
+title: "galois theory and convering spaces"
+---
+
 # Idea
 Dictionary:
 - connected coverings -> field extensions

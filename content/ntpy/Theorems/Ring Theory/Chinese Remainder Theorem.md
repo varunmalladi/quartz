@@ -1,3 +1,7 @@
+---
+title: "Chinese Remainder Theorem"
+---
+
 ### For ideals
 **Theorem.** If $I_1,\ddots,I_k$ are pairwise [[Ideal|coprime ideals]], then
 1. $I_1\cap\cdots\cap I_k=I_1\cdot \dots \cdot I_k$

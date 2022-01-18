@@ -1,3 +1,7 @@
+---
+title: "Artinian ring"
+---
+
 # Definition
 ## Rings
 Let $A$ be a commutative ring.

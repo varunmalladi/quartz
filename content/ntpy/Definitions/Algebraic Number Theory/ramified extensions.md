@@ -1,3 +1,7 @@
+---
+title: "ramified extensions"
+---
+
 # Definition
 Suppose 
 - $\mathcal{O}$ is a complete [[discrete valuation ring]]

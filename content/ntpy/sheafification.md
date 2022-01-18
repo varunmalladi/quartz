@@ -1,3 +1,7 @@
+---
+title: "sheafification"
+---
+
 # Examples
 **Locally constant sheaf**
 One can show that $\mathbb{C}_X$ is a sheaf on $X$ whose [[stalk]]s are all equal to $\mathbb{C}$. 

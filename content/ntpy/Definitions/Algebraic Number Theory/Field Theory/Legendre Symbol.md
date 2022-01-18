@@ -1,3 +1,7 @@
+---
+title: "Legendre Symbol"
+---
+
 **Definition.** Let $a$ be any residue modulo $p$. The Legendre symbol is 
 $$
 \left(\frac{a}{p}\right)\coloneqq a^{(p-1)/2} 

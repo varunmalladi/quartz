@@ -1,3 +1,7 @@
+---
+title: "profinite completion"
+---
+
 # Idea
 This construction takes any group and gives us an associated [[profinite group]].
 

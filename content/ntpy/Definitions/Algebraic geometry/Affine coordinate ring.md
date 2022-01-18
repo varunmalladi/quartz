@@ -1,3 +1,7 @@
+---
+title: "Affine coordinate ring"
+---
+
 # Idea
 It is natural to want to study functions on mathematical objects of interest. In our case, functions are polynomials and the objects are algebraic sets. It is not useful to consider the polynomials which vanish on the set. The affine coordinate ring is the result of removing such polynomials from the overall [[Polynomial ring|polynomial ring]].
 

@@ -1,3 +1,7 @@
+---
+title: "ext functor"
+---
+
 # Idea
 - $\text{Ext}^1(C,A)$ corresponds to extensions of $B$ modulo an equivalence relation. 0 corresponds to trivial extension.
 

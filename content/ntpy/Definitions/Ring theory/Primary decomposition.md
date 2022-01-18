@@ -1,1 +1,5 @@
+---
+title: "Primary decomposition"
+---
+
 # Idea

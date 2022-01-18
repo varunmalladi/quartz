@@ -1,3 +1,7 @@
+---
+title: "etale space"
+---
+
 # Definition
 Let $B\in\text{Top}$, and $x\in B$.
 - An *etale space* over $B$ is an object $E\in\text{Top}$ equipped with a map $$p:E\to B$$ such that $p$ is a local homeomorphism.

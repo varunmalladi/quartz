@@ -1,3 +1,7 @@
+---
+title: "Tychanoff's theorem"
+---
+
 # Statement
 The infinite product of compact spaces is compact.
 

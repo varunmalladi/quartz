@@ -1,3 +1,7 @@
+---
+title: "discriminant"
+---
+
 # Dedekind domains
 
 Let $\mathcal{O}$ be a [[dedekind domain]] and $k$ its field of fractions, $K$ a finite separable [[Field extension|extension]]. Suppose $N$ is an $\mathcal{O}$-[[Lattice|lattice]] in $K$. 

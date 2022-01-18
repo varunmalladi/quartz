@@ -1,3 +1,7 @@
+---
+title: "trace"
+---
+
 The trace determines an isomorphism from a space to its dual: $$\begin{gather} T:L\to L^\ast \\ x\mapsto Tr(x\cdot (-)) \end{gather}$$
 
 # References

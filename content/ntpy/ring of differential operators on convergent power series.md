@@ -1,3 +1,7 @@
+---
+title: "ring of differential operators on convergent power series"
+---
+
 # Definition
 Let $\mathcal{O}_n$ be the [[ring of convergent power series]] in $n$ variables, i.e. every element of $\mathcal{O}_n$ has a series expansion $$f=\sum c_\alpha x^\alpha,\quad\exists\delta>0\mid\sum|c_\alpha|\cdot\delta^{|\alpha|}<\infty.$$ 
 For every $1\leq j\leq n$, we write $$\partial_j(f)=\partial f/\partial x_j$$ so that $\partial_j:f\mapsto \partial_j(f)$ is the derivation with respect $x_j$. 

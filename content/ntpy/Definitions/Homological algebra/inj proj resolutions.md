@@ -1,3 +1,7 @@
+---
+title: "inj proj resolutions"
+---
+
 # Definition
 Given a module $M$, a projective resolution is an exact sequence 
 $$ \dots\to P_{-1}\to P_0\to M\to 0$$ such that the $P_i$ are projective modules ([[inj proj modules]]). 

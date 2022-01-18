@@ -1,3 +1,7 @@
+---
+title: "Graded ring"
+---
+
 # Definition
 **Definition.** A _graded ring_ is a ring $S$ together with a decomposition $$S=\bigoplus_{d\geq 0}S_d$$ of $S$ into a direct sum of abelian groups $S_d$ such that $$S_d\cdot S_e\subseteq S_{d+e}\quad\forall d,e\geq 0.$$
 

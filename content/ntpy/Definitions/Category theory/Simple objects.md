@@ -1,3 +1,7 @@
+---
+title: "Simple objects"
+---
+
 # Definition
 Let us work in a category with a [[Zero object|zero object]].
 

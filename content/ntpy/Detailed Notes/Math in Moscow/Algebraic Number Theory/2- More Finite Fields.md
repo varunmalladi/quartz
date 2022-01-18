@@ -1,3 +1,7 @@
+---
+title: "2- More Finite Fields"
+---
+
 # Lecture Notes
 **[[Finite Fields of Prime Power Order|Theorem 1.7.]]** Let $p$ be prime, and $f$ be a positive integer. Let $q=p^f$. Let $\Omega$ be an algebraically closed field with characteristic $p$. Then:
 1. $x^q-x=0$ has $q$ different solutions in $\Omega$. The set of the solutions is a subfield, call it $\mathbb{F}_q$.

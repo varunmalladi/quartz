@@ -1,3 +1,7 @@
+---
+title: "Normal extensions"
+---
+
 # Idea
 A normal extension $L/K$ is one that does not live "between" irreducible polynomials— it either contains all of the roots or none of them, similar to the idea of the [[Prime Avoidance Lemma]].
 

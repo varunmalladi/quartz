@@ -1,3 +1,7 @@
+---
+title: "finite morphisms"
+---
+
 # Algebraic sets
 [[Algebraic subset]]
 

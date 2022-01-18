@@ -1,3 +1,7 @@
+---
+title: "Product type"
+---
+
 # Idea
 In set theory, given two small sets $A$ and $B$ we define their Cartesian product $A\times B$ to be the set of elements of the form $(a,b)$ where $a\in A$ and $b\in B$. You could say this is precisely the defining property of the Cartesian product of sets. From this we can derive what functions of the form $f:A\times B\to C$ look like. For example, we can deduce that because elements of $A\times B$ are by definition those of the form $(a,b)$, to define $f$ it suffices to define $f$ on pairs $(a,b)$.
 

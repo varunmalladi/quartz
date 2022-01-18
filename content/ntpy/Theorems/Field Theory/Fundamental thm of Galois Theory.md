@@ -1,3 +1,7 @@
+---
+title: "Fundamental thm of Galois Theory"
+---
+
 # Finite case
 Suppose $K/k$ is a finite [[Galois extension]]. Let $G$ be its Galois group. Then 
 1. There exists a one-to-one correspondence $$\begin{gather} \{\text{subgroups } H\subset G\} \ \leftrightarrow \ \{\text{subfields } k\subset M\subset K\} \\ H\mapsto K^H \\ \text{Gal}(K/M)\leftarrow M \end{gather}$$

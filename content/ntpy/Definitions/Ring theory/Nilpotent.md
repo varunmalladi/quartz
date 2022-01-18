@@ -1,3 +1,7 @@
+---
+title: "Nilpotent"
+---
+
 Let $A$ be a ring.
 
 **Definition.** An element $a\in A$ in _nilpotent_ if there exists $N\in\mathbb{N}$ such that $a^N=0$.

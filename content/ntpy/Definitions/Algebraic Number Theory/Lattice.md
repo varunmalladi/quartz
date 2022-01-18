@@ -1,3 +1,7 @@
+---
+title: "Lattice"
+---
+
 # Definition
 Suppose $\mathcal{O}$ is an integral domain, $k$ its field of fractions, and $K/k$ a finite separable [[Field extension|extension]].
 

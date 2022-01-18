@@ -1,3 +1,7 @@
+---
+title: "model category"
+---
+
 # Idea
 To study the homotopy of a category, we wish to pass to a setting which isolates the phenomenon. This is because working with the entire category has "too much" information since we only want to consider things up to homotopy. For instance, if two topological spaces are homotopy equivalent, we wish to consider them as isomorphic when passing to the new setting.
 

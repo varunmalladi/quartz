@@ -1,3 +1,7 @@
+---
+title: "Hilbert basis theorem"
+---
+
 # Statement
 **Theorem.** If $R$ is a [[Noetherian ring|Noetherian ring]], then $R[x]$ is a Noetherian ring.
 

@@ -1,3 +1,7 @@
+---
+title: "Noetherian ring"
+---
+
 # Definition
 ## Rings
 **Definition.** A _Noetherian ring_ is associative, commutative ring with identity $A$ such that one of the following equivalent conditions hold:

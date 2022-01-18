@@ -1,3 +1,7 @@
+---
+title: "scheme"
+---
+
 # Idea
 According to [[Nullstellensatz]], there is a one-to-one correspondence...
 

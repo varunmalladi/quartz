@@ -1,3 +1,7 @@
+---
+title: "extensions of p-adic absolute values"
+---
+
 Let 
 - $\mathcal{O}$ be a [[dedekind domain]]
 - $\mathfrak{p}\subset\mathcal{O}$ a nonzero prime ideal

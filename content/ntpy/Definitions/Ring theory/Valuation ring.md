@@ -1,3 +1,7 @@
+---
+title: "Valuation ring"
+---
+
 Let $K$ be a field and $\|\cdot\|:K\to\mathbb{Z}_{\geq 0}$ a nonarchimedean [[Absolute value|absolute value]].
 
 **Definition.** The _valuation ring_ of $K$ consists of all elements with absolute value $\leq 1$:

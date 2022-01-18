@@ -1,3 +1,7 @@
+---
+title: "Lambda abstraction"
+---
+
 # Idea
 We don't always need to define a function by name.
 

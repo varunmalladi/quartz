@@ -1,3 +1,7 @@
+---
+title: "Module"
+---
+
 # Definition
 - $M$ is called _simple_ if it does not contain any nontrivial submodule.
 

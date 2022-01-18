@@ -1,3 +1,7 @@
+---
+title: "Plucker quadric"
+---
+
 # Idea
 
 (include from [[Grassmanian]])

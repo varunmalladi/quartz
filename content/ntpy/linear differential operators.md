@@ -1,3 +1,7 @@
+---
+title: "linear differential operators"
+---
+
 # Definition
 Let $A$ be a commutative $\mathbb{C}$-algebra with unit. Let $H(A)$ be the set of $\mathbb{C}$-linear endomorphisms of $A$. 
 1. $H(A)$ is generally non-commutative. Think matrices.

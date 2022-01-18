@@ -1,3 +1,7 @@
+---
+title: "Dual vector space"
+---
+
 ## Traditional definition
 ### Between vector spaces
 Let $V$ be a vector space over a field $F$.

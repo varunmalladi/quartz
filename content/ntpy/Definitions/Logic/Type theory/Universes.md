@@ -1,3 +1,7 @@
+---
+title: "Universes"
+---
+
 # Definition
 **Definition.** A *universe* is a type whose elements are types.
 

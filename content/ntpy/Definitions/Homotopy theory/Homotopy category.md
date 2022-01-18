@@ -1,3 +1,7 @@
+---
+title: "Homotopy category"
+---
+
 # Relation to sSet
 In [[nerve of category]], we discuss that there is an adjunction
 

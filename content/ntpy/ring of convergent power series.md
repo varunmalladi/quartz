@@ -1,3 +1,7 @@
+---
+title: "ring of convergent power series"
+---
+
 # Definition
 Let $\mathbb{C}[[x]]$ denote the ring of formal power series in $\mathbb{C}$. 
 - $\mathbb{C}\{x\}\subset\mathbb{C}[[x]]$ is the subring consisting of those power series $$\sum a_n x^n$$ which converge in some neighbhorhood of zero.

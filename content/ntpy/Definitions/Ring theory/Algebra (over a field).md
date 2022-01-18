@@ -1,3 +1,7 @@
+---
+title: "Algebra (over a field)"
+---
+
 **Definition.** Let $K$ be a field and let $R$ be a vector space over $K$ equipped with a bilinear product:
 - $(x+y)\cdot z = x\cdot z+y\cdot z$
 - $z\cdots (x+y)=z\cdot x+z\cdot y$

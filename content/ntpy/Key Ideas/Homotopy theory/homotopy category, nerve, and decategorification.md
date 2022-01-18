@@ -1,3 +1,7 @@
+---
+title: "homotopy category, nerve, and decategorification"
+---
+
 # Introduction
 
 We generally understand ordinary categories pretty well. By ordinary, we mean a (potentially small) category which is a collection of objects and morphisms adhering to a set of conditions. We have a grasp of what it means to "do category theory" in this setting: functors, limits, adjunctions, etc. 

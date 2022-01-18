@@ -1,3 +1,7 @@
+---
+title: "Class 5"
+---
+
 # Idea
 - Projective, quasi-projective algebraic sets
 - if Y is quasi projective, then for all y there is an open affine neighborhood containing y

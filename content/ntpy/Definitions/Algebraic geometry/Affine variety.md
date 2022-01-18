@@ -1,3 +1,7 @@
+---
+title: "Affine variety"
+---
+
 **Definition.** A [[Algebraic subset|algebraic subset]] $A\subset\mathbb{A}^n$ is called an _affine variety_ if it is irreducible.
 
 **Definition.** The dimension of an affine variety $X$ is defined as

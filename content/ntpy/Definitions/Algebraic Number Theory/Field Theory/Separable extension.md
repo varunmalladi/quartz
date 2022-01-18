@@ -1,3 +1,7 @@
+---
+title: "Separable extension"
+---
+
 # Idea
 The idea of roots being "separable" in the sense that there are no repeated roots is important because it tells us we are working with a "simple" polynomial that can generate all other polynomials with this set of roots (see [[Nullstellensatz]]).
 

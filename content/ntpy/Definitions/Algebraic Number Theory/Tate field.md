@@ -1,3 +1,7 @@
+---
+title: "Tate field"
+---
+
 # Definition
 
 The function $v_p$ extends in a unique way from $\mathbb{Q}_p^\ast$ to $\overline{\mathbb{Q}_p^\ast}$ with the formula $$v_p(x)\coloneqq\frac{1}{\text{deg }x}v_p(N_{\mathbb{Q}_p(x)/\mathbb{Q}_p}(x))$$ with values in $\mathbb{Q}$ and defined (after choice of $1<s\in\mathbb{R})$ a nonarchimedean [[Absolute value|absolute value]] $\|x\|\coloneqq s^{-v_p(x)}$ on the field $\overline{\mathbb{Q}_p}$.

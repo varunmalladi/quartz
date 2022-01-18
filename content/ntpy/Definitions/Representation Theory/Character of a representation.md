@@ -1,3 +1,7 @@
+---
+title: "Character of a representation"
+---
+
 # Idea
 Eigenvalues play a very important role in understanding invariant subspaces of a representation, and thus the representations themselves. Calculating eigenvalues for every element of $G$ can be very tedious, though. The key observation is that it suffices to know the sum of eigenvalues for every element in $g$.
 # Definition

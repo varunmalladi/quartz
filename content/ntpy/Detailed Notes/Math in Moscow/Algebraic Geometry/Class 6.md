@@ -1,3 +1,7 @@
+---
+title: "Class 6"
+---
+
 # Idea
 - Image of regular map from projective alg set to quasi proj is closed
 - Rational functions

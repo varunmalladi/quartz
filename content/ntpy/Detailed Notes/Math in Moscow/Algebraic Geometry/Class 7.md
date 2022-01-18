@@ -1,3 +1,7 @@
+---
+title: "Class 7"
+---
+
 # Idea
 - $K\supset k=\bar{k}$. Then $K\cong k(X)$ for some $X\iff K$ is fg over $k$.
 - trasendence, basis of transendence

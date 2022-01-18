@@ -1,3 +1,7 @@
+---
+title: "Dimension of ring"
+---
+
 # Definition
 **Definition.** The _dimension_ of a ring is the maximum length of an ascending chain of [[Prime ideal|prime ideals]] 
 $$

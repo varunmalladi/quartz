@@ -1,3 +1,7 @@
+---
+title: "Absolute value"
+---
+
 Let $K$ be a field.
 
 **Definition.** A map $\|\cdot\|\to\mathbb{R}_{\geq 0}$ is called an _absolute value_ when 

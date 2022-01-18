@@ -1,3 +1,7 @@
+---
+title: "profinite topology"
+---
+
 # Definition
 Let $G$ be a group. 
 - The *profinite topology* on $G$ is the one with base $$\mathcal{B}=\{\text{cosets of finite index normal subgroups}\}$$

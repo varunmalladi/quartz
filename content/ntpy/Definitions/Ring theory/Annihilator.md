@@ -1,3 +1,7 @@
+---
+title: "Annihilator"
+---
+
 # Definition
 Let $R$ be a ring and $M$ an $R$-module.
 

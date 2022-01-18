@@ -1,3 +1,7 @@
+---
+title: "Identity type"
+---
+
 # Definition
 We specify the following:
 1. *Formation rule*: given a type $A:\mathcal{U}$ and two elements $a,b: A$ we can form the type $(a=_A b):\mathcal{U}$.

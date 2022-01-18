@@ -1,3 +1,7 @@
+---
+title: "1- Introduction to Finite Fields"
+---
+
 # Lecture notes
 ## Euler function
 **Definition 1.1 ([[Euler totient function]]).** Let $a$ and $n$ be positive integers. Then the **Euler totient function** $\phi(n)$ is defined as

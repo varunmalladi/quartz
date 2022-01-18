@@ -1,3 +1,7 @@
+---
+title: "Extension and contraction of a ring"
+---
+
 # Definition
 Let $A$ and $B$ be commutative rings and $f:A\to B$ a ring homomorphism.
 

@@ -1,3 +1,7 @@
+---
+title: "exterior algebra"
+---
+
 # Idea
 This construction forms the [[exterior powers]] into a graded algebra.
 

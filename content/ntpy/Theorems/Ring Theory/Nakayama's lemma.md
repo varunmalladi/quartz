@@ -1,3 +1,7 @@
+---
+title: "Nakayama's lemma"
+---
+
 **Corollary. (Nakayama's lemma).** Let $I$ be an ideal contained in the [[Radical|Jacobson radical]] of a ring $R$, and let $M$ be a finitely generated $R$-[[Module|module]]. Then 
 1. If $IM=M$, then $M=0$.
 2. If $m_1,\dots,m_n\in M$ have images in $M/IM$ that generate it as an $R$-module, then $m_1,\dots,m_n$ generate $M$ as an $R$-module.

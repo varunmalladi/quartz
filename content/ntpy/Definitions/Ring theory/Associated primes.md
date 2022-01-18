@@ -1,3 +1,7 @@
+---
+title: "Associated primes"
+---
+
 # Definition
 Let $R$ be a ring and let $M$ be an $R$-module.
 

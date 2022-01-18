@@ -1,3 +1,7 @@
+---
+title: "Ho(C) is badly behaved"
+---
+
 The homotopy category of an $(\infty,1)$-category is not well behaved in the categorical sense. This is perhaps believable because the homotopy category truncates all higher morphisms. These failures include:
 
 - [[(co)limits do not respect homotopy equivalence]]

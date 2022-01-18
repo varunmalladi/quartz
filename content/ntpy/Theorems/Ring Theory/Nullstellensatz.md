@@ -1,3 +1,7 @@
+---
+title: "Nullstellensatz"
+---
+
 # Idea
 For a polynomial $f\in\mathbb{C}[x]$, we can split $f$ into linear factors. If you think about what this really means, it is saying that any finite collection of points, counting multiplicities, uniquely determines a polynomial up to scalar multiplication (e.g. write it as a product of linear factors).
 

@@ -1,3 +1,7 @@
+---
+title: "Minimal polynomial"
+---
+
 # Definition
 Suppose $P\in k[T]$ is irreducible of degree $\geq 1$. Then 
 1. $(P)$ is a maximal ideal in $k[T]$.

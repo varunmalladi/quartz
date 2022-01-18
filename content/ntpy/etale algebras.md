@@ -1,3 +1,7 @@
+---
+title: "etale algebras"
+---
+
 # Idea
 Dual to [[etale space]] of [[scheme]]s.
 

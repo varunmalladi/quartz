@@ -1,3 +1,7 @@
+---
+title: "Unit object"
+---
+
 In a [[Monoidal category|monoidal category]], a _unit object_ is the unit of the tensor product, i.e. $a\otimes u\simeq a$ and $u\otimes a\simeq a$ for any $a$ in the category.
 
 ## Examples

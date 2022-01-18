@@ -1,3 +1,7 @@
+---
+title: "Tensor product (of modules)"
+---
+
 # Definition
 Let $A$ be a commutative ring, and let $M$, $N$, and $K$ be $A$-modules. 
 

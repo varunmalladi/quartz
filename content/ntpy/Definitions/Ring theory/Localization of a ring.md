@@ -1,3 +1,7 @@
+---
+title: "Localization of a ring"
+---
+
 # Idea
 The localization of a ring $R$ at $U\subset R$ is a setting in which the elements of $U$ behave like [[Unit (ring)|units]], for example $r/u$ behaves like $ru^{-1}$.
 

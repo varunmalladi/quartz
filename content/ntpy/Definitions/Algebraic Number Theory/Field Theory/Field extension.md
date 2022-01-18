@@ -1,3 +1,7 @@
+---
+title: "Field extension"
+---
+
 # Definition
 **Definition.** Let $K$ and $L$ be fields. An subfield inclusion $K\hookrightarrow L$ is called a _field extension_.
 

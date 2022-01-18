@@ -1,3 +1,7 @@
+---
+title: "dedekind domain"
+---
+
 # Idea
 Locally, at least away from prime ideals, a Dedekind domain looks like a [[discrete valuation ring]]. In particular, they are locally [[Principal ideal domain|PID]]s.
 

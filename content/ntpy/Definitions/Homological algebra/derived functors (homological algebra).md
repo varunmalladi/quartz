@@ -1,3 +1,7 @@
+---
+title: "derived functors (homological algebra)"
+---
+
 # Idea
 Let us consider $A$-modules. Consider a functor $F$. Then given maps $M_1\to N$ and $M_1\hookrightarrow M_2$, if an extension $M_2\to N$ exists then the extension $F(M_2)\to F(N)$ also exists. However, it can be the case that the extension only exists after passing to $F$ and does not exist before.
 

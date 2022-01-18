@@ -1,3 +1,7 @@
+---
+title: "inverse limit"
+---
+
 # Idea
 Inverse limits are dual to [[direct limit]]s and are special kinds of categorical limits.
 

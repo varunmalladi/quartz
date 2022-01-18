@@ -1,3 +1,7 @@
+---
+title: "Semisimplicity"
+---
+
 The a class of objects possesses the characterisitic of semisimplicity if every object can be decomposed into "simple" pieces.
 
 ## Examples

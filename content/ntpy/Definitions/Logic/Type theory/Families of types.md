@@ -1,3 +1,7 @@
+---
+title: "Families of types"
+---
+
 # Definition
 **Definition.** A *family of type* $A$ is a function $B:A\to\mathcal{U}$ whose codomain is a [[Universes|universe]].
 

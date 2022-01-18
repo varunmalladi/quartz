@@ -1,3 +1,7 @@
+---
+title: "Euler totient function"
+---
+
 ## Totient function
 Let $a$ and $n$ be positive integers. Then the **Euler totient function** $\phi(n)$ is defined as
 $$

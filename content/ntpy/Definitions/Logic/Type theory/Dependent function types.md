@@ -1,3 +1,7 @@
+---
+title: "Dependent function types"
+---
+
 # Idea
 Given a type $A:\mathcal{U}$, there is a notion of a [[Families of types|family]] $B:A\to \mathcal{U}$ which sends elements in $A$ to types. It is natural to want to extend this function to yield actual elements inside those types, as opposed to the types themselves. A dependent type is the type of such function, i.e. it is the type of functions which send elements $x:A$ to elements $f(x):B(x)$ in some type possibly dependent on $A$.
 

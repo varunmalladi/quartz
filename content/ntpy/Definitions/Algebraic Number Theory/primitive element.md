@@ -1,3 +1,7 @@
+---
+title: "primitive element"
+---
+
 # Dedekind domains
 Let $\mathcal{O}$ be a [[dedekind domain]], $k$ its field of fractions, $K$ a finite separable [[Field extension|extension]]. Let $\mathcal{O}_K$ denote the [[Integral element|integral closure]].
 

@@ -1,3 +1,7 @@
+---
+title: "fractional ideal"
+---
+
 # Definition
 Let $\mathcal{O}$ be an [[Integral domain|integral domain]], $k$ its field of fractions.
 

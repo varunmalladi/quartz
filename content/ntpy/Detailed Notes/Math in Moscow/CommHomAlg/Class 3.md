@@ -1,3 +1,7 @@
+---
+title: "Class 3"
+---
+
 # Summary
 - [[Cayley-Hamilton theorem]]
 - [[Nakayama's lemma]]

@@ -1,3 +1,7 @@
+---
+title: "Algebraic extensions"
+---
+
 # Idea
 An algebraic element is the zero of some polynomial. An algebraic extension is an extension in which every element is algebraic.
 

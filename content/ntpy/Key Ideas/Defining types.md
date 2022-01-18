@@ -1,3 +1,7 @@
+---
+title: "Defining types"
+---
+
 To define a type, the following must be specified:
 - **Formation**: how to form new types of this kind, e.g. for a function type we need to have two types.
 - **Construction**: how to build an element of the new type

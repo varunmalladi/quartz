@@ -1,3 +1,7 @@
+---
+title: "model categories and derived functors"
+---
+
 # Idea
 Consider two model categories, so that there are notions of fibrant and cofibrant objects. It is sometimes the case that such a functor *almost* behaves homotopically, by which we mean (almost) preserves weak equivalences. To be precise, when we say "almost" we mean that it preserves weak equivalences in the subcategory of fibrant or cofibrant objects.
 

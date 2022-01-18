@@ -1,3 +1,7 @@
+---
+title: "group objects"
+---
+
 # Idea
 A sense in which an object in some category behaves as though it has a group structure. The prototypical example is that of [[topological group]]s, which are topological spaces with a "compatible" group structure.
 

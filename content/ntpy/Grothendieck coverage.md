@@ -1,3 +1,7 @@
+---
+title: "Grothendieck coverage"
+---
+
 # Idea
 An abstraction of the manner in which open sets cover a topological space.
 

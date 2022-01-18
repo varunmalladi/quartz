@@ -1,3 +1,7 @@
+---
+title: "jordan decomposition"
+---
+
 # Idea
 Qualitatively, the Jordan decomposition says that any endomorphism $X$ of a complex vector space may be expressed as the sum of a diagonalizable and a nilpotent endomorphism, and moreover these commute and may be expressed as polynomials in $X$: $$ X=X_s+X_n$$
 

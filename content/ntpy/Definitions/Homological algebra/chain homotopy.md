@@ -1,3 +1,7 @@
+---
+title: "chain homotopy"
+---
+
 # Definition
 Let $f,g:C_\bullet\to D_\bullet$ be maps between [[chain complex]]es. 
 

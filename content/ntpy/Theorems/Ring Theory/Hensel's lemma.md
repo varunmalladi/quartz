@@ -1,3 +1,7 @@
+---
+title: "Hensel's lemma"
+---
+
 Suppose $f\in\mathbb{Z}_p[t]$. Let $f'$ be its derivative, and $n$ a positive integer. 
 
 **Theorem.** Suppose $x\in\mathbb{Z}_p$ is such that $v_p(f'(x))=0$ and $f(x)\equiv 0\mod p^n$. Then there exists $y\in\mathbb{Z}_p$ such that

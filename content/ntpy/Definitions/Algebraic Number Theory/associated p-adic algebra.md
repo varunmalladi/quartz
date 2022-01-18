@@ -1,3 +1,7 @@
+---
+title: "associated p-adic algebra"
+---
+
 # Extending definitions
 - ([[trace]]) We may extend the bilinear form $Tr_{K/k}(ab)$ from $K$ to $V_\mathfrak{p}$ by $\widehat{k_\mathfrak{p}}$-linearity. Using the notation $\langle \ , \ \rangle$ for the resulting form, $$\langle a,b\rangle=\sum Tr_{K_i/\widehat{k_\mathfrak{p}}}(\pi_i(a)\pi_i(b))$$
 - ([[Lattice]])

@@ -1,3 +1,7 @@
+---
+title: "Representation of a group"
+---
+
 # Definition
 ## Traditional definition
 

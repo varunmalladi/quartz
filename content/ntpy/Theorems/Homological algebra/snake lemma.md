@@ -1,3 +1,7 @@
+---
+title: "snake lemma"
+---
+
 # Statement
 
 In an [[abelian category]], consider a commutative diagram 

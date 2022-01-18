@@ -1,3 +1,7 @@
+---
+title: "Ostrowski's theorem"
+---
+
 For a prime $p$, let $v_p(x)$ be the largest $n$ such that $p^n$ that divides $x$.
 
 **Theorem.** Let $\|\cdot\|$ be a nontrivial [[Absolute value|absolute value]] on $\mathbb{Q}$. Then either

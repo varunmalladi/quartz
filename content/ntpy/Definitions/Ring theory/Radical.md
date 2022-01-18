@@ -1,3 +1,7 @@
+---
+title: "Radical"
+---
+
 Let $A$ be a commutative ring.
 
 # Definition

@@ -1,3 +1,7 @@
+---
+title: "Integral element"
+---
+
 Let $R$ be a commutative ring.
 
 ### Integral elements

@@ -1,3 +1,7 @@
+---
+title: "AG dictionary"
+---
+
 Geometry | Algebra
 --- | ---
 Affine algebraic set $X$ | f.g. $K$-algebra without nilpotents $A=K[X]$.

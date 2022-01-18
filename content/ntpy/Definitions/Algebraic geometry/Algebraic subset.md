@@ -1,3 +1,7 @@
+---
+title: "Algebraic subset"
+---
+
 # Affine
 
 Let $k$ be an algebraically closed field. Let $A=k[x_1,\dots,x_n]$. For $T\subset A$, and define $$Z(T)=\{P\in \mathbb{A}^n\mid f(P)=0 \text{ for all } f\in T\}.$$

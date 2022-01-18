@@ -1,3 +1,7 @@
+---
+title: "Krull topology"
+---
+
 # Idea
 A special case of the [[profinite topology]].
 

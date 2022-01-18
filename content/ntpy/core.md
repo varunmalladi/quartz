@@ -1,3 +1,7 @@
+---
+title: "core"
+---
+
 # Idea
 The normal core of a subgroup $H\subset G$ is the largest normal subgroup of $G$ contained in $H$.
 

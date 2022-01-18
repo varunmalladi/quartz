@@ -1,3 +1,7 @@
+---
+title: "A Pedantic Approach to Galois Theory"
+---
+
 **Definition.** Let $\text{ExtF}_k$ denote the category of field extensions over $k$. 
 - Its objects are field extensions over $k$, i.e. fields $K$ such that there is a natural inclusion $k\hookrightarrow K$.
 - Its morphisms are homomorphisms of extensions, i.e. field homomorphisms $K_1\to K_2$ which fix the subfield $k$.

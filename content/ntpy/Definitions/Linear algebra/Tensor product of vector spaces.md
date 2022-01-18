@@ -1,3 +1,7 @@
+---
+title: "Tensor product of vector spaces"
+---
+
 ## Finite dimensional case
 Let $V,U$ be finite dimensonal vector spaces over $K$. 
 

@@ -1,3 +1,7 @@
+---
+title: "topological base"
+---
+
 # Idea
 Topological bases allow us, in some cases, to more easily describe a topology. It "generates" the topology, in a sense. In fact, every topology has a basis: itself. But there are also nontrivial bases. For instance, the set of open intervals is a basis for the Euclidean topology on the real numbers.
 

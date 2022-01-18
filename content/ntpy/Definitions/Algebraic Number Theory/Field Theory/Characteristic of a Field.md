@@ -1,3 +1,7 @@
+---
+title: "Characteristic of a Field"
+---
+
 Let $K$ be any field. Consider the ring homomorphism 
 $$
 \begin{gathered}

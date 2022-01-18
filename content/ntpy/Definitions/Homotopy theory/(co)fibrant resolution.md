@@ -1,3 +1,7 @@
+---
+title: "(co)fibrant resolution"
+---
+
 # Idea
 As discussed in [[model categories and derived functors]], we can have, say, functors which are homotopical (preserve weak equivalences) only on "good" (i.e. fibrant, cofibrant) objects. Presently we discuss a method of replacing, up to weak equivalence, any object with a fibrant or cofibrant one.
 # Definition

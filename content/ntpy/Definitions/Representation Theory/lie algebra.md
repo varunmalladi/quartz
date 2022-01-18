@@ -1,3 +1,7 @@
+---
+title: "lie algebra"
+---
+
 # Idea
 There are two principles that make the study of Lie algebras related to the structure of Lie groups:
 1. Let $G$ and $H$ be Lie groups, and $G$ is additionally connected. Then a map $\rho:G\to H$ is uniquely determined by its differential at the identity: $d\rho_e:T_eG\to T_eH$.

@@ -1,3 +1,7 @@
+---
+title: "Stabilization"
+---
+
 The phenomena where an infinite process terminates.
 
 ### Examples

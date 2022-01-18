@@ -1,3 +1,7 @@
+---
+title: "Zariski topology"
+---
+
 # Definition
 ## On affine space
 Closed sets are the [[Algebraic subset|algebraic subsets]].

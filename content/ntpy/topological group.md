@@ -1,3 +1,7 @@
+---
+title: "topological group"
+---
+
 # Idea
 A group with a topology that interacts nicely with the group operations.
 

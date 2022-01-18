@@ -1,3 +1,7 @@
+---
+title: "ring of integers"
+---
+
 # Operations
 1. ([[norm]]) Suppose $I$ is an $\mathcal{O}_K$-[[fractional ideal]] in $K$. Then its norm is $$N_{K/k}(I)\coloneqq(\mathcal{O}_K:I)_\mathcal{O}$$
 

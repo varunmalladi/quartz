@@ -1,3 +1,7 @@
+---
+title: "Field Characteristic and Squares"
+---
+
 **Theorem.** Let $p$ be prime and $f$ a positive integer. Let $K=\mathbb{F}_q$ be a field of characteristic $p$. Then 
 1. If $p=2$, then every element in $K^\ast$ is a square.
 2. If $p\neq 2$, then the subset of squares form a subgroup of $K^\ast$ of index 2. This subgroup coincides with the kernal of the map

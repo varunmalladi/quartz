@@ -1,3 +1,7 @@
+---
+title: "repreresentations of sl2C"
+---
+
 # Idea
 A general approach to determining the representations of a group, particularly a (semisimple) Lie algebra, is
 1. Decompose the vector space into a direct sum of eigenspaces

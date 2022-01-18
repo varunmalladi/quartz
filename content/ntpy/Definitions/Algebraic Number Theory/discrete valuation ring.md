@@ -1,3 +1,7 @@
+---
+title: "discrete valuation ring"
+---
+
 # Idea
 There is a direct analogy to complex analysis. Given a pole, we are often interested in its order. The structure of a DVR axiomatizes this notion of order. The formal Laurent series at that point forms a DVR, for example, as do the germs of meromorphic functions.
 

@@ -1,3 +1,7 @@
+---
+title: "integral extensions"
+---
+
 # Idea
 We wish to generalize the methods of field and Galois theory to (commutative) rings. A central notion in the aforementioned theory is that of [[Algebraic extensions|algebraic extensions]]: an extension $F\subset G$ is algebraic if every element in $G$ is the root of a polynomial with coefficients in $F$. 
 

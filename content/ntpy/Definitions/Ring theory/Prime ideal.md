@@ -1,3 +1,7 @@
+---
+title: "Prime ideal"
+---
+
 # Definition
 Let $A$ be a (commutative) ring.
 

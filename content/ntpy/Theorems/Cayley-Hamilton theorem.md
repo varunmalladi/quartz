@@ -1,3 +1,7 @@
+---
+title: "Cayley-Hamilton theorem"
+---
+
 ## General case
 Traditionally, endomorphisms (over a vector space, for example) were viewed as matrices. Thus the natural analogy is as follows: given an endomorphism, there exists a polynomial...
 

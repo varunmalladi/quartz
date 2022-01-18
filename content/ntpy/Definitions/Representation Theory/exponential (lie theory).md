@@ -1,3 +1,7 @@
+---
+title: "exponential (lie theory)"
+---
+
 # Idea
 
 # References

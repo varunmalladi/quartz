@@ -1,3 +1,7 @@
+---
+title: "Eisenstein polynomial"
+---
+
 # Definition
 Let
 - $\mathcal{O}$ be a complete [[discrete valuation ring]]

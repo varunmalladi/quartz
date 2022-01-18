@@ -1,3 +1,7 @@
+---
+title: "chain complex"
+---
+
 # Definition
 A sequence of modules such that $d^2=0$, i.e. the image of the previous map is contained in the kernel of the next map.
 

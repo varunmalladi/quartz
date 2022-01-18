@@ -1,3 +1,7 @@
+---
+title: "Currying"
+---
+
 # Idea
 When defining functions of multiple variables, we could use the cartesian product. Alternatively, we can define them without product types by using currying.
 

@@ -1,3 +1,7 @@
+---
+title: "adjoint representation"
+---
+
 # Definition
 There are two closely related notions that may be mixed up in terminology. By the representation $Ad$ we mean a representation from a [[lie group]] to its [[lie algebra]] (viewed just as a vector space), where by the representation $ad$ we mean a representation from a lie algebra to itself.
 # Definition

@@ -1,3 +1,7 @@
+---
+title: "Local ring"
+---
+
 Let $R$ be a commutative ring with identity.
 
 **Definition.** $R$ is called _local_ if there exists just one [[Maximal ideal|maximal ideal]] $M\subset R$. Conversely, if there exists an ideal $M$ such that all elements outside of $M$ are invertible, then $R$ is local and $M$ is its maximal ideal.

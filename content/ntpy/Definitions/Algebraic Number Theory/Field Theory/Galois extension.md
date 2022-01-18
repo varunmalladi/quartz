@@ -1,3 +1,7 @@
+---
+title: "Galois extension"
+---
+
 # Definition
 **Definition.** An [[Algebraic extensions|algebraic extension]] $K/k$ is called *Galois* iff it is [[Separable extension|separable]] and [[Normal extensions|normal]]. 
 

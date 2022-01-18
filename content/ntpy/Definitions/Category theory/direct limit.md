@@ -1,3 +1,7 @@
+---
+title: "direct limit"
+---
+
 # Idea
 A direct limit is a special kind of [[(co)limit|colimit]]. It's naming is a consequence of them being defined before categorical formalism, and also for the fact that one can guess what diagram the colimit is over, etc.
 

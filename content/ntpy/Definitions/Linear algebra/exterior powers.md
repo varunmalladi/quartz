@@ -1,3 +1,7 @@
+---
+title: "exterior powers"
+---
+
 # Definition
 Let $V$ be a vector space of definition $n$ with basis $\langle e_1,\dots,e_n\rangle$. Then $k$th exterior power of $V$, for $k\geq 0$, is $$\begin{gather}\Lambda^kV=\langle e_{i_1}\wedge\cdots\wedge e_{i_k}\rangle \\ 1\leq i_1<\cdots<i_k\leq n\end{gather}$$ 
 

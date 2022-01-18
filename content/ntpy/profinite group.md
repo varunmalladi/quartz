@@ -1,3 +1,7 @@
+---
+title: "profinite group"
+---
+
 # Definition
 - A group $G$ is *profinite* if it is isomorphic to an [[inverse limit]] of finite groups.
 

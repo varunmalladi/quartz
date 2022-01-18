@@ -1,3 +1,7 @@
+---
+title: "Regular map"
+---
+
 
 # Definition
 Let $K$ be an algebraically closed field.

@@ -1,3 +1,7 @@
+---
+title: "(co)tangent space (of a variety)"
+---
+
 # Tangent space
 Recall the [[Regular map|differential of a regular map]]. 
 
