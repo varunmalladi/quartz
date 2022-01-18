@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ring of differential operators on convergent power series.md",
+            "file": "Detailed Notes/Math in Moscow/Algebraic Geometry/1- Affine geometry.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ring of differential operators on convergent power series.md",
+                "file": "Detailed Notes/Math in Moscow/Algebraic Geometry/1- Affine geometry.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "aa5c302946140b5e",
   "lastOpenFiles": [
+    "Detailed Notes/Math in Moscow/Algebraic Geometry/1- Affine geometry.md",
     "ring of differential operators on convergent power series.md",
     "ring of convergent power series.md",
     "galois theory and convering spaces.md",
@@ -97,7 +98,6 @@
     "discrete G-set.md",
     "Galois group.md",
     "linear differential operators.md",
-    "Galois descent.md",
-    "base change, ascent.md"
+    "Galois descent.md"
   ]
 }
