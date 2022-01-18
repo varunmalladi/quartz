@@ -1,0 +1,1 @@
+**Theorem.** Let $K\subset L$ be a [[Field extension|field extension]]. Suppose $L$ is a finitely generated $K$ [[Algebra (over a field)|algebra]]. Then $L$ is a finite field extension.

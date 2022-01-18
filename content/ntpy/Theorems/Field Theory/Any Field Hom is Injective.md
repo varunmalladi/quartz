@@ -1,0 +1,1 @@
+**Theorem.** Any field homomorphism is injective.

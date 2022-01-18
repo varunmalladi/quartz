@@ -1,0 +1,7 @@
+# Idea
+Qualitatively, the Jordan decomposition says that any endomorphism $X$ of a complex vector space may be expressed as the sum of a diagonalizable and a nilpotent endomorphism, and moreover these commute and may be expressed as polynomials in $X$: $$ X=X_s+X_n$$
+
+# Representations of lie algebras
+[[Representation of a group]] [[lie algebra]] [[Semisimplicity]]
+
+Let $\mathfrak{g}$ be a semisimple Lie algebra. For any $X\in\mathfrak{g}$, there exist $X_s$ and $X_n\in\mathfrak{g}$ such that for any representation $\rho:\mathfrak{g}\to\mathfrak{gl}(V)$ we have $$\rho(X)_s=\rho(X_s)\quad\text{and}\quad\rho(X)_n=\rho(X_n).$$

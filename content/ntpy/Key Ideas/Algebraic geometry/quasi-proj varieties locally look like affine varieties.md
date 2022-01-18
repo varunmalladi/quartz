@@ -1,0 +1,1 @@
+[[Projective variety]] [[Affine variety]]

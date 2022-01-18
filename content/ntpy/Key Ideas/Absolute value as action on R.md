@@ -1,0 +1,2 @@
+# Related
+- [[Absolute value]]

@@ -1,0 +1,1 @@
+Every subring of a field (containing 1) is an integral domain.

@@ -1,0 +1,1 @@
+**Definition.** An integral domain is a ring with no zero-divisors.
