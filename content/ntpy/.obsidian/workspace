@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Detailed Notes/Math in Moscow/Representation Theory/1- Introduction.md",
+            "file": "Key Ideas/Homotopy theory/Ho(C) is badly behaved.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Detailed Notes/Math in Moscow/Representation Theory/1- Introduction.md",
+                "file": "Key Ideas/Homotopy theory/Ho(C) is badly behaved.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,8 @@
   },
   "active": "aa5c302946140b5e",
   "lastOpenFiles": [
+    "Key Ideas/Homotopy theory/Ho(C) is badly behaved.md",
+    "Key Ideas/Homotopy theory/cohomology is dual to homotopy.md",
     "Detailed Notes/Math in Moscow/Representation Theory/1- Introduction.md",
     "Detailed Notes/Math in Moscow/CommHomAlg/Class 5.md",
     "Detailed Notes/Math in Moscow/CommHomAlg/Class 4.md",
@@ -96,8 +98,6 @@
     "Detailed Notes/Math in Moscow/Algebraic Geometry/Class 7.md",
     "Detailed Notes/Math in Moscow/Algebraic Geometry/Class 6.md",
     "Detailed Notes/Math in Moscow/Algebraic Geometry/Class 5.md",
-    "Detailed Notes/Math in Moscow/Algebraic Geometry/Class 4.md",
-    "Detailed Notes/Math in Moscow/Algebraic Geometry/1- Affine geometry.md",
-    "ring of differential operators on convergent power series.md"
+    "Detailed Notes/Math in Moscow/Algebraic Geometry/Class 4.md"
   ]
 }
