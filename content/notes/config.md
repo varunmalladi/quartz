@@ -1,4 +1,8 @@
 ---
+title: "config"
+---
+
+---
 title: "Configuration"
 tags:
 - setup
@@ -44,6 +48,6 @@ Partials are what dictate what actually gets rendered to the page. Want to chang
 
 For example, the structure of the home page can be edited through `/layouts/index.html`. To customize the footer, you can edit `/layouts/partials/footer.html`
 
-More info about partials on [Hugo's website.](https://gohugo.io/templates/partials/)
+More info about partials on Hugo's website.[]()(https://gohugo.io/templates/partials/)
 
-Still having problems? Checkout our [FAQ and Troubleshooting guide](notes/troubleshooting.md).
+Still having problems? Checkout our FAQ and Troubleshooting guide[]()(notes/troubleshooting.md).

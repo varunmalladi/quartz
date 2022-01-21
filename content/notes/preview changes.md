@@ -1,11 +1,15 @@
 ---
+title: "preview changes"
+---
+
+---
 title: "Preview Changes"
 ---
 
 If you'd like to preview what your Quartz site looks like before deploying it to the internet, here's exactly how to do that!
 
 ## Install `hugo-obsidian`
-This step will generate the list of backlinks for Hugo to parse. Ensure you have [Go](https://golang.org/doc/install) (>= 1.16) installed.
+This step will generate the list of backlinks for Hugo to parse. Ensure you have Go[]()(https://golang.org/doc/install) (>= 1.16) installed.
 
 ```shell
 # Install and link `hugo-obsidian` locally
@@ -21,7 +25,7 @@ $ hugo-obsidian -input=content -output=data -index -root=.
 Afterwards, start the Hugo server as shown above and your local backlinks and interactive graph should be populated!
 
 ##  Installing Hugo
-Hugo is the static site generator that powers Quartz. [Install Hugo](https://gohugo.io/getting-started/installing/) first. Then,
+Hugo is the static site generator that powers Quartz. Install Hugo[]()(https://gohugo.io/getting-started/installing/) first. Then,
 
 ```
 # Navigate to your local Quartz folder
