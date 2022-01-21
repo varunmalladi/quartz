@@ -1,6 +1,0 @@
----
-title: "site"
----
-
-# Idea
-Consider 
