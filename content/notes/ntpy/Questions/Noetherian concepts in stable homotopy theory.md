@@ -3,4 +3,4 @@ title: "Noetherian concepts in stable homotopy theory"
 ---
 
 # Related
-- [Noetherian ring](ntpy/Definitions/Ring theory/Noetherian ring.md)
+- [Noetherian ring](notes/ntpy/Definitions/Ring theory/Noetherian ring.md)

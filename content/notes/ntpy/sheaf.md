@@ -13,7 +13,7 @@ A *sheaf* $F$ is a presheaf such that
 2. (gluing) if for each $i\in I$ there is a section $s_i\in F(U_i)$ such that $s_i|_{U_i\cap U_j}=s_j|_{U_i\cap U_j}$ for all $i,j\in I$, then there exists a section $s\in F(U)$ such that $s|_{U_i}=s_i$ for each $i\in I$.
 
 **Definition 2 (abstract, componentwise)** 
-Let $(C,J)$ be a small [site](ntpy/site.md) (with coverage $J$).
+Let $(C,J)$ be a small [site](notes/ntpy/site.md) (with coverage $J$).
 
 A *sheaf* $A$ is a presheaf such that
 - for every covering family $J(U)=\{p_i:U_i\to U\}_{i\in I}$
@@ -64,11 +64,11 @@ where we identify elements that are eventually equal in the directed system. In 
 
 - is every restriction $F(U)\to F(V)$ injective? No, we cannot assume $U$ is connected.
 
-See: [Holomorphic function](ntpy/Definitions/Holomorphic function.md)
+See: [Holomorphic function](notes/ntpy/Definitions/Holomorphic function.md)
 
 **Regular functions on a variety**
 Given 
 
-[Regular map](ntpy/Definitions/Algebraic geometry/Regular map.md)
+[Regular map](notes/ntpy/Definitions/Algebraic geometry/Regular map.md)
 
 

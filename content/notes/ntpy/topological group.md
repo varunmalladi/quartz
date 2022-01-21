@@ -21,12 +21,12 @@ g\mapsto g^{-1}
 \end{gather}
 $$
 are continuous.
-- They are precisely the [group objects](ntpy/Definitions/Category theory/group objects.md) in the category $\text{Top}$.
+- They are precisely the [group objects](notes/ntpy/Definitions/Category theory/group objects.md) in the category $\text{Top}$.
 
 # Examples
 1. (Hilbert's fifth problem) If $G$ is a topological group and a manifold, then it is also a Lie group.
 2. Every group under the discrete topology
-3. Every group under the [profinite topology](ntpy/profinite topology.md)
+3. Every group under the [profinite topology](notes/ntpy/profinite topology.md)
 4. Products and subgroups of topological groups
 5. [lie group]()
 

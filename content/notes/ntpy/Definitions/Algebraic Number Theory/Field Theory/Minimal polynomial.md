@@ -14,7 +14,7 @@ To see (1), recall $k[T]$ is a PID, so any ideal containing $(P)$ is principal (
 To see (2), consider the Euclidean algorithm. Any polynomial $f\in k[T]$ can be written as $f(T)=g(T)P(T)+h(T)$, where $0\leq \deg h(T)<\deg P(T)$. The possible values of $h(T)$ is isomorphic to $k[T]/(P)$. It is spanned by $1,T,\dots,T^{\deg P-1}$. 
 
 # Properties
-Let $E/F$ be a finite [Field extension](ntpy/Definitions/Algebraic Number Theory/Field Theory/Field extension.md). Let $\alpha\in E$. 
+Let $E/F$ be a finite [Field extension](notes/ntpy/Definitions/Algebraic Number Theory/Field Theory/Field extension.md). Let $\alpha\in E$. 
 
 1. The minimal polynomial of $\alpha$ is unique. 
 
@@ -30,4 +30,4 @@ $$
 Denote the kernel by $J_\alpha$; it is the set of all polynomials in $F[X]$ that have $\alpha$ as a root. By the properties of ring homomorphisms, $J_\alpha$ is an ideal. But also $F[X]$ is a principal ring, hence there exists a polynomial $P$ that generates $J_\alpha$. Clearly this must have minimal degree among all nonzero elements of $J_\alpha$. Now suppose $Q\in J_\alpha$ has the same degree as $P$. Then $P-Q\in J_\alpha$ has degree less than $P$, but since $P$ has minimal degree this means $P-Q=0$ and so $P=Q$. 
 
 # Related
-- [Field extension](ntpy/Definitions/Algebraic Number Theory/Field Theory/Field extension.md)
+- [Field extension](notes/ntpy/Definitions/Algebraic Number Theory/Field Theory/Field extension.md)

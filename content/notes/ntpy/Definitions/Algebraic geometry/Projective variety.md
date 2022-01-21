@@ -8,7 +8,7 @@ title: "Projective variety"
 Let $k$ be an algeraically closed field. 
 
 ## Projective space
-The _projective $n$-space_, denoted $\mathbb{P}^n$, is the [affine space](ntpy/Definitions/Algebraic geometry/Affine space.md) of dimension $n+1$ with the origin removed an all lines through the origin identified: 
+The _projective $n$-space_, denoted $\mathbb{P}^n$, is the [affine space](notes/ntpy/Definitions/Algebraic geometry/Affine space.md) of dimension $n+1$ with the origin removed an all lines through the origin identified: 
 $$
 \begin{gather}
 (\mathbb{A}^{n+1}-\{0\})/\sim \\

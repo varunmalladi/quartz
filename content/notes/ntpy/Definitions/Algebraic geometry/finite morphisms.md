@@ -3,7 +3,7 @@ title: "finite morphisms"
 ---
 
 # Algebraic sets
-[Algebraic subset](ntpy/Definitions/Algebraic geometry/Algebraic subset.md)
+[Algebraic subset](notes/ntpy/Definitions/Algebraic geometry/Algebraic subset.md)
 
 Let $X,Y$ be affine sets. Then a regular map $f:X\to Y$ is finite if $K[X]$ is finitely generated as a $f^\ast(K[Y])$-module.
 
@@ -32,7 +32,7 @@ To that end, observe that $f^\ast$ is an algebra homomorphism, hence $f^\ast(y)=
 
 
 # Quasi-projective
-[Projective variety](ntpy/Definitions/Algebraic geometry/Projective variety.md)
+[Projective variety](notes/ntpy/Definitions/Algebraic geometry/Projective variety.md)
 
 Let $X,Y$ be quasi-projective sets.
 

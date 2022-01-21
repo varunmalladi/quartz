@@ -10,4 +10,4 @@ Then $R$ is called an _algebra_.
 
 **Definition.** An algebra $R$ over $K$ is said to be _finitely generated_ if there exist $f_1,\dots,f_n\in R$ such that any $a\in R$ is the evaluation of a degree $n$ polynomial in $K$ at the basis elements, i.e. $a=F(f_1,\dots,f_n)$ where $F\in K[x_1,\dots,x_n]$.
 
-**Corollary.** If $R$ is finitely generated as an algebra, then it is also a [Noetherian ring](ntpy/Definitions/Ring theory/Noetherian ring.md).
+**Corollary.** If $R$ is finitely generated as an algebra, then it is also a [Noetherian ring](notes/ntpy/Definitions/Ring theory/Noetherian ring.md).

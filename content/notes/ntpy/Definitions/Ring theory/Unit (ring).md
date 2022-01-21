@@ -10,7 +10,7 @@ Let $A$ be a commutative ring with identity.
 1. The element $y$ is uniquely determined by $x$, justifying the notation $x^{-1}$.
 2. The units in $A$ for a multiplicative abelian group.
 3. $x$ is a unit if and only if $(x)=A=(1)$.
-	1. [Ideal](ntpy/Definitions/Ring theory/Ideal.md) for definition of principal ideal
+	1. [Ideal](notes/ntpy/Definitions/Ring theory/Ideal.md) for definition of principal ideal
 
 #### Proofs
 ##### 1

@@ -15,7 +15,7 @@ $$
 Intuitively, this is like the set of all roots of elements in $I$. 
 
 ## Nilradical
-**Proposition.** The set $\mathfrak{N}$ of all [nilpotent](ntpy/Definitions/Ring theory/Nilpotent.md) elements in $A$ form an ideal called the _nilradical_, and $A/\mathfrak{N}$ has no nilpotent elements $\neq 0$.
+**Proposition.** The set $\mathfrak{N}$ of all [nilpotent](notes/ntpy/Definitions/Ring theory/Nilpotent.md) elements in $A$ form an ideal called the _nilradical_, and $A/\mathfrak{N}$ has no nilpotent elements $\neq 0$.
 
 Equivalently, it is the intersection of all prime ideals (Of nilradical, Property 1).
 
@@ -28,7 +28,7 @@ If $\bar{X}\in A/\mathfrak{N}$ is such that $\bar{X}^n=0$, then its preimage $x$
 
 # Properties
 - $I\subset Rad(I)$.
-- It is the preimage of the ideal of [nilpotent](ntpy/Definitions/Ring theory/Nilpotent.md) elements under the natural quotient map $R\to R/I$.
+- It is the preimage of the ideal of [nilpotent](notes/ntpy/Definitions/Ring theory/Nilpotent.md) elements under the natural quotient map $R\to R/I$.
 3. $\text{rad}(IJ) = \text{rad}(I\cap J) = \text{rad}(I)\cap\text{rad}(J)$.
 
 ### Proofs

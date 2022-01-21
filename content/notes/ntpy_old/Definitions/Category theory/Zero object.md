@@ -1,0 +1,4 @@
+---
+title: "Zero object"
+---
+

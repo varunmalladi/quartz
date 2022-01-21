@@ -3,14 +3,14 @@ title: "absolute galois group"
 ---
 
 # Idea
-The absolute Galois group of $F$ can be thought of as the Galois group of the maximal Galois extension of $F$, namely the [separable closure](ntpy/Definitions/Algebraic Number Theory/Field Theory/separable closure.md) $F^\text{sep}/F$.
+The absolute Galois group of $F$ can be thought of as the Galois group of the maximal Galois extension of $F$, namely the [separable closure](notes/ntpy/Definitions/Algebraic Number Theory/Field Theory/separable closure.md) $F^\text{sep}/F$.
 
 It is unique up to conjugation, i.e. multipilication by a conjugate $ghg^{-1}$. This is sometimes called an inner automorphism. Because of this, there is an analogy with the [funamental groupoid](): 
 - For a topological space, assign to each point the fundamental group at that point. Morphisms are paths between points (which are invertible)
 - For a field, assign to each separable closure its absolute Galois group. Morphisms are multipilication by a conjugate, between objects that become equal after the application of the map.
 
 # Properties
-1. Let $K/F$ be a finite separable extension in $F^s/F$. Then $G_F$ acts on $\text{Et}(K,F^s)$ (see [etale algebras](ntpy/etale algebras.md)) by $$\begin{gather} \sigma i\mapsto \sigma \circ i \\ (K\overset{i}{\rightarrow} F)\mapsto (K\overset{i}{\rightarrow}F^s\overset{\sigma}{\rightarrow}F^s,\end{gather}$$ and the kernel of this action is $\text{Gal}(F^s/N)$, where $N$ is the compositum of all conjugates of $K$, i.e. all images of the embeddings $i$.
+1. Let $K/F$ be a finite separable extension in $F^s/F$. Then $G_F$ acts on $\text{Et}(K,F^s)$ (see [etale algebras](notes/ntpy/etale algebras.md)) by $$\begin{gather} \sigma i\mapsto \sigma \circ i \\ (K\overset{i}{\rightarrow} F)\mapsto (K\overset{i}{\rightarrow}F^s\overset{\sigma}{\rightarrow}F^s,\end{gather}$$ and the kernel of this action is $\text{Gal}(F^s/N)$, where $N$ is the compositum of all conjugates of $K$, i.e. all images of the embeddings $i$.
 2. The action in (1) extends to a transitive action of $\text{Gal}(N/F)$ on $\text{Et}(K,F^s)$. 
 	1. This process of reduction is like reducing the entire absolute galois group to the galois group of $K/F$, for example:
 	2. Consider $\mathbb{Q}(\sqrt[3]{2},\omega)/\mathbb{Q})$. The kernel of the action of $G_\mathbb{Q}$ are those elements that fix the three cube roots of $2$, which is definitionally $\text{Gal}(\overline{\mathbb{Q}}/\mathbb{Q}(\sqrt[3]{2},\omega))$. So the action of $G_\mathbb{Q}$ reduces to an action of $G_\mathbb{Q}/\text{Gal}(\overline{\mathbb{Q}}/\mathbb{Q}(\sqrt[3]{2},\omega))=\text{Gal}(\mathbb{Q}(\sqrt[3]{2},\omega)/\mathbb{Q})$. 

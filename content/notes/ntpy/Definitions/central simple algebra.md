@@ -11,8 +11,8 @@ An $F$-algebra $A$ is called
 
 **Remark.** 
 - If $A$ is division, then it is simple, hence $Z(A)$ is a field, hence $A$ is a central simple $Z(A)$-algebra.
-- If $A$ is division, the obstruction to $A$ being a field is commutativity ([obstruction to division algebras being fields](ntpy/Key Ideas/obstruction to division algebras being fields.md))
-- Being simple is slightly weaker than being transitive ([simple is weaker than transitive](ntpy/Key Ideas/simple is weaker than transitive.md))
+- If $A$ is division, the obstruction to $A$ being a field is commutativity ([obstruction to division algebras being fields](notes/ntpy/Key Ideas/obstruction to division algebras being fields.md))
+- Being simple is slightly weaker than being transitive ([simple is weaker than transitive](notes/ntpy/Key Ideas/simple is weaker than transitive.md))
 
 Some more definitions:
 - A central simple $F$-algebra $A$ is called *split* if $A\cong M_n(F)$.
@@ -23,10 +23,10 @@ Some more definitions:
 The $n\times n$ matrices over $F$ form a CSA.
 
 **2** (Quaternions)
-The [quaternion algebra](ntpy/quaternion algebra.md) forms a CSA.
+The [quaternion algebra](notes/ntpy/quaternion algebra.md) forms a CSA.
 
 # Properties
-1. ([Artin-Wedderburn](ntpy/Artin-Wedderburn.md)) Let $A$ be a [central simple algebra](ntpy/Definitions/central simple algebra.md) over $F$. Then
+1. ([Artin-Wedderburn](notes/ntpy/Artin-Wedderburn.md)) Let $A$ be a [central simple algebra](notes/ntpy/Definitions/central simple algebra.md) over $F$. Then
 $$A\cong M_n(D),$$ where $D$ is a division $F$-algebra that is unique up to isomorphism.
 2. Let $A,B$ be CSAs over $F$. Then $A\otimes_F B$ is a CSA
 	1. $Z(A\otimes_F B)=Z(A)\otimes_F Z(B)$

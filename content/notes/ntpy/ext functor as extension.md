@@ -22,7 +22,7 @@ Recall that an extension of $C$ by $A$ is an exact sequence of the form $$0\to A
 
 There is 1-1 correspondence $$\{\text{equivalence classes of extensions of }A \text{ by } B\}\leftrightarrow\text{Ext}^1(C,A).$$
 
-By the notion of the [pullback and pushforward of ES](ntpy/pullback and pushforward of ES.md), given some extension $E$ and a map $g:C_1\to C$, we may define the pullback extension to just be the SES corresponding to the pullback $E\circ g$. Likewise, we may define the pushforward of an extension $f\circ E$. As noted there, this is not associative in general.
+By the notion of the [pullback and pushforward of ES](notes/ntpy/pullback and pushforward of ES.md), given some extension $E$ and a map $g:C_1\to C$, we may define the pullback extension to just be the SES corresponding to the pullback $E\circ g$. Likewise, we may define the pushforward of an extension $f\circ E$. As noted there, this is not associative in general.
 
 We can generalize the construction above by identifying $\text{Ext}^i(C,A)$ with $i$-fold extensions $$A\to X_1\to\cdots\to X_i\to C\to 0$$ under an *some* equivalence relation. It's not obvious what this should be. However, it seems natural that there should be a map $$\text{Ext}^i(B,A)\times\text{Ext}^j(C,B)\to \text{Ext}^{i+j}(C,A)$$ defined by the concatenation of extensions, e.g. given extensions $$\begin{gather}0\to A\to X_1\to\cdots\to X_i\to B\to 0\\ 0\to B\to Y_1\to\dots\to Y_j\to C\to 0,\end{gather}$$ we may identify the $B$ terms to create a long exact sequence $$A\to X_1\to\cdots\to X_i\to Y_1\to\cdots\to Y_j\to C\to 0.$$ We need to choose our  equivalence relation such that the equivalence class of the result is independent of the choice of representatives of its factors. We would also like there to be "associativity" of pullback and pushout, particularly since we can decompose a LES into the composition of SESs.
 
@@ -57,4 +57,4 @@ in the following way: first pullback along the diagonal map to obtain $(E_1+E_2)
 # Proof of equivalence of definitions
 
 # Related
-- [ext functor](ntpy/Definitions/Homological algebra/ext functor.md)
+- [ext functor](notes/ntpy/Definitions/Homological algebra/ext functor.md)

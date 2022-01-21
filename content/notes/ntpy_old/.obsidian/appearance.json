@@ -1,0 +1,9 @@
+{
+  "baseFontSize": 19,
+  "translucency": false,
+  "cssTheme": "Yin and Yang",
+  "enabledCssSnippets": [
+    "font"
+  ],
+  "theme": "moonstone"
+}

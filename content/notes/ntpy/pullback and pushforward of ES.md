@@ -62,4 +62,4 @@ E_2=0\to K\to X_2\to C\to 0
 $$ 
 and the natural map $\pi:K\oplus T\to K$, we have that $$\pi E_1= 0\to A\to X_1\to K\to 0$$ and $$E_2\pi=0\to K\oplus T\to X_2\oplus T\to C\to 0,$$ and it is clear that $(E_2\pi)\circ E_1\neq E_2\circ (\pi E_1)$.
 
-In certain situations, we formally declare associativity, such as in equivalence relation on $Ext^i$, see [ext functor as extension](ntpy/ext functor as extension.md).
+In certain situations, we formally declare associativity, such as in equivalence relation on $Ext^i$, see [ext functor as extension](notes/ntpy/ext functor as extension.md).

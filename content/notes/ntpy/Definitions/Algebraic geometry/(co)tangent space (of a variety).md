@@ -3,10 +3,10 @@ title: "(co)tangent space (of a variety)"
 ---
 
 # Tangent space
-Recall the [differential of a regular map](ntpy/Definitions/Algebraic geometry/Regular map.md). 
+Recall the [differential of a regular map](notes/ntpy/Definitions/Algebraic geometry/Regular map.md). 
 
 ## Direct definition
-Given an [algebraic set](ntpy/Definitions/Algebraic geometry/Algebraic subset.md) $U=\{F_1=0,\dots,F_m=0\}$, we may the define the tangent space of $U$ at the point $p$ as the solution set $$T_pU=\{\text{d}_pF_1=\dots=\text{d}_pF_m=0\}.$$
+Given an [algebraic set](notes/ntpy/Definitions/Algebraic geometry/Algebraic subset.md) $U=\{F_1=0,\dots,F_m=0\}$, we may the define the tangent space of $U$ at the point $p$ as the solution set $$T_pU=\{\text{d}_pF_1=\dots=\text{d}_pF_m=0\}.$$
 
 Arguable more intrinsically, we may define the tangent space to simply be the dual of the cotangent space (see below).
 

@@ -44,7 +44,7 @@ This indduces a homomorphism between the direct limits
 $$\lim_\to\phi:\lim_\to A_i\to \lim_\to B_i.$$
 
 # Examples
-**1** [P-adic numbers](ntpy/Definitions/Algebraic Number Theory/P-adic numbers.md)
+**1** [P-adic numbers](notes/ntpy/Definitions/Algebraic Number Theory/P-adic numbers.md)
 
 **2** (subextensions) 
 Given an algebraic extension $K/F$, the set of all subextensions $K/L/F$ (we can exclude $K$) is a partially ordered set under inclusions. Furthermore, it is 

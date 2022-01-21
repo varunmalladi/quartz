@@ -49,7 +49,7 @@ The vertical 2-morphism just being the identity, witnessing the equality of $g\c
 We are being informal here to get to the point, but it is not too difficult hopefully to see that this defines a simplicial set. In fact, it would appear the nerve really preserves all the information about the original category. This is indeed the case, as one shows that the nerve construction is fully faithful. In other words, the set of functors between two categories are in bijection with the morphisms between their nerves.
 
 # Reflective subcategories
-When a fully faithful functor $C\to D$ admits a left adjoint, we call the left adjoint the reflector or localization. We say that $C$ is a [reflective subcategory](ntpy/Definitions/Category theory/reflective subcategory.md) of $D$. 
+When a fully faithful functor $C\to D$ admits a left adjoint, we call the left adjoint the reflector or localization. We say that $C$ is a [reflective subcategory](notes/ntpy/Definitions/Category theory/reflective subcategory.md) of $D$. 
 
 Localizations are of course central to many areas of mathematics, such as commutative algebra for example. Now, this isn't intended to be a video on localization or reflective subcategories, so I will just say a few things. 
 

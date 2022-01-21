@@ -20,7 +20,7 @@ In an [abelian category](), consider a commutative diagram
 	\arrow&quot;c&quot;, from=1-4, to=2-4[]()
 \end{tikzcd}" />
 
-where the rows are exact sequences and 0 is the [Zero object](ntpy/Definitions/Category theory/Zero object.md).
+where the rows are exact sequences and 0 is the [Zero object](notes/ntpy/Definitions/Category theory/Zero object.md).
 
 Then there is an exact sequence $$\text{ker }a\to\text{ker }b\to\text{ker }c\overset{d}{\longrightarrow}\text{coker }a\to\text{coker }b\to\text{coker }c.$$ The map $d$ is a homomorphism called the connecting homomorphism.
 

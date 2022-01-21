@@ -10,7 +10,7 @@ title: "discrete G-set"
 
 # Examples
 **Galois actions**
-See: [Galois group](ntpy/Galois group.md)
+See: [Galois group](notes/ntpy/Galois group.md)
 
 - Let $K/F$ be a Galois extension, $G=\text{Gal}(K/F)$. 
 - There is a natural action of $G$ on $K/F$ (by definition elements of $G$ are automorphisms of $K/F$).

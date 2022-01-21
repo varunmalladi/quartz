@@ -2,4 +2,4 @@
 title: "Axiom of Choice"
 ---
 
-[Zorn's lemma](ntpy/Theorems/Zorn's lemma.md)
+[Zorn's lemma](notes/ntpy/Theorems/Zorn's lemma.md)

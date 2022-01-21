@@ -5,7 +5,7 @@ title: "derived functors (homological algebra)"
 # Idea
 Let us consider $A$-modules. Consider a functor $F$. Then given maps $M_1\to N$ and $M_1\hookrightarrow M_2$, if an extension $M_2\to N$ exists then the extension $F(M_2)\to F(N)$ also exists. However, it can be the case that the extension only exists after passing to $F$ and does not exist before.
 
-[model categories and derived functors](ntpy/Key Ideas/Homotopy theory/model categories and derived functors.md)
+[model categories and derived functors](notes/ntpy/Key Ideas/Homotopy theory/model categories and derived functors.md)
 
 Consider an exact sequence $$0\to M'\to M\to M''\to 0.$$ Applying a functor $F$ will result in one of three outcomes:
 1. The sequence is exact

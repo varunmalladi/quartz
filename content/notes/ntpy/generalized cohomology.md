@@ -3,7 +3,7 @@ title: "generalized cohomology"
 ---
 
 # Idea
-We wish here to record the axioms of cohomology. In addition, we take the perspective that cohomology is a certain hom-functor (see [cohomology is dual to homotopy](ntpy/Key Ideas/Homotopy theory/cohomology is dual to homotopy.md)). It will then become clearer, hopefully, why the axioms are what they are. In short, we wish to motivate these axioms.
+We wish here to record the axioms of cohomology. In addition, we take the perspective that cohomology is a certain hom-functor (see [cohomology is dual to homotopy](notes/ntpy/Key Ideas/Homotopy theory/cohomology is dual to homotopy.md)). It will then become clearer, hopefully, why the axioms are what they are. In short, we wish to motivate these axioms.
 
 Most abstractly, cohomology is about assigning abelian groups to a topological space in order to better understand the homotopy of that space. This is another instance of "linearization" that pervades mathematics: reducing badly behaved problems to better behaved ones (e.g. representation theory). 
 
