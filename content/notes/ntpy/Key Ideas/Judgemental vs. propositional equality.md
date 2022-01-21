@@ -1,5 +1,5 @@
 ---
-title: "Judgemental vs"
+title: "Judgemental vs. propositional equality"
 ---
 
 # Examples

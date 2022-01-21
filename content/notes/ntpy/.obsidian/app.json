@@ -5,7 +5,5 @@
   "autoPairBrackets": false,
   "alwaysUpdateLinks": true,
   "legacyEditor": false,
-  "livePreview": true,
-  "useMarkdownLinks": true,
-  "newLinkFormat": "absolute"
+  "livePreview": true
 }

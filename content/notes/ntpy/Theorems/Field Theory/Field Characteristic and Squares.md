@@ -12,7 +12,7 @@ x\mapsto x^{(q-1)/2}.
 \end{gather}
 $$
 
-_Pf of statement 1._ In this case, the Frobenius map, which is an automorphism ([[Frobenius Map|lemma.]]), coincides with the operation of squaring.
+_Pf of statement 1._ In this case, the Frobenius map, which is an automorphism ([lemma.](ntpy/Definitions/Algebraic Number Theory/Field Theory/Frobenius Map.md)), coincides with the operation of squaring.
 
 _Pf of statement 2._ Consider $K$ as a subfield of an algebraically closed field $\Omega$ of characteristic $p$. If $a\in K$ then $x^2 = a$ has a solution in $\Omega$ since $\Omega$ is algebraically closed. Then $(x^{q-1})^2 = (x^2)^{q-1}=a^{q-1}=1$  since $a\in K$. But there are only two roots of $1$, namely $1$ and $-1$. If $x^{q-1}=1$ then $x\in K$ by definition, so $a$ is a square. Otherwise, if $x^{q-1}=-1$, then $x\not\in K$ since $x$ does not have order $q-1$. Thus $a$ is not a square. $x^{q-1}=1$ is equivalently $a^{(p-1)/2}$. This shows that the squares coincide with the kernel of the map $K^\ast\to\{\pm 1\}$ above.
 

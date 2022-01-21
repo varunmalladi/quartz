@@ -8,8 +8,8 @@ title: "Field extension"
 Any field homomorphism is automatically injective. A previous definition defined an extension as a field homomorphism, but typically we mean an actual inclusion, and in this view there is no data lost in the notation $K/L$. Specifically, there exist field homomorphisms which are not inclusions, consider the map $\mathbb{R}\to \mathbb{C}$ sending $1\mapsto i$.
 
 # Types of extensions
-- [[Normal extensions]]
-- [[Separable extension]]
+- [Normal extensions](ntpy/Definitions/Algebraic Number Theory/Field Theory/Normal extensions.md)
+- [Separable extension](ntpy/Definitions/Algebraic Number Theory/Field Theory/Separable extension.md)
 
 ## Morphisms
 If $K_1$ and $K_2$ are field extensions over $k$, then a homomorphism of extensions $$K_1/k\to K_2/k$$ is a field homomorphism $K_1\to K_2$ that fixes $k$. We denote the set of all such morphisms $$\sum_{K_1/k}^{K_2/k}.$$
@@ -28,7 +28,7 @@ Let $K$ be an algebraic extension of $k$ contained in an algebraic closure $\ove
 # Properties
 Let $K_1$ and $K_2$ be field extensions over $k$, and $\sigma: K_1/k\to K_2/k$ a homomorphism of extensions. Let $P\in k[T]$. 
 
-1. ([[Zariski's lemma]]) 
+1. ([Zariski's lemma](ntpy/Theorems/Field Theory/Zariski's lemma.md)) 
 2. Let $\alpha\in K$ be algebraic over $k$. Let $P_\alpha$ be a monic irreducible polynomial such that $P_\alpha(\alpha)=0$. Then
 	1. $P_\alpha$ exists and is unique
 	2. $k_{P_\alpha}\cong k(\alpha)\cong k[\alpha]$
@@ -40,7 +40,7 @@ Certainly $P_\alpha$ exists. We just need to show it is unique. By decomposing a
 We first show that $k_{P_\alpha}\cong k[\alpha]$. Consider the map
 $$
 \begin{gather}
-\phi:k[T]\to K \\
+\phi:kT[]()\to K \\
 \phi_k= 1_k \\
 T\mapsto \alpha.
 \end{gather}
@@ -105,7 +105,7 @@ _Step 2_
 
 
 # Examples
-1. [[Definitions/Algebraic Number Theory/Field Theory/Minimal polynomial]]
+1. [Definitions/Algebraic Number Theory/Field Theory/Minimal polynomial]()
 
 
 ## $k(\alpha)$

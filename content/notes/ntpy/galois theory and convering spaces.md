@@ -9,4 +9,4 @@ Dictionary:
 - choice of basepoint -> choice of separable closure
 
 # Related
-[[Fundamental thm of Galois Theory]]
+[Fundamental thm of Galois Theory](ntpy/Theorems/Field Theory/Fundamental thm of Galois Theory.md)

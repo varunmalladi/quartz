@@ -4,24 +4,24 @@ title: "five lemma"
 
 # Statement
 
-In an [[abelian category]], given a commutative diagram 
+In an [abelian category](), given a commutative diagram 
 
 <img align="center" src="https://i.upmath.me/svg/%5Cbegin%7Btikzcd%7D%0A%09A%20%26%20B%20%26%20C%20%26%20D%20%26%20E%20%5C%5C%0A%09%7BA'%7D%20%26%20%7BB'%7D%20%26%20%7BC'%7D%20%26%20%7BD'%7D%20%26%20%7BE'%7D%0A%09%5Carrow%5B%22f%22%2C%20from%3D1-1%2C%20to%3D1-2%5D%0A%09%5Carrow%5B%22g%22%2C%20from%3D1-2%2C%20to%3D1-3%5D%0A%09%5Carrow%5B%22h%22%2C%20from%3D1-3%2C%20to%3D1-4%5D%0A%09%5Carrow%5B%22r%22'%2C%20from%3D2-1%2C%20to%3D2-2%5D%0A%09%5Carrow%5B%22s%22'%2C%20from%3D2-2%2C%20to%3D2-3%5D%0A%09%5Carrow%5B%22l%22%2C%20from%3D1-1%2C%20to%3D2-1%5D%0A%09%5Carrow%5B%22m%22%2C%20from%3D1-2%2C%20to%3D2-2%5D%0A%09%5Carrow%5B%22n%22%2C%20from%3D1-3%2C%20to%3D2-3%5D%0A%09%5Carrow%5B%22j%22%2C%20from%3D1-4%2C%20to%3D1-5%5D%0A%09%5Carrow%5B%22t%22'%2C%20from%3D2-3%2C%20to%3D2-4%5D%0A%09%5Carrow%5B%22u%22'%2C%20from%3D2-4%2C%20to%3D2-5%5D%0A%09%5Carrow%5B%22p%22%2C%20from%3D1-4%2C%20to%3D2-4%5D%0A%09%5Carrow%5B%22q%22%2C%20from%3D1-5%2C%20to%3D2-5%5D%0A%5Cend%7Btikzcd%7D" alt="\begin{tikzcd}
 	A &amp; B &amp; C &amp; D &amp; E \\
 	{A'} &amp; {B'} &amp; {C'} &amp; {D'} &amp; {E'}
-	\arrow[&quot;f&quot;, from=1-1, to=1-2]
-	\arrow[&quot;g&quot;, from=1-2, to=1-3]
-	\arrow[&quot;h&quot;, from=1-3, to=1-4]
-	\arrow[&quot;r&quot;', from=2-1, to=2-2]
-	\arrow[&quot;s&quot;', from=2-2, to=2-3]
-	\arrow[&quot;l&quot;, from=1-1, to=2-1]
-	\arrow[&quot;m&quot;, from=1-2, to=2-2]
-	\arrow[&quot;n&quot;, from=1-3, to=2-3]
-	\arrow[&quot;j&quot;, from=1-4, to=1-5]
-	\arrow[&quot;t&quot;', from=2-3, to=2-4]
-	\arrow[&quot;u&quot;', from=2-4, to=2-5]
-	\arrow[&quot;p&quot;, from=1-4, to=2-4]
-	\arrow[&quot;q&quot;, from=1-5, to=2-5]
+	\arrow&quot;f&quot;, from=1-1, to=1-2[]()
+	\arrow&quot;g&quot;, from=1-2, to=1-3[]()
+	\arrow&quot;h&quot;, from=1-3, to=1-4[]()
+	\arrow&quot;r&quot;', from=2-1, to=2-2[]()
+	\arrow&quot;s&quot;', from=2-2, to=2-3[]()
+	\arrow&quot;l&quot;, from=1-1, to=2-1[]()
+	\arrow&quot;m&quot;, from=1-2, to=2-2[]()
+	\arrow&quot;n&quot;, from=1-3, to=2-3[]()
+	\arrow&quot;j&quot;, from=1-4, to=1-5[]()
+	\arrow&quot;t&quot;', from=2-3, to=2-4[]()
+	\arrow&quot;u&quot;', from=2-4, to=2-5[]()
+	\arrow&quot;p&quot;, from=1-4, to=2-4[]()
+	\arrow&quot;q&quot;, from=1-5, to=2-5[]()
 \end{tikzcd}" />
 
 then if the rows are exact, $m$ and $p$ are isomorphisms, $l$ is epi, $q$ is mono, then $n$ is is an isomorphism. Sometimes the "five lemma" refers to a weaker statement: if all vertical arrows except the middle are isomorphisms then so is the middle.
@@ -31,32 +31,32 @@ We state the "four-lemmas" which in turn immediately imply the five-lemma:
 <img align="center" src="https://i.upmath.me/svg/%5Cbegin%7Btikzcd%7D%0A%09B%20%26%20C%20%26%20D%20%26%20E%20%5C%5C%0A%09%7BB'%7D%20%26%20%7BC'%7D%20%26%20%7BD'%7D%20%26%20%7BE'%7D%0A%09%5Carrow%5B%22g%22%2C%20from%3D1-1%2C%20to%3D1-2%5D%0A%09%5Carrow%5B%22h%22%2C%20from%3D1-2%2C%20to%3D1-3%5D%0A%09%5Carrow%5B%22s%22'%2C%20from%3D2-1%2C%20to%3D2-2%5D%0A%09%5Carrow%5B%22m%22%2C%20from%3D1-1%2C%20to%3D2-1%5D%0A%09%5Carrow%5B%22n%22%2C%20from%3D1-2%2C%20to%3D2-2%5D%0A%09%5Carrow%5B%22j%22%2C%20from%3D1-3%2C%20to%3D1-4%5D%0A%09%5Carrow%5B%22t%22'%2C%20from%3D2-2%2C%20to%3D2-3%5D%0A%09%5Carrow%5B%22u%22'%2C%20from%3D2-3%2C%20to%3D2-4%5D%0A%09%5Carrow%5B%22p%22%2C%20from%3D1-3%2C%20to%3D2-3%5D%0A%09%5Carrow%5B%22q%22%2C%20from%3D1-4%2C%20to%3D2-4%5D%0A%5Cend%7Btikzcd%7D" alt="\begin{tikzcd}
 	B &amp; C &amp; D &amp; E \\
 	{B'} &amp; {C'} &amp; {D'} &amp; {E'}
-	\arrow[&quot;g&quot;, from=1-1, to=1-2]
-	\arrow[&quot;h&quot;, from=1-2, to=1-3]
-	\arrow[&quot;s&quot;', from=2-1, to=2-2]
-	\arrow[&quot;m&quot;, from=1-1, to=2-1]
-	\arrow[&quot;n&quot;, from=1-2, to=2-2]
-	\arrow[&quot;j&quot;, from=1-3, to=1-4]
-	\arrow[&quot;t&quot;', from=2-2, to=2-3]
-	\arrow[&quot;u&quot;', from=2-3, to=2-4]
-	\arrow[&quot;p&quot;, from=1-3, to=2-3]
-	\arrow[&quot;q&quot;, from=1-4, to=2-4]
+	\arrow&quot;g&quot;, from=1-1, to=1-2[]()
+	\arrow&quot;h&quot;, from=1-2, to=1-3[]()
+	\arrow&quot;s&quot;', from=2-1, to=2-2[]()
+	\arrow&quot;m&quot;, from=1-1, to=2-1[]()
+	\arrow&quot;n&quot;, from=1-2, to=2-2[]()
+	\arrow&quot;j&quot;, from=1-3, to=1-4[]()
+	\arrow&quot;t&quot;', from=2-2, to=2-3[]()
+	\arrow&quot;u&quot;', from=2-3, to=2-4[]()
+	\arrow&quot;p&quot;, from=1-3, to=2-3[]()
+	\arrow&quot;q&quot;, from=1-4, to=2-4[]()
 \end{tikzcd}" />
 if the rows are exact, $m$ and $p$ are epi, and $q$ is mono, then $n$ is epi.
 2. Given the commutative diagram
 <img align="center" src="https://i.upmath.me/svg/%5Cbegin%7Btikzcd%7D%0A%09A%20%26%20B%20%26%20C%20%26%20D%20%5C%5C%0A%09%7BA'%7D%20%26%20%7BB'%7D%20%26%20%7BC'%7D%20%26%20%7BD'%7D%0A%09%5Carrow%5B%22g%22%2C%20from%3D1-2%2C%20to%3D1-3%5D%0A%09%5Carrow%5B%22h%22%2C%20from%3D1-3%2C%20to%3D1-4%5D%0A%09%5Carrow%5B%22s%22'%2C%20from%3D2-2%2C%20to%3D2-3%5D%0A%09%5Carrow%5B%22m%22%2C%20from%3D1-2%2C%20to%3D2-2%5D%0A%09%5Carrow%5B%22n%22%2C%20from%3D1-3%2C%20to%3D2-3%5D%0A%09%5Carrow%5B%22t%22'%2C%20from%3D2-3%2C%20to%3D2-4%5D%0A%09%5Carrow%5B%22p%22%2C%20from%3D1-4%2C%20to%3D2-4%5D%0A%09%5Carrow%5B%22f%22%2C%20from%3D1-1%2C%20to%3D1-2%5D%0A%09%5Carrow%5B%22l%22%2C%20from%3D1-1%2C%20to%3D2-1%5D%0A%09%5Carrow%5B%22r%22'%2C%20from%3D2-1%2C%20to%3D2-2%5D%0A%5Cend%7Btikzcd%7D" alt="\begin{tikzcd}
 	A &amp; B &amp; C &amp; D \\
 	{A'} &amp; {B'} &amp; {C'} &amp; {D'}
-	\arrow[&quot;g&quot;, from=1-2, to=1-3]
-	\arrow[&quot;h&quot;, from=1-3, to=1-4]
-	\arrow[&quot;s&quot;', from=2-2, to=2-3]
-	\arrow[&quot;m&quot;, from=1-2, to=2-2]
-	\arrow[&quot;n&quot;, from=1-3, to=2-3]
-	\arrow[&quot;t&quot;', from=2-3, to=2-4]
-	\arrow[&quot;p&quot;, from=1-4, to=2-4]
-	\arrow[&quot;f&quot;, from=1-1, to=1-2]
-	\arrow[&quot;l&quot;, from=1-1, to=2-1]
-	\arrow[&quot;r&quot;', from=2-1, to=2-2]
+	\arrow&quot;g&quot;, from=1-2, to=1-3[]()
+	\arrow&quot;h&quot;, from=1-3, to=1-4[]()
+	\arrow&quot;s&quot;', from=2-2, to=2-3[]()
+	\arrow&quot;m&quot;, from=1-2, to=2-2[]()
+	\arrow&quot;n&quot;, from=1-3, to=2-3[]()
+	\arrow&quot;t&quot;', from=2-3, to=2-4[]()
+	\arrow&quot;p&quot;, from=1-4, to=2-4[]()
+	\arrow&quot;f&quot;, from=1-1, to=1-2[]()
+	\arrow&quot;l&quot;, from=1-1, to=2-1[]()
+	\arrow&quot;r&quot;', from=2-1, to=2-2[]()
 \end{tikzcd}" />
 if the rows are exact, $m$ and $p$ are mono, $l$ is epi, then $n$ is mono.
 

@@ -48,7 +48,7 @@ Consider $\partial_i\hat{x_i}\in A_n$. For any $f\in K[X]$, we have $$\partial_i
 (a): We calculate
 $$
 \begin{align}
-[\partial_i, x_j](f)=& \partial_i (x_jf) - x_j(\partial_i(f)) \\
+\partial_i, x_j[]()(f)=& \partial_i (x_jf) - x_j(\partial_i(f)) \\
 =&\delta_{ij}f + x_j\partial_i(f)-x_j\partial_i(f) \\
 =& \delta_{ij}f,
 \end{align}
@@ -65,15 +65,15 @@ $$
 $$
 For $1\leq i,j\leq n$, we have $\phi([z_i,z_j])=0$. Also, 
 $$\begin{align}
-\phi([z_{i+n},z_j])=& [\phi(z_{i+n}),\phi(z_j)] \\
-=& [\partial_i-\sum\frac{\partial f_k}{\partial x_i}\partial_k,x_j+f_j]\\
-=&[\partial_i,x_j+f_j]-[\sum\frac{\partial f_k}{\partial x_i}\partial_k,x_j+f_j]\\
+\phi(z_{i+n},z_j[]())=& \phi(z_{i+n}),\phi(z_j)[]() \\
+=& \partial_i-\sum\frac{\partial f_k}{\partial x_i}\partial_k,x_j+f_j[]()\\
+=&\partial_i,x_j+f_j[]()-\sum\frac{\partial f_k}{\partial x_i}\partial_k,x_j+f_j[]()\\
 =& (\delta_{ij}+\partial_i(f_j)) - (\frac{\partial f_j}{\partial x_i}+\sum\frac{\partial f_k}{\partial x_i}\frac{\partial f_j}{\partial x_k}) \\
 =& \delta_{ij},
 \end{align}$$
 because $\sum\frac{\partial f_k}{\partial x_i}\frac{\partial f_j}{\partial x_k}=0$ since if $k\leq m$ then $\frac{\partial f_j}{\partial x_k}=0$ and if $k>m$ then $f_k=0$. Likewise,
 $$
-\phi([z_{i+n},z_{j+n}])=0.
+\phi(z_{i+n},z_{j+n}[]())=0.
 $$
 Thus the kernel of the homomorphism $\phi:K\{z_1,\dots,z_n\}\to A_n$ is $J$ (notation of (4)). Letting $\sigma:K\{z_1,\dots,z_n\}/J\to A_n$, we get that $\sigma$ is an automorphism.
 

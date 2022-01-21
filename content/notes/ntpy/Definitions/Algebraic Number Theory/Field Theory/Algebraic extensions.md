@@ -39,4 +39,4 @@ Let $\alpha\in L$. It is by assumption algebraic over $K$, hence the root of a p
 It suffices to show the endomorphism $\sigma:K/k\to K/k$ is surjective, since any field homomorphism is injective. Let $\alpha\in K$, and $\alpha=\alpha_1,\dots,\alpha_n$ be the roots of $P_\alpha$. By (Property 3) this is a finite extension. We also note that $\sigma(k(\alpha_1,\dots,\alpha_n))\subset k(\alpha_1,\dots,\alpha_n)$ because by (Of morphisms, Property 1) a root of $P_\alpha$ must map to a root of $P_\alpha$, and $k(\alpha_1,\dots,\alpha_n)$ contains all such elements by construction. But $\ker\sigma=0$. So $\sigma$ is injectively mapping between two finite dimensional vector spaces, hence $\sigma$ is an isomorphism when restricted to these vector spaces. In particular $\alpha\in\text{im}\sigma$, so $\sigma$ is surjective.
 
 # Related
-- [[Field extension]]
+- [Field extension](ntpy/Definitions/Algebraic Number Theory/Field Theory/Field extension.md)

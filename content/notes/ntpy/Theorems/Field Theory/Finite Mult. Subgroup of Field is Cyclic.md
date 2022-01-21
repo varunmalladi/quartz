@@ -1,5 +1,5 @@
 ---
-title: "Finite Mult"
+title: "Finite Mult. Subgroup of Field is Cyclic"
 ---
 
 # Statement

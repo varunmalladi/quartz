@@ -8,19 +8,19 @@ Let $A$ be a (commutative) ring.
 **Definition.** An ideal $p\subset A$ is called _prime_ if the following equivalent conditions are met:
 1. For every $a,b\in A$ such that $ab\in p$ either $a\in p$ or $b\in p$.
 2. For every $a\not\in p$ and $b\not\in p$ then $ab\not\in p$.
-3. $A/p$ is an [[Integral domain|integral domain]].
+3. $A/p$ is an [integral domain](ntpy/Definitions/Ring theory/Integral domain.md).
 
-**Theorem.** The intersection of all prime ideals of $A$ is the [[Nilpotent|nilradical]] $Nil(A)$.
+**Theorem.** The intersection of all prime ideals of $A$ is the [nilradical](ntpy/Definitions/Ring theory/Nilpotent.md) $Nil(A)$.
 
 ## Over / under
 ### Integral extensions
-([[integral extensions]])
+([integral extensions](ntpy/Definitions/Ring theory/integral extensions.md))
 
-Let $\mathcal{O}$ be a [[dedekind domain]], $k$ its field of fractions and $K/k$ a finite separable [[Field extension|extension]]. Let $\mathcal{O}_K$ be the integral closure.
+Let $\mathcal{O}$ be a [dedekind domain](ntpy/Definitions/Algebraic Number Theory/dedekind domain.md), $k$ its field of fractions and $K/k$ a finite separable [extension](ntpy/Definitions/Algebraic Number Theory/Field Theory/Field extension.md). Let $\mathcal{O}_K$ be the integral closure.
 
 The prime ideal $\mathfrak{B}\subset\mathcal{O}_K$ lies over the prime ideal $\mathfrak{p}\subset\mathcal{O}$, denoted as $\mathfrak{B}\mid\mathfrak{p}$, iff $$\mathfrak{B}\cap\mathcal{O}=\mathfrak{p}.$$
 
-([[extensions of p-adic absolute values]])
+([extensions of p-adic absolute values](ntpy/extensions of p-adic absolute values.md))
 
 # Properties
 1. The zero ideal is prime if and only if $A$ is an integral domain.

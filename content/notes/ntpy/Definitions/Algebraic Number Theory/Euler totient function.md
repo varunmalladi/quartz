@@ -10,7 +10,7 @@ $$
 or the number of integers $\leq n$ that are relatively prime to $n$.
 
 ## Totient Number
-A **totient number** is a positive integer $m$ that is in the image of the [[Euler totient function]], i.e. there exists $n$ such that there $\phi(n)=m$.
+A **totient number** is a positive integer $m$ that is in the image of the [Euler totient function](ntpy/Definitions/Algebraic Number Theory/Euler totient function.md), i.e. there exists $n$ such that there $\phi(n)=m$.
 
 A **nontotient** is a positive integer that is not a totient number.
 

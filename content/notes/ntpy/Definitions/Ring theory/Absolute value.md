@@ -42,7 +42,7 @@ $$
 \sum_{i=1}^\infty x_i,\quad x_i\in K
 $$
 converges if and only if $\lim_{i\to\infty}x_i=0$.
-3. Let $K/k$ be a finite [[Field extension|field extension]], with  absolute value $\|\cdot\|$ whose restriction to $k$ gives $k$ the structure of a complete metric space. Then the topology of the metric space $K$ coincides with the topology of $k^n$, i.e. the absolute value is entirely defined by its restriction to $k$.
+3. Let $K/k$ be a finite [field extension](ntpy/Definitions/Algebraic Number Theory/Field Theory/Field extension.md), with  absolute value $\|\cdot\|$ whose restriction to $k$ gives $k$ the structure of a complete metric space. Then the topology of the metric space $K$ coincides with the topology of $k^n$, i.e. the absolute value is entirely defined by its restriction to $k$.
 
 ### Examples
 - The trivial absolute value has $\|0\|=0$ and $\|x\|=1$ otherwise.

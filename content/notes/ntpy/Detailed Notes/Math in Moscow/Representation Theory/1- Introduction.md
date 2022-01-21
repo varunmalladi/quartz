@@ -27,4 +27,4 @@ We can construct the representation $S\to GL(U)$ setting $S(g)$ to be the restri
 
 **Definition.** Assume $T:G\to GL(V)$ is a representation. $T$ is called completely reducible if for any invariant subspace $U$ there exists another invariant subspace $W$ such that $V=U\oplus W$.
 
-It is an [[Is every gp representation completely reducible?|open question]] whether every representation is completely reducible, but the situation has been proven in the affirmative in the [[Reducibility of finite dimensional representations|finite dimensional]] case.
+It is an [open question](ntpy/Questions/Is every gp representation completely reducible?.md) whether every representation is completely reducible, but the situation has been proven in the affirmative in the [finite dimensional](ntpy/Key Ideas/Representation theory/Reducibility of finite dimensional representations.md) case.

@@ -3,7 +3,7 @@ title: "To What Extent does the Euler function determine n?"
 ---
 
 # Totient numbers
-For a definition, see [[Euler totient function]].
+For a definition, see [Euler totient function](ntpy/Definitions/Algebraic Number Theory/Euler totient function.md).
 
 A theorem of Ford states that for every $k\geq 2$ there exists a totient number of multiplicity $k$. 
 

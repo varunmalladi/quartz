@@ -20,7 +20,7 @@ Let $M$ be an $A$-module.
 ### Properties
 
 1. If $A$ is Noetherian and $I\subset A$ is some ideal, then $A/I$ is Noetherian.
-2. **[[Hilbert basis theorem|Hilber basis theorem.]].** If $A$ is a Noetherian ring, then so is $A[x]$.
+2. **[Hilber basis theorem.](ntpy/Theorems/Ring Theory/Hilbert basis theorem.md).** If $A$ is a Noetherian ring, then so is $A[x]$.
 3. If $A$ is a Noetherian ring then $A^n$ is a Noetherian module.
 4. Lemma
 	1. Submodule of a Noetherian module is Noetherian
@@ -31,10 +31,10 @@ Let $M$ be an $A$-module.
 6. Nilradical is nilpotent (since it is f.g.)
 
 ### Examples
-- Any [[Principal ideal domain|PID]] 
+- Any [PID](ntpy/Definitions/Ring theory/Principal ideal domain.md) 
 - Any field $K$
 - For a Noetherian ring $A$, $A[x]$ is a Noetherian ring
 
 # Dimension
-- dimension 0: [[Artinian ring]]
-- dimension 1: includes [[dedekind domain]]
+- dimension 0: [Artinian ring](ntpy/Definitions/Ring theory/Artinian ring.md)
+- dimension 1: includes [dedekind domain](ntpy/Definitions/Algebraic Number Theory/dedekind domain.md)

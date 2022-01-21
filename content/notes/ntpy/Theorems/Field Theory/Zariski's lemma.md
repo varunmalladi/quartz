@@ -2,4 +2,4 @@
 title: "Zariski's lemma"
 ---
 
-**Theorem.** Let $K\subset L$ be a [[Field extension|field extension]]. Suppose $L$ is a finitely generated $K$ [[Algebra (over a field)|algebra]]. Then $L$ is a finite field extension.
+**Theorem.** Let $K\subset L$ be a [field extension](ntpy/Definitions/Algebraic Number Theory/Field Theory/Field extension.md). Suppose $L$ is a finitely generated $K$ [algebra](ntpy/Definitions/Ring theory/Algebra (over a field).md). Then $L$ is a finite field extension.

@@ -3,13 +3,13 @@ title: "Galois descent"
 ---
 
 # Idea
-The oppose of ascent, see [[base change, ascent]]. 
+The oppose of ascent, see [base change, ascent](ntpy/Key Ideas/base change, ascent.md). 
 
 For vector spaces, it asks: given a field extension $L/K$ and a nonzero $L$-vector space $V$, how can we construct a $K$-vector space $W$ such that the $K$-basis of $W$ naturally extends to a $K$-basis (e.g. if $\{e_i\}$ is the $K$-basis, an example of a natural extension would be if $\{1\otimes e_i\}$ was an $L$-basis).
 
 # Vector spaces
 Let $K/F$ be a Galois extension, $G=\text{Gal}(K/F)$. Let $V$ be an $F$-vector space.
-- $V\otimes_F K$ is a $K$-vector space via $\alpha(v\otimes\beta)=v\otimes \alpha\beta$. (see [[base change, ascent]]). 
+- $V\otimes_F K$ is a $K$-vector space via $\alpha(v\otimes\beta)=v\otimes \alpha\beta$. (see [base change, ascent](ntpy/Key Ideas/base change, ascent.md)). 
 - $G$ acts on $V\otimes_F K$ via $$\sigma(v\otimes\alpha)=v\otimes \sigma(\alpha).$$ 
 Let $W$ be a $K$-vector space. 
 - An action of $G$ on $W$ is $K/F$-semilinear, i.e. for $\alpha\in K/F$, $$\sigma(\alpha\omega)=\sigma(\alpha)\sigma(\omega).$$

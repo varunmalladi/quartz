@@ -10,6 +10,6 @@ Let $B\in\text{Top}$, and $x\in B$.
 - $E_x=p^{-1}(x)$ is called the *stalk* of $p$ over $x$.
 
 # Relation to sheaves
-Consider an arbitrary map $p:E\to B$. Recall (from [[sheaf]]) the sheaf of sections of $p$, denoted $$\Gamma_p(E/B).$$
+Consider an arbitrary map $p:E\to B$. Recall (from [sheaf](ntpy/sheaf.md)) the sheaf of sections of $p$, denoted $$\Gamma_p(E/B).$$
 1. If $p$ is etale, then the images of local sections form a base for the topology of the total space $E$.
 2. If $p$ is etale, then the sheaf of sections

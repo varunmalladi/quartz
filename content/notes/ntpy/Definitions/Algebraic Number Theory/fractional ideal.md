@@ -3,7 +3,7 @@ title: "fractional ideal"
 ---
 
 # Definition
-Let $\mathcal{O}$ be an [[Integral domain|integral domain]], $k$ its field of fractions.
+Let $\mathcal{O}$ be an [integral domain](ntpy/Definitions/Ring theory/Integral domain.md), $k$ its field of fractions.
 
 An $\mathcal{O}$-submodule $I\subset k$ is called a fractional ideal iff $I\neq \{0\}$ and $I^{-1}\neq 0$.
 

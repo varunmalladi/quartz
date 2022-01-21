@@ -3,12 +3,12 @@ title: "scheme"
 ---
 
 # Idea
-According to [[Nullstellensatz]], there is a one-to-one correspondence...
+According to [Nullstellensatz](ntpy/Theorems/Ring Theory/Nullstellensatz.md), there is a one-to-one correspondence...
 
 ... generalize varieties so that on the left we may take arbitrary commutative rings.
 
 # Definition
-Let $R$ be a commutative ring, and $X$ a locally [[ringed space]].
+Let $R$ be a commutative ring, and $X$ a locally [ringed space](ntpy/ringed space.md).
 - $X$ is an *affine scheme* if it isomorphic to $\text{Spec}(R)$ (for some $R$).
 - $X$ is a *scheme* if it admits a covering $\{U_i\}$ such that each $U_i$ is an affine scheme.
 
