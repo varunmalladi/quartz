@@ -17,7 +17,7 @@ Define inductively
 Then 
 - The $\mathbb{C}$-algebra of *$\mathbb{C}$-linear differential operators on $A$* is given by $$D(A)=\bigcup_m D(m).$$ 
 # Examples
-**1** ([ring of differential operators on convergent power series](notes/ntpy/ring of differential operators on convergent power series.md))
+**1** ([ring of differential operators on convergent power series](<notes/ntpy/ring of differential operators on convergent power series.md>))
 
 # Properties
 1. $D(m)D(k)\subset D(m+k)$ and $D(m)\subset D(m+1)$.

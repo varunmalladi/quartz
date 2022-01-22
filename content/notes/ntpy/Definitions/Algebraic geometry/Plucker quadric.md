@@ -4,7 +4,7 @@ title: "Plucker quadric"
 
 # Idea
 
-(include from [Grassmanian](notes/ntpy/Definitions/Algebraic geometry/Grassmanian.md))
+(include from [Grassmanian](<notes/ntpy/Definitions/Algebraic geometry/Grassmanian.md>))
 
 A *net* in $Q$ is a linear embedding $\mathbb{P}^2\subset\mathbb{P}^5$ such that $$\mathbb{P}^2\subset Q\subset\mathbb{P}^5.$$
 

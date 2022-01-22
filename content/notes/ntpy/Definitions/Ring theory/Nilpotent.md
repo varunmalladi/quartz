@@ -8,7 +8,7 @@ Let $A$ be a ring.
 
 **Definition.** The elements of a ring form an ideal $Nil(A)$ called the _nilradical_. 
 
-See [Radical](notes/ntpy/Definitions/Ring theory/Radical.md) for more information.
+See [Radical](<notes/ntpy/Definitions/Ring theory/Radical.md>) for more information.
 
 ### Properties
 1. A nilpotent element is a zero divisor, but the converse is not true in general.

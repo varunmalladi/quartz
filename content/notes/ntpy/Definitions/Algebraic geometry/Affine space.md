@@ -12,5 +12,5 @@ $$
 Notice that the above differs from an $n$-dimensional $K$-vector space in that it does not say anything about the vector space structure.
 
 ## Subsets
-1. [Algebraic subset](notes/ntpy/Definitions/Algebraic geometry/Algebraic subset.md), [Affine variety](notes/ntpy/Definitions/Algebraic geometry/Affine variety.md)
+1. [Algebraic subset](<notes/ntpy/Definitions/Algebraic geometry/Algebraic subset.md>), [Affine variety](<notes/ntpy/Definitions/Algebraic geometry/Affine variety.md>)
 2. For any subset $Y\subseteq\mathbb{A}^n$, we can define the ideal of $Y$ in $A$ by $$I(Y)=\{f\in A\mid f(P)=0\text{ for all }P\in Y\}.$$ This is spiritually a converse construction to (1). This does not, however, imply that every subset is an algebraic subset. The $I(Y)$ may have more zeros than just the elements of $Y$, for example.

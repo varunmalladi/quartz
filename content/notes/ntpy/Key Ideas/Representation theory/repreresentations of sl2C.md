@@ -23,14 +23,14 @@ It satisfies the following properties: $$[H,X]=2X,\quad [H,Y]=-2Y,\quad [X,Y]=H.
 As mentioned before, the choice of $H$ as a basis is sensible enough in our aim to decompose the vector space into eigenspaces. We will address why $X$ and $Y$ are sensible choices in retrospect.
 
 ## A decomposition
-Let $V$ be an irreducible finite-dimensional [representation](notes/ntpy/Key Ideas/Representation theory/repreresentations of sl2C.md). We will use the following fact: $\mathfrak{sl}_2(\mathbb{C})$ is a semisimple [lie algebra](notes/ntpy/Definitions/Representation Theory/lie algebra.md). In [jordan decomposition](notes/ntpy/jordan decomposition.md), we discuss that the Jordan decomposition is preserved under a representation in this case, in our case implying that
+Let $V$ be an irreducible finite-dimensional [representation](<notes/ntpy/Key Ideas/Representation theory/repreresentations of sl2C.md>). We will use the following fact: $\mathfrak{sl}_2(\mathbb{C})$ is a semisimple [lie algebra](<notes/ntpy/Definitions/Representation Theory/lie algebra.md>). In [jordan decomposition](<notes/ntpy/jordan decomposition.md>), we discuss that the Jordan decomposition is preserved under a representation in this case, in our case implying that
 - The action of $H$ on $V$ is diagonalizable
 
 (This is because $H$ is diagonalizable, and we have just referenced the fact that this is a property preserved under a representation)
 
 This allows us to decompose $V$ into the direct sum of eigenspaces: $$V=\bigoplus V_\alpha.$$ Specifically, for $v\in V_\alpha$, $$H(v)=\alpha\cdot v.$$ In other words, $v\in V_\alpha$ means $v$ is an eigenvector with eigenvalue $\alpha$. (Diagonalizable implies that the sum of the dimensions of the eigenspaces is the dimension of the whole space, so that we may regard $V$ as a direct sum of eigenspaces of $H$).
 
-This is similar to how we decomposed the abelian [representations of s3](notes/ntpy/Key Ideas/Representation theory/representations of s3.md). In that case, the nonabelian part of $S_3$ simply permutated the summands above in which vectors were in. To do something analagous here, we need to ask how $X$ and $Y$ act on the summands. It turns out that they also just carry each summand to another, i.e. permutes the summands.
+This is similar to how we decomposed the abelian [representations of s3](<notes/ntpy/Key Ideas/Representation theory/representations of s3.md>). In that case, the nonabelian part of $S_3$ simply permutated the summands above in which vectors were in. To do something analagous here, we need to ask how $X$ and $Y$ act on the summands. It turns out that they also just carry each summand to another, i.e. permutes the summands.
 
 ## Actions of other basis elements on decomposition
 Let us consider how $X$ acts on $V_\alpha$. To do this, let us consider how $X$ acts on some $v\in V_\alpha$. This means we want to analyze $X(v)$ with respect to the decomposition above: $$\begin{gather} HX(v)-XH(v)=[H,X](v), \\ HX(v)=X(\alpha\cdot v)+2X(v) = (\alpha+2)\cdot X(v).\end{gather}$$
@@ -51,7 +51,7 @@ For we have assumed that $V$ is irreducible, and by our discussion above, the su
 We will denote the last element in the above string by $n$. That the string terminantes is because we are dealing with finite dimensional representations, hence the decomposition into eigenspaces is finite. We have the following picture now:
 
 <img align="center" src="https://i.upmath.me/svg/%5Cbegin%7Btikzcd%7D%0A%5Ccdots%20%5Carrow%5Br%2C%20%22X%22%2C%20bend%20left%3D49%5D%20%5Carrow%5B%22H%22'%2C%20loop%2C%20distance%3D2em%2C%20in%3D305%2C%20out%3D235%5D%20%26%20V_%7Bn-4%7D%20%5Carrow%5B%22H%22'%2C%20loop%2C%20distance%3D2em%2C%20in%3D305%2C%20out%3D235%5D%20%5Carrow%5Bl%2C%20%22Y%22%5D%20%5Carrow%5Br%2C%20%22X%22%2C%20bend%20left%3D49%5D%20%26%20V_%7Bn-2%7D%20%5Carrow%5B%22H%22'%2C%20loop%2C%20distance%3D2em%2C%20in%3D305%2C%20out%3D235%5D%20%5Carrow%5Bl%2C%20%22Y%22%5D%20%5Carrow%5Br%2C%20%22X%22%2C%20bend%20left%3D49%5D%20%26%20V_n%20%5Carrow%5B%22H%22'%2C%20loop%2C%20distance%3D2em%2C%20in%3D305%2C%20out%3D235%5D%20%5Carrow%5Bl%2C%20%22Y%22%5D%0A%5Cend%7Btikzcd%7D" alt="\begin{tikzcd}
-\cdots \arrowr, &quot;X&quot;, bend left=49[]() \arrow&quot;H&quot;', loop, distance=2em, in=305, out=235[]() &amp; V_{n-4} \arrow&quot;H&quot;', loop, distance=2em, in=305, out=235[]() \arrowl, &quot;Y&quot;[]() \arrowr, &quot;X&quot;, bend left=49[]() &amp; V_{n-2} \arrow&quot;H&quot;', loop, distance=2em, in=305, out=235[]() \arrowl, &quot;Y&quot;[]() \arrowr, &quot;X&quot;, bend left=49[]() &amp; V_n \arrow&quot;H&quot;', loop, distance=2em, in=305, out=235[]() \arrowl, &quot;Y&quot;[]()
+\cdots \arrowr, &quot;X&quot;, bend left=49[](<>) \arrow&quot;H&quot;', loop, distance=2em, in=305, out=235[](<>) &amp; V_{n-4} \arrow&quot;H&quot;', loop, distance=2em, in=305, out=235[](<>) \arrowl, &quot;Y&quot;[](<>) \arrowr, &quot;X&quot;, bend left=49[](<>) &amp; V_{n-2} \arrow&quot;H&quot;', loop, distance=2em, in=305, out=235[](<>) \arrowl, &quot;Y&quot;[](<>) \arrowr, &quot;X&quot;, bend left=49[](<>) &amp; V_n \arrow&quot;H&quot;', loop, distance=2em, in=305, out=235[](<>) \arrowl, &quot;Y&quot;[](<>)
 \end{tikzcd}" />
 $$ $$ $$ $$ $$ $$
 ## 2nd characterization: a basis for $V$
@@ -66,7 +66,7 @@ Let $W=\text{span}\{v, Y(v), Y^2(V),\dots\}$. ISTS $W$ is invariant, for by assu
 We will check each vector in turn, inductively. For $v$, we have $X(v)=0\in V$. For $Y(v)$, observe that
 $$
 \begin{align}
-X(Y(v))=&X,Y[]()(v)+Y(X(v)) \\
+X(Y(v))=&X,Y[](<>)(v)+Y(X(v)) \\
 =& H(v)+Y(0)\\
 =& nv.
 \end{align}
@@ -74,7 +74,7 @@ $$
  Now we will check $Y^2(V)$:
  $$
  \begin{align}
-X(Y^2(v))=& X,Y[]()(Y(v))+Y(X(Y(v)))\\
+X(Y^2(v))=& X,Y[](<>)(Y(v))+Y(X(Y(v)))\\
 =& H(Y(v))+Y(nv) \\
 =& (n-2)\cdot Y(V)+n\cdot Y(v).
  \end{align}

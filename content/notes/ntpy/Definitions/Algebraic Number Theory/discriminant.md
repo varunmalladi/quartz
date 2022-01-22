@@ -4,9 +4,9 @@ title: "discriminant"
 
 # Dedekind domains
 
-Let $\mathcal{O}$ be a [dedekind domain](notes/ntpy/Definitions/Algebraic Number Theory/dedekind domain.md) and $k$ its field of fractions, $K$ a finite separable [extension](notes/ntpy/Definitions/Algebraic Number Theory/Field Theory/Field extension.md). Suppose $N$ is an $\mathcal{O}$-[lattice](notes/ntpy/Definitions/Algebraic Number Theory/Lattice.md) in $K$. 
+Let $\mathcal{O}$ be a [dedekind domain](<notes/ntpy/Definitions/Algebraic Number Theory/dedekind domain.md>) and $k$ its field of fractions, $K$ a finite separable [extension](<notes/ntpy/Definitions/Algebraic Number Theory/Field Theory/Field extension.md>). Suppose $N$ is an $\mathcal{O}$-[lattice](<notes/ntpy/Definitions/Algebraic Number Theory/Lattice.md>) in $K$. 
 
-The discriminant of $N$ is the $\mathcal{O}$-[fractional ideal](notes/ntpy/Definitions/Algebraic Number Theory/fractional ideal.md) in $k$ $$\mathfrak{d}_\mathcal{O}(N)\coloneqq (D_\mathcal{O}(N):N)_\mathcal{O}$$ We may just write $\mathfrak{d}_{K/k}$ for $\mathfrak{d}_\mathcal{O}(\mathcal{O}_K)$. The latter is an ideal in $\mathcal{O}$.
+The discriminant of $N$ is the $\mathcal{O}$-[fractional ideal](<notes/ntpy/Definitions/Algebraic Number Theory/fractional ideal.md>) in $k$ $$\mathfrak{d}_\mathcal{O}(N)\coloneqq (D_\mathcal{O}(N):N)_\mathcal{O}$$ We may just write $\mathfrak{d}_{K/k}$ for $\mathfrak{d}_\mathcal{O}(\mathcal{O}_K)$. The latter is an ideal in $\mathcal{O}$.
 
 ## Properties
 Suppose $N,M\subset K$ are $\mathcal{O}$-lattices. Then

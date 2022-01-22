@@ -23,10 +23,10 @@ For example, for any element $g\in G$ there is an endomorphism $m_g:G\to G$ whic
 <img align="center" src="https://i.upmath.me/svg/%5Cbegin%7Btikzcd%7D%0A%09G%20%26%20H%20%5C%5C%0A%09G%20%26%20H%0A%09%5Carrow%5B%22%7Bm_g%7D%22'%2C%20from%3D1-1%2C%20to%3D2-1%5D%0A%09%5Carrow%5B%22%5Crho%22'%2C%20from%3D2-1%2C%20to%3D2-2%5D%0A%09%5Carrow%5B%22%5Crho%22%2C%20from%3D1-1%2C%20to%3D1-2%5D%0A%09%5Carrow%5B%22%7Bm_%7B%5Crho(g)%7D%7D%22%2C%20from%3D1-2%2C%20to%3D2-2%5D%0A%5Cend%7Btikzcd%7D" alt="\begin{tikzcd}
 	G &amp; H \\
 	G &amp; H
-	\arrow&quot;{m_g}&quot;', from=1-1, to=2-1[]()
-	\arrow&quot;\rho&quot;', from=2-1, to=2-2[]()
-	\arrow&quot;\rho&quot;, from=1-1, to=1-2[]()
-	\arrow&quot;{m_{\rho(g)}}&quot;, from=1-2, to=2-2[]()
+	\arrow&quot;{m_g}&quot;', from=1-1, to=2-1[](<>)
+	\arrow&quot;\rho&quot;', from=2-1, to=2-2[](<>)
+	\arrow&quot;\rho&quot;, from=1-1, to=1-2[](<>)
+	\arrow&quot;{m_{\rho(g)}}&quot;, from=1-2, to=2-2[](<>)
 \end{tikzcd}" />
 
 (start with $h$ in the top left, and commutativity relations give the formula above). If this diagram commutes for all $g$ then we have a homomorphism, so we can think of $\rho$ as being a homomorphism iff it preserves the structure maps $\{m_g\}_{g\in G}$.
@@ -39,10 +39,10 @@ A map is a group homomorphism implies that it preserves conjugation for all elem
 <img align="center" src="https://i.upmath.me/svg/%5Cbegin%7Btikzcd%7D%0A%09G%20%26%20H%20%5C%5C%0A%09G%20%26%20H%0A%09%5Carrow%5B%22%7B%5CPsi_g%7D%22'%2C%20from%3D1-1%2C%20to%3D2-1%5D%0A%09%5Carrow%5B%22%5Crho%22'%2C%20from%3D2-1%2C%20to%3D2-2%5D%0A%09%5Carrow%5B%22%5Crho%22%2C%20from%3D1-1%2C%20to%3D1-2%5D%0A%09%5Carrow%5B%22%7B%5CPsi_%7B%5Crho(g)%7D%7D%22%2C%20from%3D1-2%2C%20to%3D2-2%5D%0A%5Cend%7Btikzcd%7D" alt="\begin{tikzcd}
 	G &amp; H \\
 	G &amp; H
-	\arrow&quot;{\Psi_g}&quot;', from=1-1, to=2-1[]()
-	\arrow&quot;\rho&quot;', from=2-1, to=2-2[]()
-	\arrow&quot;\rho&quot;, from=1-1, to=1-2[]()
-	\arrow&quot;{\Psi_{\rho(g)}}&quot;, from=1-2, to=2-2[]()
+	\arrow&quot;{\Psi_g}&quot;', from=1-1, to=2-1[](<>)
+	\arrow&quot;\rho&quot;', from=2-1, to=2-2[](<>)
+	\arrow&quot;\rho&quot;, from=1-1, to=1-2[](<>)
+	\arrow&quot;{\Psi_{\rho(g)}}&quot;, from=1-2, to=2-2[](<>)
 \end{tikzcd}" />
 
 What's more, conjugation is an automorphism, so there is an associated map $$\Psi:G\to \text{Aut}(G).$$ At this point, we recall the following fact: $T_e\text{Aut}(T_eG)\cong\text{End}(T_eG)$. So we want to lift $\Psi$ to $T_eG$, but we cant just take the differential, as then we would have a map $T_eG\to T_e\text{Aut}(G)$. Our fact above suggests that we first want to lift $\text{Aut}(G)$ to $\text{Aut}(T_eG)$. We can do this just be taking the differential of the maps in $\text{Aut}(G)$, which amounts to associating a map $$\begin{gather} \text{Ad}:G\to \text{Aut}(T_eG) \\ g\mapsto (d\Psi_g)_e\end{gather}$$ which is actually a representation since $T_eG$ can be regarded as a vector space. This is called the adjoint representation of $G$.
@@ -52,10 +52,10 @@ It follows from the fact that $T_e(-)$ is a functor that the following diagram c
 <img align="center" src="https://i.upmath.me/svg/%5Cbegin%7Btikzcd%7D%0A%09%7BT_eG%7D%20%26%20%7BT_eH%7D%20%5C%5C%0A%09%7BT_eG%7D%20%26%20%7BT_eH%7D%0A%09%5Carrow%5B%22%7B%5Ctext%7BAd%7D(g)%7D%22'%2C%20from%3D1-1%2C%20to%3D2-1%5D%0A%09%5Carrow%5B%22%7B(d%5Crho)_e%7D%22'%2C%20from%3D2-1%2C%20to%3D2-2%5D%0A%09%5Carrow%5B%22%7B(d%5Crho)_e%7D%22%2C%20from%3D1-1%2C%20to%3D1-2%5D%0A%09%5Carrow%5B%22%7B%5Ctext%7BAd%7D(%5Crho(g))%7D%22%2C%20from%3D1-2%2C%20to%3D2-2%5D%0A%5Cend%7Btikzcd%7D" alt="\begin{tikzcd}
 	{T_eG} &amp; {T_eH} \\
 	{T_eG} &amp; {T_eH}
-	\arrow&quot;{\text{Ad}(g)}&quot;', from=1-1, to=2-1[]()
-	\arrow&quot;{(d\rho)_e}&quot;', from=2-1, to=2-2[]()
-	\arrow&quot;{(d\rho)_e}&quot;, from=1-1, to=1-2[]()
-	\arrow&quot;{\text{Ad}(\rho(g))}&quot;, from=1-2, to=2-2[]()
+	\arrow&quot;{\text{Ad}(g)}&quot;', from=1-1, to=2-1[](<>)
+	\arrow&quot;{(d\rho)_e}&quot;', from=2-1, to=2-2[](<>)
+	\arrow&quot;{(d\rho)_e}&quot;, from=1-1, to=1-2[](<>)
+	\arrow&quot;{\text{Ad}(\rho(g))}&quot;, from=1-2, to=2-2[](<>)
 \end{tikzcd}" />
 
 By our fact above, we can now easily cast $\text{Ad}:G\to \text{Aut}(T_eG)$ as a structure map purely in terms of the $T_eG$ by taking the differential: $$\text{ad}:T_eG\to \text{End}(T_eG).$$ By the tensor hom adjunction, $\text{ad}$ is equivalent to a linear map $T_eG\otimes T_eG\to T_eG$, which is nothing but a bilinear map $$T_eG\times T_eG\to T_eG.$$ Again, because $\rho$ preserved $\text{Ad}$ it must also preserve its differential $\text{ad}$, hence it preserves the bilinear map above. For $X,Y\in T_eG$, we write $$[X,Y]\coloneqq\text{ad}(X)(Y)$$ and this is the Lie bracket. Thus the following square commutes:
@@ -63,10 +63,10 @@ By our fact above, we can now easily cast $\text{Ad}:G\to \text{Aut}(T_eG)$ as a
 <img align="center" src="https://i.upmath.me/svg/%5Cbegin%7Btikzcd%7D%0A%09%7BT_eG%7D%20%26%20%7BT_eH%7D%20%5C%5C%0A%09%7BT_eG%7D%20%26%20%7BT_eH%7D%0A%09%5Carrow%5B%22%7B%5Ctext%7Bad%7D(v)%7D%22'%2C%20from%3D1-1%2C%20to%3D2-1%5D%0A%09%5Carrow%5B%22%7B(d%5Crho)_e%7D%22'%2C%20from%3D2-1%2C%20to%3D2-2%5D%0A%09%5Carrow%5B%22%7B(d%5Crho)_e%7D%22%2C%20from%3D1-1%2C%20to%3D1-2%5D%0A%09%5Carrow%5B%22%7B%5Ctext%7Bad%7D(d%5Crho(v))%7D%22%2C%20from%3D1-2%2C%20to%3D2-2%5D%0A%5Cend%7Btikzcd%7D" alt="\begin{tikzcd}
 	{T_eG} &amp; {T_eH} \\
 	{T_eG} &amp; {T_eH}
-	\arrow&quot;{\text{ad}(v)}&quot;', from=1-1, to=2-1[]()
-	\arrow&quot;{(d\rho)_e}&quot;', from=2-1, to=2-2[]()
-	\arrow&quot;{(d\rho)_e}&quot;, from=1-1, to=1-2[]()
-	\arrow&quot;{\text{ad}(d\rho(v))}&quot;, from=1-2, to=2-2[]()
+	\arrow&quot;{\text{ad}(v)}&quot;', from=1-1, to=2-1[](<>)
+	\arrow&quot;{(d\rho)_e}&quot;', from=2-1, to=2-2[](<>)
+	\arrow&quot;{(d\rho)_e}&quot;, from=1-1, to=1-2[](<>)
+	\arrow&quot;{\text{ad}(d\rho(v))}&quot;, from=1-2, to=2-2[](<>)
 \end{tikzcd}" />
 
 The point:
@@ -83,12 +83,12 @@ Ultimately, our journey of lifting structure maps has been the following:
 	{\text{End}(T_eG)} \\
 	{\text{Aut}(T_eG)} &amp; {T_eG} \\
 	{\text{Aut}(G)} &amp; G
-	\arrow&quot;\Psi&quot;, from=3-2, to=3-1[]()
-	\arrowfrom=3-1, to=2-1[]()
-	\arrow&quot;{\text{Ad}}&quot;', dashed, from=3-2, to=2-1[]()
-	\arrowfrom=3-2, to=2-2[]()
-	\arrowfrom=2-1, to=1-1[]()
-	\arrow&quot;{\text{ad}}&quot;', dotted, from=2-2, to=1-1[]()
+	\arrow&quot;\Psi&quot;, from=3-2, to=3-1[](<>)
+	\arrowfrom=3-1, to=2-1[](<>)
+	\arrow&quot;{\text{Ad}}&quot;', dashed, from=3-2, to=2-1[](<>)
+	\arrowfrom=3-2, to=2-2[](<>)
+	\arrowfrom=2-1, to=1-1[](<>)
+	\arrow&quot;{\text{ad}}&quot;', dotted, from=2-2, to=1-1[](<>)
 \end{tikzcd}" />
 
 # Definition

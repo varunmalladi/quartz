@@ -3,7 +3,7 @@ title: "Localization of a ring"
 ---
 
 # Idea
-The localization of a ring $R$ at $U\subset R$ is a setting in which the elements of $U$ behave like [units](notes/ntpy/Definitions/Ring theory/Unit (ring).md), for example $r/u$ behaves like $ru^{-1}$.
+The localization of a ring $R$ at $U\subset R$ is a setting in which the elements of $U$ behave like [units](<notes/ntpy/Definitions/Ring theory/Unit (ring).md>), for example $r/u$ behaves like $ru^{-1}$.
 
 The term localization is used somewhat confusingly in two different context. If we take the general definition to be the "correct" one, then localization at a prime ideal actually means localization _away_ from the prime ideal in the general definition. That is, letting $U=R/p$ (and $M=U$).
 
@@ -35,9 +35,9 @@ for some $u\notin p$. It follows that $(R_p, pR_p)$ is a local ring-maximal idea
 ## Of localization
 1. The field of fractions contains all other localizations
 	- This is is due to the contravariant relationship between inclusions of prime ideals and inclusions of localizations: if $p\supset p_1$ then $R_p\subset R_{p_1}$.
-2. The localization of a commutative ring at a prime ideal is a [local ring](notes/ntpy/Definitions/Ring theory/Local ring.md).
+2. The localization of a commutative ring at a prime ideal is a [local ring](<notes/ntpy/Definitions/Ring theory/Local ring.md>).
 3. Localization is functorial
-4. Localization is an [exact functor](notes/ntpy/Definitions/Category theory/Exact functor.md), in the sense that it preserves exact sequences.
+4. Localization is an [exact functor](<notes/ntpy/Definitions/Category theory/Exact functor.md>), in the sense that it preserves exact sequences.
 5. The prime ideals of $S^{-1}(A)$ are in one-to-one correspondence $(\mathfrak{p}\mapsto S^{-1}\mathfrak{p})$ with the prime ideals of $A$ which don't meet $S$.
 	1. If $\mathfrak{p}$ is a prime ideal of $A$, the prime ideals of the local ring $A_\mathfrak{p}$ are in one-to-one correspondence with the prime ideals of $A$ contained in $\mathfrak{p}$.
 6. $\mathfrak{p}^e = S^{-1}\mathfrak{p}$
@@ -72,7 +72,7 @@ is an exact sequence. Since $g\circ f=0$ and localization is functorial, we have
 
 The converse is not true without additional assumptions. For example, what we have just proven is that if the original sequence is exact then the localized sequence is exact for arbitrary $S$. But it could be the case that the localized sequence at one $S$ is exact while the localized sequence at another $S'$ is not exact. Then it cannot be the case that the original sequence was exact.
 #### 5
-Let $\mathfrak{q}$ be prime ideal in $S^{-1}A$. Then $\mathfrak{q}^c$ is a prime ideal in $A$ by the properties of [contraction](notes/ntpy/Definitions/Ring theory/Extension and contraction of a ring.md). 
+Let $\mathfrak{q}$ be prime ideal in $S^{-1}A$. Then $\mathfrak{q}^c$ is a prime ideal in $A$ by the properties of [contraction](<notes/ntpy/Definitions/Ring theory/Extension and contraction of a ring.md>). 
 
 Conversely, let $\mathfrak{p}$ be a prime ideal in $A$. Then $A/\mathfrak{p}$ is an integral domain. Let $\bar{S}$ be the image of $S$ under the natural quotient map $A\to A/\mathfrak{p}$. Then $S^{-1}A/S^{-1}\mathfrak{p}\cong \bar{S}^{-1}(A/\mathfrak{p})$. By (1) this is a subring of the field of fractions, hence in particular either 0 or an integral domain. In the latter case, this implies $S^{-1}\mathfrak{p}$ is a prime ideal in $S^{-1}A$. In the former case, this implies $S^{-1}\mathfrak{p}=S^{-1}A$. But then (Extended..., Property 1)  implies that $(S^{-1}\mathfrak{p})^{ce}=S^{-1}A$. This only happens when $s\in (S^{-1}\mathfrak{p})^c$ for some $s\in S$. Hence $\mathfrak{p}$ contains elements of $S$, which contradicts our assumptions.
 ## Local properties

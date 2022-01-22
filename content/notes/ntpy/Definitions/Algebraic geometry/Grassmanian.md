@@ -8,15 +8,15 @@ $$Gr(k,n)=Gr(k,V)=\{W\subset V\mid \text{dim }W=k\}$$
 
 As we will see in the examples, in certain cases the Grassmanian can be endowed with the structure of projective space. We might ask in which cases we have the structure of a manifold. It turns out that we can always do this.
 
-The Plucker embedding is the canonical injection $$\begin{gather}p:Gr(k,V)\hookrightarrow\mathbb{P}(\Lambda^kV)\\ W\mapsto [u_1\wedge\cdots u_k]\end{gather}.$$ One can show that the image of this map is an [algebraic variety](notes/ntpy/Definitions/Algebraic geometry/Algebraic subset.md).
+The Plucker embedding is the canonical injection $$\begin{gather}p:Gr(k,V)\hookrightarrow\mathbb{P}(\Lambda^kV)\\ W\mapsto [u_1\wedge\cdots u_k]\end{gather}.$$ One can show that the image of this map is an [algebraic variety](<notes/ntpy/Definitions/Algebraic geometry/Algebraic subset.md>).
 
 # Examples
-1. ([Projective space](notes/ntpy/Definitions/Algebraic geometry/Projective space.md)) 
+1. ([Projective space](<notes/ntpy/Definitions/Algebraic geometry/Projective space.md>)) 
 	1. $Gr(1,n)=\mathbb{P}^{n-1}$.
 	2. $Gr(n-1,V)=Gr(1,V^\ast)=Gr(n-1,n)=\mathbb{P}^{n-1}$.
 2. ($k=2$, $n=4$)	
 	1. Consider $Gr(2,4)\subset\mathbb{P}(\bigwedge^2 V_4)=\mathbb{P}^5$
-	2. The [Plucker quadric](notes/ntpy/Definitions/Algebraic geometry/Plucker quadric.md) $Q\subset\mathbb{P}^5$ is the smooth [quadric](notes/ntpy/Definitions/Algebraic geometry/quadric.md) defined as $$Q=\{\omega\in\Lambda^2V\mid \omega\wedge\omega=0\}$$
+	2. The [Plucker quadric](<notes/ntpy/Definitions/Algebraic geometry/Plucker quadric.md>) $Q\subset\mathbb{P}^5$ is the smooth [quadric](<notes/ntpy/Definitions/Algebraic geometry/quadric.md>) defined as $$Q=\{\omega\in\Lambda^2V\mid \omega\wedge\omega=0\}$$
 3. Generalizing the above, there is an embedding $$Gr(k,n)\hookrightarrow\mathbb{P}(\Lambda^k V_n)=\mathbb{P}^{{n\choose k}-1}.$$
 
 # Properties

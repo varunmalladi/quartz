@@ -25,7 +25,7 @@ $$
 ## Categorical definition
 The unit object in the category $\text{Vect}_F$ is $F$ regarded as a vector space over itself. The dual object of an object $V$ in category theory is the internal hom $[V,K]$.
 ### Transpose map
-Recall from above that a map $f:V\to W$ induces a map $f^\ast:W^\ast\to V^\ast$. This extends to a contravariant functor from $\text{Vect}_F$ to its dual. In particular, this functor is the [representable functor](notes/ntpy/Definitions/Category theory/Representable functor.md) represented by $F$:
+Recall from above that a map $f:V\to W$ induces a map $f^\ast:W^\ast\to V^\ast$. This extends to a contravariant functor from $\text{Vect}_F$ to its dual. In particular, this functor is the [representable functor](<notes/ntpy/Definitions/Category theory/Representable functor.md>) represented by $F$:
 $$
 \text{Hom}(V\to W, F) \mapsto \text{Hom}(W,F)\to\text{Hom}(V,F).
 $$

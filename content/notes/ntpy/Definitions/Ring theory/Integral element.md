@@ -15,7 +15,7 @@ $$
 
 **Definition.** If there are no elements outside of $A$ then we say $A$ is _integrally closed_ in $R$. 
 
-**Definition.** An integral domain $A$ is called _integrally closed_ if it is integrally closed in its [field of fractions](notes/ntpy/Definitions/Ring theory/Local ring.md).
+**Definition.** An integral domain $A$ is called _integrally closed_ if it is integrally closed in its [field of fractions](<notes/ntpy/Definitions/Ring theory/Local ring.md>).
 
 ### Properties
 1. Any element in $A$ is integral over $A$

@@ -5,11 +5,11 @@ title: "Grothendieck coverage"
 # Idea
 An abstraction of the manner in which open sets cover a topological space.
 
-A category with a Grothendieck coverage is a [site](notes/ntpy/site.md).
+A category with a Grothendieck coverage is a [site](<notes/ntpy/site.md>).
 
 # Definition
 Let $C$ be a category.
-1. A *Grothendieck coverage* of $C$ assigns to each $c\in\text{Obj}(C)$ a collection of "covering" [sieve](notes/ntpy/Definitions/Category theory/sieve.md)s $J(c)$ such that 
+1. A *Grothendieck coverage* of $C$ assigns to each $c\in\text{Obj}(C)$ a collection of "covering" [sieve](<notes/ntpy/Definitions/Category theory/sieve.md>)s $J(c)$ such that 
 	1. (stability under base change) if $F\in J(c)$ and $g:d\to c$, then $$g^\ast F\in J(d).$$
 	2. (local character condition) let $S\in J(c)$ and $T$ any sieve on $c$. If for every $d\in\text{Obj}(C)$ and  $g:d\to c\in S$ we have that $g^\ast T\in J(d)$, then $T\in J(c)$.
 	3. (maximial sieve is a covering sieve) $\text{Obj}(C/c)\in J(c)$

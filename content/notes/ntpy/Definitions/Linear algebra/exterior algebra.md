@@ -3,7 +3,7 @@ title: "exterior algebra"
 ---
 
 # Idea
-This construction forms the [exterior powers](notes/ntpy/Definitions/Linear algebra/exterior powers.md) into a graded algebra.
+This construction forms the [exterior powers](<notes/ntpy/Definitions/Linear algebra/exterior powers.md>) into a graded algebra.
 
 # Definition
 The exterior algebra is defined as

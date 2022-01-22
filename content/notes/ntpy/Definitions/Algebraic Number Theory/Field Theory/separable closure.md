@@ -8,7 +8,7 @@ The separable closure of $F$, denoted $F^\text{sep}$, is the "biggest Galois ext
 2. $F^\text{sep}$ is a normal extension
 
 # Definition
-- A [Field extension](notes/ntpy/Definitions/Algebraic Number Theory/Field Theory/Field extension.md) $K/F$ is called *separably closed* if every (nonconstant) seperable polynomial in $F$ has a root in $K$.
+- A [Field extension](<notes/ntpy/Definitions/Algebraic Number Theory/Field Theory/Field extension.md>) $K/F$ is called *separably closed* if every (nonconstant) seperable polynomial in $F$ has a root in $K$.
 - $K/F$ is a *separable closure* if it is separably closed and separable.
 
 Equivalently, let us define an element to be separable over $F$ if its minimal polynomial is separable. Then
