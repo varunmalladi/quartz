@@ -6,9 +6,9 @@ see on one of the featured notes below, or use the interactive graph at the bott
 represented as dots).
 
 ## Featured
-- [Homotopy category, nerve, and decategorification](<notes/Key Ideas/Homotopy theory/homotopy category, nerve, and decategorification.md>)
-- [Representations of sl2C](<notes/Key Ideas/Representation theory/repreresentations of sl2C.md>)
-- [Product type](<notes/Definitions/Logic/Product type.md>)
+- [Homotopy category, nerve, and decategorification](<notes/ntpy/Key Ideas/Homotopy theory/homotopy category, nerve, and decategorification.md>)
+- [Representations of sl2C](<notes/ntpy/Key Ideas/Representation theory/repreresentations of sl2C.md>)
+- [Product type](<notes/ntpy/Definitions/Logic/Product type.md>)
 
 ## Bugs
 The Quartz platform I'm using doesn't currently support the type of links I use in Obsidian. I've written a program which I send my 
