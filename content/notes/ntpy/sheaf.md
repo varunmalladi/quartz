@@ -13,7 +13,7 @@ A *sheaf* $F$ is a presheaf such that
 2. (gluing) if for each $i\in I$ there is a section $s_i\in F(U_i)$ such that $s_i|_{U_i\cap U_j}=s_j|_{U_i\cap U_j}$ for all $i,j\in I$, then there exists a section $s\in F(U)$ such that $s|_{U_i}=s_i$ for each $i\in I$.
 
 **Definition 2 (abstract, componentwise)** 
-Let $(C,J)$ be a small [site](notes/ntpy/site.md) (with coverage $J$).
+Let $(C,J)$ be a small [site](<notes/ntpy/site.md>) (with coverage $J$).
 
 A *sheaf* $A$ is a presheaf such that
 - for every covering family $J(U)=\{p_i:U_i\to U\}_{i\in I}$
@@ -58,17 +58,17 @@ This is a sheaf because:
 - (locality) Suppose $\{U_i\}_{i\in I}$ is an open cover of $U$, and $s,t\in F(U)$ are such that $s|_{U_i}=t|_{U_i}$ for all $U_i$. This means the restrictions of the holomorphic $s,t$ to $U_i$ are all equal. So there value on every point in $U$ is identical, and so $s=t$.
 - (gluing) Suppose for each $i\in I$ there exists a section $s_i\in F(U_i)$ such that $s_i|_{U_i\cap U_j}=s_j|_{U_i\cap U_j}$ for all $i,j\in I$. We need to construct a holomorphic $s:U\to\mathbb{C}$ whose restriction to $U_i$ is $s_i$. To begin, for any $z\in U$ define $s(z)=s_i(z)$ where $z\in U_i$. If $z\in U_j$ with $i\neq j$, $z\in U_i\cap U_j$ so by assumption  $s_i(z)=s_j(z)$ and this is well-defined. 
 
-How might we interpret the [stalk]() $F_z$ for some $z\in X$? It is the set of all functions holomorphic at $z$ (meaning there exists some neighborhood of $z$ such that the function is differentiable at every point in that neighborhood). To see this, consider the definition $$F_z\coloneqq \lim_{\underset{z\in U}{\rightarrow}}F(U).$$
+How might we interpret the [stalk](<>) $F_z$ for some $z\in X$? It is the set of all functions holomorphic at $z$ (meaning there exists some neighborhood of $z$ such that the function is differentiable at every point in that neighborhood). To see this, consider the definition $$F_z\coloneqq \lim_{\underset{z\in U}{\rightarrow}}F(U).$$
 This is isomorphic to $$\left(\bigsqcup F(U)\right)/\sim$$
 where we identify elements that are eventually equal in the directed system. In our case, if $s\in F(U_i)$, $t\in F(U_j)$ become equal in some $F(V)$, firstly this means that $V\in U_i\cap U_j$. Why would we want to identify $s$ and $t$ just because they agree on this open subset? A key property of complex functions is that the behavior of the function locally (i.e. the germ) is enough to reconstruct the function on any connected open subset on which the function is everywhere defined (analytic continuation).
 
 - is every restriction $F(U)\to F(V)$ injective? No, we cannot assume $U$ is connected.
 
-See: [Holomorphic function](notes/ntpy/Definitions/Holomorphic function.md)
+See: [Holomorphic function](<notes/ntpy/Definitions/Holomorphic function.md>)
 
 **Regular functions on a variety**
 Given 
 
-[Regular map](notes/ntpy/Definitions/Algebraic geometry/Regular map.md)
+[Regular map](<notes/ntpy/Definitions/Algebraic geometry/Regular map.md>)
 
 

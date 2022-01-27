@@ -10,7 +10,7 @@ In algebraic number theory, rather than the orders of poles we are interested in
 # Defintions
 The following are equivalent characterizations of a DVR:
 1. A Noetherian integrally closed domain with exactly one nonzero prime ideal (with Krull dimension 1)
-2. A [PID](notes/ntpy/Definitions/Ring theory/Principal ideal domain.md) that is also [local](notes/ntpy/Definitions/Ring theory/Local ring.md)
+2. A [PID](<notes/ntpy/Definitions/Ring theory/Principal ideal domain.md>) that is also [local](<notes/ntpy/Definitions/Ring theory/Local ring.md>)
 3. A valuation ring with value group isomorphic to the integers under addition
 
 # Complete d.v.r.'s
@@ -23,7 +23,7 @@ Suppose
 - $\mathfrak{B}\subset\mathcal{O}_K$ a unique maximal ideal
 - $k_\mathfrak{p}$ and $K_\mathfrak{B}$ the residue fields, e.g. $k_\mathfrak{p}=k/\mathfrak{p}$.
 - $K_\mathfrak{B}/k_\mathfrak{p}$ a separable extension
-- $f=f(\mathfrak{B}/\mathfrak{p})$ and $e=e(\mathfrak{B}/\mathfrak{p})$ (see [residue class degree, ramification index](notes/ntpy/Definitions/Algebraic Number Theory/residue class degree, ramification index.md)).
+- $f=f(\mathfrak{B}/\mathfrak{p})$ and $e=e(\mathfrak{B}/\mathfrak{p})$ (see [residue class degree, ramification index](<notes/ntpy/Definitions/Algebraic Number Theory/residue class degree, ramification index.md>)).
 
 We will use the bar symbol to denote the residue of an element of $\mathcal{O}_K$ modulo $\mathfrak{B}$.
 
@@ -33,8 +33,8 @@ We will use the bar symbol to denote the residue of an element of $\mathcal{O}_K
 4. Suppose $x\in \mathcal{O}_K$.
 	1. $\overline{Tr_{K/k}(x)}=eTr_{k_\mathfrak{B}/k_\mathfrak{p}}(\overline{x})$.
 	2. $\overline{N_{K/k}(x)}=(N_{K_\mathfrak{B}/k_\mathfrak{p}}(\overline{x}))^e$
-5. $v_\mathfrak{B}(\mathfrak{D}_{K/k})\geq e-1$ (see [different](notes/ntpy/Definitions/Algebraic Number Theory/different.md))
+5. $v_\mathfrak{B}(\mathfrak{D}_{K/k})\geq e-1$ (see [different](<notes/ntpy/Definitions/Algebraic Number Theory/different.md>))
 
 # Related
-- [Valuation ring](notes/ntpy/Definitions/Ring theory/Valuation ring.md)
-- [Noetherian ring](notes/ntpy/Definitions/Ring theory/Noetherian ring.md)
+- [Valuation ring](<notes/ntpy/Definitions/Ring theory/Valuation ring.md>)
+- [Noetherian ring](<notes/ntpy/Definitions/Ring theory/Noetherian ring.md>)

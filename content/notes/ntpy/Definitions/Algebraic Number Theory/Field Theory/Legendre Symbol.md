@@ -11,7 +11,7 @@ Recall that if $a\neq 0$ then $\left(\frac{a}{p}\right)=\pm 1$.
 
 Define $\left(\frac{0}{p}\right)=0$.
 
-By this [thm.](notes/ntpy/Theorems/Field Theory/Field Characteristic and Squares.md), we see that the Legendre symbol is tracking the data for squares modulo $p$.
+By this [thm.](<notes/ntpy/Theorems/Field Theory/Field Characteristic and Squares.md>), we see that the Legendre symbol is tracking the data for squares modulo $p$.
 
 ## Results
 

@@ -3,7 +3,7 @@ title: "matrix rings"
 ---
 
 # Properties
-1. ([Skolem-Noether theorem](notes/ntpy/Skolem-Noether theorem.md)) All automorphisms of $M_n(K)$ are inner, i.e. given by $M\mapsto CMC^{-1}$ for some invertible $C$.
+1. ([Skolem-Noether theorem](<notes/ntpy/Skolem-Noether theorem.md>)) All automorphisms of $M_n(K)$ are inner, i.e. given by $M\mapsto CMC^{-1}$ for some invertible $C$.
 2. $\text{Aut}(M_n(K))\cong PGL_n(K)$.
 
 *Proofs*

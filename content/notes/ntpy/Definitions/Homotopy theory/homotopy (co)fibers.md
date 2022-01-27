@@ -3,7 +3,7 @@ title: "homotopy (co)fibers"
 ---
 
 # Idea
-It is a rich complexity in homotopy theory that [(co)limits do not respect homotopy equivalence](notes/ntpy/Key Ideas/Homotopy theory/(co)limits do not respect homotopy equivalence.md). Given a map $f:X\to Y$, we understand that fiber of $y\in Y$ is the set of $x\in X$ such that $f(x)=y$. The can be regarded as a limit, in particular the pullback
+It is a rich complexity in homotopy theory that [(co)limits do not respect homotopy equivalence](<notes/ntpy/Key Ideas/Homotopy theory/(co)limits do not respect homotopy equivalence.md>). Given a map $f:X\to Y$, we understand that fiber of $y\in Y$ is the set of $x\in X$ such that $f(x)=y$. The can be regarded as a limit, in particular the pullback
 $$
 \begin{array}
 z\text{fib}(f) & \to & X \\ 

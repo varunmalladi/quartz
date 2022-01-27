@@ -9,7 +9,7 @@ In type theory, we do the opposite, that is declare that to define $f$ it suffic
 
 Type theory takes a different approach. In sort of a Haskellian view of functions as "first-class citizens", it says that what really matters about the Cartesian product is how functions (out of it) are defined. Why should that matter as opposed to how elements are defined? Well the Cartesian product serves a very special purpose. It is the *left adjoint* of exponentiation, by which we mean the creation of functions.
 
-What does this mean, specifically? Recall that while we could have defined functions of multiple variables, this wasn't necessary. By [currying](notes/ntpy/Definitions/Logic/Type theory/Currying.md), a function that takes inputs from $A$ and $B$ to yield an element in $C$ can be thought of as a function $A\to (B\to C)$.
+What does this mean, specifically? Recall that while we could have defined functions of multiple variables, this wasn't necessary. By [currying](<notes/ntpy/Definitions/Logic/Type theory/Currying.md>), a function that takes inputs from $A$ and $B$ to yield an element in $C$ can be thought of as a function $A\to (B\to C)$.
 
 Did you catch that? We just said something that isn't well defined. We implied that "a function that takes inputs from $A$ and $B$ to yield an element in $C$" was a well-defined statement, but it isn't yet. The curried function $A\to B\to C$ by definition takes an input from $A$ and yields an element/function in $(B\to C)$; it doesn't take one element from $A$ and one element from $B$ and return an element in $C$.
 

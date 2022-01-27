@@ -60,7 +60,7 @@ The group of units $U$ completely describes the multiplicative qualities of $\ma
 
 ### Of integer p-adics
 1. $\mathbb{Z}_p$ carries a natural structure of a ring with identity.
-	- It is an [Integral domain](notes/ntpy/Definitions/Ring theory/Integral domain.md)
+	- It is an [Integral domain](<notes/ntpy/Definitions/Ring theory/Integral domain.md>)
 2. The map $\mathbb{Z}\to\mathbb{Z}_p$ is injective.
 3. Multiplication by $p$ (hence also $p^n$) is an isomorphism from $\mathbb{Z}_p$ to itself.
 4. Let $\epsilon_i$ be the projection $\mathbb{Z}_p\to\mathbb{Z}_{p^i}$ to the $i$th component. The following sequence is exact: $$0\longrightarrow\mathbb{Z}_p\overset{(-)\cdot p^i}{\longrightarrow}\mathbb{Z}_p\overset{\epsilon_i}{\longrightarrow}\mathbb{Z}/(p^i)\longrightarrow 0.$$ 
@@ -72,7 +72,7 @@ The group of units $U$ completely describes the multiplicative qualities of $\ma
 	- The $n$ above is equal to $v_p(z)$.
 	- We denote the group of invertible elements of $\mathbb{Z}_p$ by $U$.
 7. $\mathbb{Z}$ is dense in $\mathbb{Z}_p$.
-7. [Hensel's lemma](notes/ntpy/Theorems/Ring Theory/Hensel's lemma.md) a (simple!) root modulo $p$ can be lifted to a root modulo any higher power of $p$. By taking the limit, it follows that the root modulo $p$ can be lifted to a root over the $p$-adic integers.
+7. [Hensel's lemma](<notes/ntpy/Theorems/Ring Theory/Hensel's lemma.md>) a (simple!) root modulo $p$ can be lifted to a root modulo any higher power of $p$. By taking the limit, it follows that the root modulo $p$ can be lifted to a root over the $p$-adic integers.
 8. Suppose $\alpha\in\mathbb{Z}_p$ and $\alpha\equiv 1\mod p$. The function  \begin{gather} \exp_\alpha:\mathbb{Z}_p\to\mathbb{Z}_p \\ z=\alpha^z=\{{}_iz\in\mathbb{Z}/(p^i)\}\mapsto \lim_{i\to\infty}\{\alpha^{\tilde{{}_iz}}\} \end{gather} where $\tilde{{}_iz}\in\mathbb{Z}_{\geq 0}$ is equivalent to ${}_iz\mod p^i$ defines a group homomorphism from the additive group of $\mathbb{Z}_p$ to the subgroup $U_1$ of its group of units $U$.
 
 #### Proofs
@@ -125,4 +125,4 @@ $$
 
 
 # Related
-[Absolute value](notes/ntpy/Definitions/Ring theory/Absolute value.md)
+[Absolute value](<notes/ntpy/Definitions/Ring theory/Absolute value.md>)

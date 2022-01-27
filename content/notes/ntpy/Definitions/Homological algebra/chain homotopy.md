@@ -3,7 +3,7 @@ title: "chain homotopy"
 ---
 
 # Definition
-Let $f,g:C_\bullet\to D_\bullet$ be maps between [chain complex](notes/ntpy/Definitions/Homological algebra/chain complex.md)es. 
+Let $f,g:C_\bullet\to D_\bullet$ be maps between [chain complex](<notes/ntpy/Definitions/Homological algebra/chain complex.md>)es. 
 
 $f$ and $g$ are homotopic, denoted $f\simeq g$, if there exist maps $h_\bullet$ such that
 

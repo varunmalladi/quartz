@@ -3,9 +3,9 @@ title: "etale algebras"
 ---
 
 # Idea
-Dual to [etale space](notes/ntpy/etale space.md) of [scheme](notes/ntpy/scheme.md)s.
+Dual to [etale space](<notes/ntpy/etale space.md>) of [scheme](<notes/ntpy/scheme.md>)s.
 
-Stable under [base change, ascent](notes/ntpy/Key Ideas/base change, ascent.md).
+Stable under [base change, ascent](<notes/ntpy/Key Ideas/base change, ascent.md>).
 
 # Definition
 Let $F$ b a field.
@@ -29,7 +29,7 @@ Let $A$ be an etale $F$-algebra. Fix a seperable closure $F^s/F$.
 	3. $A\otimes_F F'$ is a split etale $F'$-algebra for some $F'/F$.
 6. Any $\phi\in\text{Mor}(\text{Et}_F)$ factors through a projection $K_i\to F^s$ for some $i$.
 	1. $\text{Et}_F(A,F^s)=\bigsqcup_i\text{Et}_F(K_i,F^s)$.
-	2. In [absolute galois group](notes/ntpy/Definitions/Algebraic Number Theory/Field Theory/absolute galois group.md) we discuss that $\text{Et}_F(A,F^s)$ is acted on by the absolute galois group $G_F$. We may interpret the decomposition in (6.1) as the orbit decomposition of this action: $G_F$ can send an embedding $A\to F^s$ to product of conjugates of its $K_i$...
+	2. In [absolute galois group](<notes/ntpy/Definitions/Algebraic Number Theory/Field Theory/absolute galois group.md>) we discuss that $\text{Et}_F(A,F^s)$ is acted on by the absolute galois group $G_F$. We may interpret the decomposition in (6.1) as the orbit decomposition of this action: $G_F$ can send an embedding $A\to F^s$ to product of conjugates of its $K_i$...
 	3. In particular, $\text{Et}_F(A,F^s)\in G_F\text{Set}$. (cf. 8)
 7. There is a functor \begin{gather}\text{Et}_F\to (G_F\text{Set})^{\text{op}}, \\ A\mapsto \text{Et}(A,F^s).\end{gather}
 8. Let $S$ be a finite $G_F$-set. Consider $F^s$ as a discrete $G_F$-set. Then $G_F\text{Set}(S,F^s)$ is an etale algebra of degree (i.e. $\text{dim}_FA$) $|S|$.
@@ -47,8 +47,8 @@ K\otimes_F F'\cong& F[X]/(f)\otimes_F F' \\
 \cong& \prod K_i'.
 \end{align}
 
-- the second line is [tensor product (commutative algebra)](notes/ntpy/tensor product (commutative algebra).md) in "Of algebras", properties 1 and 2
-- the third line is by the [Chinese Remainder Theorem](notes/ntpy/Theorems/Ring Theory/Chinese Remainder Theorem.md), namely letting $f=\prod_i f_i$ be the irreducible factorization over $F'$.
+- the second line is [tensor product (commutative algebra)](<notes/ntpy/tensor product (commutative algebra).md>) in "Of algebras", properties 1 and 2
+- the third line is by the [Chinese Remainder Theorem](<notes/ntpy/Theorems/Ring Theory/Chinese Remainder Theorem.md>), namely letting $f=\prod_i f_i$ be the irreducible factorization over $F'$.
 
 Now since $f$ is separable over $F$, $f$ remains separable over $F'\supset F$, and so each $f_i$ is separable over $F'$ so each $K_i'$ is finite separable. 
 
@@ -64,7 +64,7 @@ We will show closure under $\otimes_F$.
 
 - Lemma 1: If $A$ is a finite reduced $F$-algebra, then it has at most $[A:F]$ maximal ideals.
 - Lemma 2: If $A$ is a finite reduced $F$-algebra, then $A$ is the product of fields.
-- Proof: Let $\mathfrak{m}_1,\dots,\mathfrak{m}_n$ be maximal ideals of $A$. By [Chinese Remainder Theorem](notes/ntpy/Theorems/Ring Theory/Chinese Remainder Theorem.md), $$0\to \bigcap_i\mathfrak{m}_i\to A\to\prod_i A/\mathfrak{m}_i\to 0$$ is exact. By lemma 1, we may assume the $\mathfrak{m}_i$ are all the maximal ideals. Then $\bigcap_i\mathfrak{m}_i=Nil(A)=0$ (the nilradical is 0 as there are no nilpotents). Thus $A$ is the product of fields.
+- Proof: Let $\mathfrak{m}_1,\dots,\mathfrak{m}_n$ be maximal ideals of $A$. By [Chinese Remainder Theorem](<notes/ntpy/Theorems/Ring Theory/Chinese Remainder Theorem.md>), $$0\to \bigcap_i\mathfrak{m}_i\to A\to\prod_i A/\mathfrak{m}_i\to 0$$ is exact. By lemma 1, we may assume the $\mathfrak{m}_i$ are all the maximal ideals. Then $\bigcap_i\mathfrak{m}_i=Nil(A)=0$ (the nilradical is 0 as there are no nilpotents). Thus $A$ is the product of fields.
 
 So we may write $A\cong\prod_i K_i$, where $K_i=A/\mathfrak{m}_i$ are fields. $K_i$ is a finite extension of $F$ (the quotient must contain $F$ as $F\subset A$ and it is not contained in any maximal ideal). It remains to show that $K_i$ is separable.
 

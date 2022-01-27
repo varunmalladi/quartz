@@ -3,7 +3,7 @@ title: "inverse limit"
 ---
 
 # Idea
-Inverse limits are dual to [direct limit](notes/ntpy/Definitions/Category theory/direct limit.md)s and are special kinds of categorical limits.
+Inverse limits are dual to [direct limit](<notes/ntpy/Definitions/Category theory/direct limit.md>)s and are special kinds of categorical limits.
 
 # Definition
 Let $(I,\leq)$ be a directed set (one can actually weaken this upper bound condition).
@@ -33,20 +33,20 @@ $$
 **Remark.** The equivalence relation here is saying "identify elements that map (backwards) to the same element. Just like the equivalence relation in the explicit construction of direct limits, it is identifying things that are "eventually equal", but the directions are reversed.
 
 # Examples
-**1** ([profinite completion](notes/ntpy/profinite completion.md))
+**1** ([profinite completion](<notes/ntpy/profinite completion.md>))
  **2** (power series)
  Let $F$ be a field. We may regard
  $$ F[X]/(X^n)=\{a_0+a_1X+\cdots+a_{n-1}X^{n-1}\mid a_i\in F\} $$ 
  as a "truncated power series". For $n\leq m$, there is a natural quotient $$\pi_{nm}:F[X]/(X^m)\to F[X]/(X^n).$$ Then $(F[X]/(X^n),\pi_{nm})_{n,m\in\mathbb{N}}$ determines an inverse system, and
  $$ \lim_\leftarrow F[X]/(X^n)\cong F[[X]], $$ the power series ring. Explicitly, elements of the inverse limit look like $$ (a_0, a_0+a_1X,a_0+a_1X+a_2X^2,\cdots).$$
 
-**3** ([p-adic integers](notes/ntpy/Definitions/Algebraic Number Theory/P-adic numbers.md))
+**3** ([p-adic integers](<notes/ntpy/Definitions/Algebraic Number Theory/P-adic numbers.md>))
  This draws an analogy between p-adic integers and power series.
  
  **4**
  For $n\mid m$, there is a quotient map $$\pi_{nm}:\mathbb{Z}/m\mathbb{Z}\to\mathbb{Z}/n\mathbb{Z}.$$ Thhen $(\mathbb{Z}/n\mathbb{Z},\pi_{nm})$ is an inverse system indexed by the divisibility poset $(\mathbb{Z}_{\geq 0},\cdot\mid\cdot)$, which is isomorphic to the finite index subgroups poset $\{n\mathbb{Z}\subset\mathbb{Z}\mid n\geq 1\}$ under reverse inclusion. Hence 
  $$\lim_\leftarrow \mathbb{Z}/n\mathbb{Z}=\widehat{\mathbb{Z}}\cong\prod_{p}\mathbb{Z}_p,$$
- where the middle object is the profinite compleetion and the isomorphism is due to the [Chinese Remainder Theorem](notes/ntpy/Theorems/Ring Theory/Chinese Remainder Theorem.md).
+ where the middle object is the profinite compleetion and the isomorphism is due to the [Chinese Remainder Theorem](<notes/ntpy/Theorems/Ring Theory/Chinese Remainder Theorem.md>).
  
  # Properties
  1. A sequence $(K_i)\to (L_i)\to (M_i)$ is exact iff each $K_i\to L_i\to N_i$ is exact.

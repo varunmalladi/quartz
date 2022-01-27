@@ -3,7 +3,7 @@ title: "Skolem-Noether theorem"
 ---
 
 # Statement
-Let $B$ be a [central simple algebra](notes/ntpy/Definitions/central simple algebra.md) of finite dimension over $k$. Let $A$ be a (central simple?) $k$-algebra. Let $f,g:A\to B$ be $k$-algebra homomorphisms. Then
+Let $B$ be a [central simple algebra](<notes/ntpy/Definitions/central simple algebra.md>) of finite dimension over $k$. Let $A$ be a (central simple?) $k$-algebra. Let $f,g:A\to B$ be $k$-algebra homomorphisms. Then
 - there exists a unit $b\in B$ such that $$g(a)=b\cdot f(a)\cdot b^{-1}$$ for all $a\in A$.
 
 # Corollaries

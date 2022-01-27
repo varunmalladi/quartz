@@ -3,7 +3,7 @@ title: "Hilbert basis theorem"
 ---
 
 # Statement
-**Theorem.** If $R$ is a [Noetherian ring](notes/ntpy/Definitions/Ring theory/Noetherian ring.md), then $R[x]$ is a Noetherian ring.
+**Theorem.** If $R$ is a [Noetherian ring](<notes/ntpy/Definitions/Ring theory/Noetherian ring.md>), then $R[x]$ is a Noetherian ring.
 
 _Proof._ Let $I\subset R[x]$ be an ideal. We want to show that $I$ is finitely generated. Let $f_1$ be a nonzero element of the minimal possible degree in $I$. For $i\geq 1$, if $(f_1,\dots,f_i)=I\neq I$, then choose $f_{i+1}$ to be an element of the minimal possible degree in $I\setminus (f_1,\dots,f_i)$. If $(f_1,\dots,f_i)=I$ then stop choosing elements- we have demonstrated that $I$ is finitely generated. So suppose this process doesn't terminate in a finite number of steps.
 

@@ -3,7 +3,7 @@ title: "Families of types"
 ---
 
 # Definition
-**Definition.** A *family of type* $A$ is a function $B:A\to\mathcal{U}$ whose codomain is a [universe](notes/ntpy/Definitions/Logic/Type theory/Universes.md).
+**Definition.** A *family of type* $A$ is a function $B:A\to\mathcal{U}$ whose codomain is a [universe](<notes/ntpy/Definitions/Logic/Type theory/Universes.md>).
 
 # Example
 1. Family of finite sets

@@ -3,9 +3,9 @@ title: "Separable extension"
 ---
 
 # Idea
-The idea of roots being "separable" in the sense that there are no repeated roots is important because it tells us we are working with a "simple" polynomial that can generate all other polynomials with this set of roots (see [Nullstellensatz](notes/ntpy/Theorems/Ring Theory/Nullstellensatz.md)).
+The idea of roots being "separable" in the sense that there are no repeated roots is important because it tells us we are working with a "simple" polynomial that can generate all other polynomials with this set of roots (see [Nullstellensatz](<notes/ntpy/Theorems/Ring Theory/Nullstellensatz.md>)).
 
-A separable element $\alpha$ is one whose [minimal polynomial]() is separable. A separable extension is one in which every element is separable.
+A separable element $\alpha$ is one whose [minimal polynomial](<>) is separable. A separable extension is one in which every element is separable.
 
 # Definition
 **Definition.** The number $[K:k]_s\coloneqq \left|\sum_{K/k}^{\bar{k}/k}\right|$ is called the *seperable degree* of the algebraic extension $K/k$.
@@ -42,4 +42,4 @@ This will imply the proposition because starting with any finite number of gener
 We will now prove the claim. Suppose $K=k(\alpha,\beta)$. Let $\{\sigma_i\}=\sum_{K/k}^{\overline{k}/k}$. Define $$P(T)=\prod_{i\neq j}(\sigma_i(\alpha)+\sigma_i(\beta)T-\sigma_j(\alpha)-\sigma_j(\beta)T).$$ This is nonzero because $i\neq j$, so either $\sigma_i\alpha\neq\sigma_j\alpha$ or $\sigma_i\beta\neq\sigma_j\beta$ (\alpha and $\beta$ generate $K/k$.) Hence there exists $t_0\in k$ such that $P(t_0)\neq 0$. Thus for any two $i\neq j$, we have $\sigma_i(\alpha+\beta t_0)\neq \sigma_j(\alpha+\beta t_0)$. Thus $[k(\alpha+\beta t_0):k]_s\geq [k(\alpha,\beta):k]_s$. Since both are separable, $[k(\alpha+\beta t_0):k]\geq[k(\alpha,\beta):k]$. But certainly the former cannot exceed the latter, so the two extensions are eqal.
 
 # Related
-- [Field extension](notes/ntpy/Definitions/Algebraic Number Theory/Field Theory/Field extension.md)
+- [Field extension](<notes/ntpy/Definitions/Algebraic Number Theory/Field Theory/Field extension.md>)

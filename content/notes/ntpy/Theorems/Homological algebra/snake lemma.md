@@ -4,7 +4,7 @@ title: "snake lemma"
 
 # Statement
 
-In an [abelian category](), consider a commutative diagram 
+In an [abelian category](<>), consider a commutative diagram 
 
 <img align="center" src="https://i.upmath.me/svg/%5Cbegin%7Btikzcd%7D%0A%09%26%20A%20%26%20B%20%26%20C%20%26%200%20%5C%5C%0A%090%20%26%20%7BA'%7D%20%26%20%7BB'%7D%20%26%20%7BC'%7D%0A%09%5Carrow%5B%22f%22%2C%20from%3D1-2%2C%20to%3D1-3%5D%0A%09%5Carrow%5B%22g%22%2C%20from%3D1-3%2C%20to%3D1-4%5D%0A%09%5Carrow%5Bfrom%3D1-4%2C%20to%3D1-5%5D%0A%09%5Carrow%5Bfrom%3D2-1%2C%20to%3D2-2%5D%0A%09%5Carrow%5B%22%7Bf'%7D%22%2C%20from%3D2-2%2C%20to%3D2-3%5D%0A%09%5Carrow%5B%22%7Bg'%7D%22%2C%20from%3D2-3%2C%20to%3D2-4%5D%0A%09%5Carrow%5B%22a%22%2C%20from%3D1-2%2C%20to%3D2-2%5D%0A%09%5Carrow%5B%22b%22%2C%20from%3D1-3%2C%20to%3D2-3%5D%0A%09%5Carrow%5B%22c%22%2C%20from%3D1-4%2C%20to%3D2-4%5D%0A%5Cend%7Btikzcd%7D" alt="\begin{tikzcd}
 	&amp; A &amp; B &amp; C &amp; 0 \\
@@ -20,7 +20,7 @@ In an [abelian category](), consider a commutative diagram
 	\arrow&quot;c&quot;, from=1-4, to=2-4]
 \end{tikzcd}" />
 
-where the rows are exact sequences and 0 is the [Zero object](notes/ntpy/Definitions/Category theory/Zero object.md).
+where the rows are exact sequences and 0 is the [Zero object](<notes/ntpy/Definitions/Category theory/Zero object.md>).
 
 Then there is an exact sequence $$\text{ker }a\to\text{ker }b\to\text{ker }c\overset{d}{\longrightarrow}\text{coker }a\to\text{coker }b\to\text{coker }c.$$ The map $d$ is a homomorphism called the connecting homomorphism.
 
