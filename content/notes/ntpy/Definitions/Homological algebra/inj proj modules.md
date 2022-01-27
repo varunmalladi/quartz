@@ -10,10 +10,10 @@ Given any surjective map $$M\overset{\pi}{\longrightarrow} N\to 0$$ we say that 
 <img align="center" src="https://i.upmath.me/svg/%5Cbegin%7Btikzcd%7D%0A%09%26%20P%20%5C%5C%0A%09M%20%26%20N%20%26%200%0A%09%5Carrow%5B%22%5Cphi%22%2C%20from%3D1-2%2C%20to%3D2-2%5D%0A%09%5Carrow%5B%22%5Cpi%22'%2C%20from%3D2-1%2C%20to%3D2-2%5D%0A%09%5Carrow%5Bfrom%3D2-2%2C%20to%3D2-3%5D%0A%09%5Carrow%5B%22%5Cpsi%22'%2C%20dashed%2C%20from%3D1-2%2C%20to%3D2-1%5D%0A%5Cend%7Btikzcd%7D" alt="\begin{tikzcd}
 	&amp; P \\
 	M &amp; N &amp; 0
-	\arrow&quot;\phi&quot;, from=1-2, to=2-2[](<>)
-	\arrow&quot;\pi&quot;', from=2-1, to=2-2[](<>)
-	\arrowfrom=2-2, to=2-3[](<>)
-	\arrow&quot;\psi&quot;', dashed, from=1-2, to=2-1[](<>)
+	\arrow&quot;\phi&quot;, from=1-2, to=2-2]
+	\arrow&quot;\pi&quot;', from=2-1, to=2-2]
+	\arrowfrom=2-2, to=2-3]
+	\arrow&quot;\psi&quot;', dashed, from=1-2, to=2-1]
 \end{tikzcd}" />
 
 Dually, given any injective map $$0\to L\overset{i}{\longrightarrow}M$$
@@ -22,10 +22,10 @@ we say that the module $I$ is injective if for all there always exists an extens
 <img align="center" src="https://i.upmath.me/svg/%5Cbegin%7Btikzcd%7D%0A%090%20%26%20L%20%26%20M%20%5C%5C%0A%09%26%20I%0A%09%5Carrow%5Bfrom%3D1-1%2C%20to%3D1-2%5D%0A%09%5Carrow%5B%22i%22%2C%20from%3D1-2%2C%20to%3D1-3%5D%0A%09%5Carrow%5B%22j%22'%2C%20from%3D1-2%2C%20to%3D2-2%5D%0A%09%5Carrow%5B%22%7B%5Ctilde%7Bj%7D%7D%22'%2C%20dashed%2C%20from%3D2-2%2C%20to%3D1-3%5D%0A%5Cend%7Btikzcd%7D" alt="\begin{tikzcd}
 	0 &amp; L &amp; M \\
 	&amp; I
-	\arrowfrom=1-1, to=1-2[](<>)
-	\arrow&quot;i&quot;, from=1-2, to=1-3[](<>)
-	\arrow&quot;j&quot;', from=1-2, to=2-2[](<>)
-	\arrow&quot;{\tilde{j}}&quot;', dashed, from=2-2, to=1-3[](<>)
+	\arrowfrom=1-1, to=1-2]
+	\arrow&quot;i&quot;, from=1-2, to=1-3]
+	\arrow&quot;j&quot;', from=1-2, to=2-2]
+	\arrow&quot;{\tilde{j}}&quot;', dashed, from=2-2, to=1-3]
 \end{tikzcd}" />
 
 # Properties

@@ -3,9 +3,9 @@ title: "Simple objects"
 ---
 
 # Definition
-Let us work in a category with a [zero object](<notes/ntpy/Definitions/Category theory/Zero object.md>).
+Let us work in a category with a [zero object](notes/ntpy/Definitions/Category theory/Zero object.md).
 
-**Definition.** A *simple* object $A$ is one whose only [quotient objects](<notes/ntpy/Definitions/Category theory/Subobjects, quotient objects.md>) are $A$ and $0$.
+**Definition.** A *simple* object $A$ is one whose only [quotient objects](notes/ntpy/Definitions/Category theory/Subobjects, quotient objects.md) are $A$ and $0$.
 
 # Examples
 1. In $\text{Vect}_k$, the only simple object up to isomorphism is $k$ itself. 

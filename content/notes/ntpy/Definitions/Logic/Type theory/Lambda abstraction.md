@@ -9,13 +9,13 @@ We don't always need to define a function by name.
 Suppose we are defining functions from type $A$ to type $B$.
 
 If we wanted to express $f(x)\coloneqq \Phi$ with $\lambda$-abstraction, we could write 
-$$
+
 \begin{gather}
 (\lambda(x:A).\Phi):A\to B, \\
 \lambda x.\Phi:A\to B, \\
 (x\mapsto \Phi):A\to B.
 \end{gather}
-$$
+
 
 We can also define it implicitly. For instance, $g(x,-)$ is another way to write $\lambda y.g(x,y)$.
 

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Definitions/central simple algebra.md",
+            "file": "Definitions/Algebraic Number Theory/Field Theory/absolute galois group.md",
             "mode": "source",
             "source": false
           }
@@ -40,8 +40,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "scheme",
-                "matchingCase": false,
+                "query": "gather",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -49,7 +49,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Definitions/central simple algebra.md",
+                "file": "Definitions/Algebraic Number Theory/Field Theory/absolute galois group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +90,15 @@
   },
   "active": "aa5c302946140b5e",
   "lastOpenFiles": [
-    "Definitions/central simple algebra.md",
-    "Artin-Wedderburn.md",
-    "quaternion algebra.md",
-    "Wedderburn.md",
-    "Key Ideas/obstruction to division algebras being fields.md",
-    "Key Ideas/simple is weaker than transitive.md",
-    "Hahn-Banach theorem.md",
-    "ring of differential operators on convergent power series.md",
-    "ring of convergent power series.md",
-    "galois theory and convering spaces.md"
+    "Definitions/Algebraic Number Theory/Field Theory/absolute galois group.md",
+    "Detailed Notes/Math in Moscow/Algebraic Number Theory/2- More Finite Fields.md",
+    "Detailed Notes/Math in Moscow/Algebraic Number Theory/1- Introduction to Finite Fields.md",
+    "Key Ideas/Representation theory/Characters are an orthonormal basis for class functions.md",
+    "Key Ideas/Representation theory/finite dimensional lie algebras correspond to lie groups.md",
+    "Key Ideas/Representation theory/representations of s3.md",
+    "Key Ideas/Representation theory/Representations are determined by their character.md",
+    "Key Ideas/Representation theory/repreresentations of sl2C.md",
+    "Key Ideas/Representation theory/Reducibility of finite dimensional representations.md",
+    "Key Ideas/Representation theory/lie algebras encode the group structure.md"
   ]
 }

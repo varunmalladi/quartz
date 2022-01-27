@@ -8,13 +8,13 @@ title: "Projective variety"
 Let $k$ be an algeraically closed field. 
 
 ## Projective space
-The _projective $n$-space_, denoted $\mathbb{P}^n$, is the [affine space](<notes/ntpy/Definitions/Algebraic geometry/Affine space.md>) of dimension $n+1$ with the origin removed an all lines through the origin identified: 
-$$
+The _projective $n$-space_, denoted $\mathbb{P}^n$, is the [affine space](notes/ntpy/Definitions/Algebraic geometry/Affine space.md) of dimension $n+1$ with the origin removed an all lines through the origin identified: 
+
 \begin{gather}
 (\mathbb{A}^{n+1}-\{0\})/\sim \\
 (a_0,\dots,a_n)\sim (\lambda a_0,\dots,\lambda a_n),\quad \lambda\in k\setminus\{0\}
 \end{gather}
-$$
+
 
 The equivalence class of a point $P\in\mathbb{P}^n$ is called the _set of homogeneous coordinates_ for $P$.
 

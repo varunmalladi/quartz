@@ -3,17 +3,17 @@ title: "dedekind domain"
 ---
 
 # Idea
-Locally, at least away from prime ideals, a Dedekind domain looks like a [discrete valuation ring](<notes/ntpy/Definitions/Algebraic Number Theory/discrete valuation ring.md>). In particular, they are locally [PID](<notes/ntpy/Definitions/Ring theory/Principal ideal domain.md>)s.
+Locally, at least away from prime ideals, a Dedekind domain looks like a [discrete valuation ring](notes/ntpy/Definitions/Algebraic Number Theory/discrete valuation ring.md). In particular, they are locally [PID](notes/ntpy/Definitions/Ring theory/Principal ideal domain.md)s.
 
 # Definition
-Let $\mathcal{O}$ be a [Noetherian](<notes/ntpy/Definitions/Ring theory/Noetherian ring.md>) integrally closed domain, and $k$ be its field of fractions.
+Let $\mathcal{O}$ be a [Noetherian](notes/ntpy/Definitions/Ring theory/Noetherian ring.md) integrally closed domain, and $k$ be its field of fractions.
 
 The following are equivalent characterizations of a Dedekind domain:
 1. Any nonzero prime ideal is maximal
 2. For any nonzero prime ideal $\mathfrak{p}\subset\mathcal{O}$, the local ring $\mathcal{O}_\mathfrak{p}$ is a d.v.r.
-3. For any [fractional ideal](<notes/ntpy/Definitions/Algebraic Number Theory/fractional ideal.md>) $I\subset k$, we have $I^{-1}I=\mathcal{O}$.
+3. For any [fractional ideal](notes/ntpy/Definitions/Algebraic Number Theory/fractional ideal.md) $I\subset k$, we have $I^{-1}I=\mathcal{O}$.
 
-Notice (1) is also a property shared by [Artinian rings](<notes/ntpy/Definitions/Ring theory/Artinian ring.md>).
+Notice (1) is also a property shared by [Artinian rings](notes/ntpy/Definitions/Ring theory/Artinian ring.md).
 
 # Properties
 Let $\mathcal{O}$ be a Dedekind domain
@@ -21,11 +21,11 @@ Let $\mathcal{O}$ be a Dedekind domain
 2. If $I\subset k$ is a fractional ideal, then $$I=\prod_\mathfrak{p}\mathfrak{p}^{v_\mathfrak{p}(I)}$$ (which is a finite product)
 3. For all $\mathfrak{p}$, $$I\mathcal{O}_\mathfrak{p}=(\mathfrak{p}\mathcal{O}_\mathfrak{p})^{v_\mathfrak{p}(I)}$$
 4. Suppose $N\subset K$ is an arbitrary $\mathcal{O}$-submodule. Then $$N=\bigcap_\mathfrak{p}N_\mathfrak{p}$$
-5. The [integral closure](<notes/ntpy/Definitions/Ring theory/integral extensions.md>) $\mathcal{O}_K$ is a Dedekind domain.
+5. The [integral closure](notes/ntpy/Definitions/Ring theory/integral extensions.md) $\mathcal{O}_K$ is a Dedekind domain.
 6. Suppose $\mathfrak{p}\subset\mathcal{O}$ is a prime ideal. Then $(\mathcal{O}_K)_\mathfrak{p}$ is the integral closure of $\mathcal{O}_\mathfrak{p}$ in $K$, i.e. $$(\mathcal{O}_K)_\mathfrak{p}=(\mathcal{O}_p)_K$$
-7. For any prime ideal $\mathfrak{p}\subset\mathcal{O}$, there exists a prime ideal $\mathfrak{B}\subset\mathcal{O}_K$ [lying over](<notes/ntpy/Definitions/Ring theory/Prime ideal.md>) it, i.e. $\mathfrak{B}\mid\mathfrak{p}$. 
+7. For any prime ideal $\mathfrak{p}\subset\mathcal{O}$, there exists a prime ideal $\mathfrak{B}\subset\mathcal{O}_K$ [lying over](notes/ntpy/Definitions/Ring theory/Prime ideal.md) it, i.e. $\mathfrak{B}\mid\mathfrak{p}$. 
 	1. Conversely, for any nonzero prime ideal $\mathfrak{B}\subset\mathcal{O}_K$, we have $\mathfrak{B}\cap\mathcal{O}\neq(0)$.
-8. (compare to property 3 in complete dvr's at [discrete valuation ring](<notes/ntpy/Definitions/Algebraic Number Theory/discrete valuation ring.md>)) $$n=\sum e_if_i$$ (see also [residue class degree, ramification index](<notes/ntpy/Definitions/Algebraic Number Theory/residue class degree, ramification index.md>))
+8. (compare to property 3 in complete dvr's at [discrete valuation ring](notes/ntpy/Definitions/Algebraic Number Theory/discrete valuation ring.md)) $$n=\sum e_if_i$$ (see also [residue class degree, ramification index](notes/ntpy/Definitions/Algebraic Number Theory/residue class degree, ramification index.md))
 
 ## Proofs
 **2**

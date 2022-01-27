@@ -38,10 +38,10 @@ There is a simple way to construct a simplicial set out of a 1-category, and thi
 <img align="center" src="https://i.upmath.me/svg/%5Cbegin%7Btikzcd%7D%0A%09%26%20b%20%5C%5C%0A%09a%20%26%26%20c%0A%09%5Carrow%5B%22%22%7Bname%3D0%2C%20anchor%3Dcenter%2C%20inner%20sep%3D0%7D%2C%20%22h%22'%2C%20from%3D2-1%2C%20to%3D2-3%5D%0A%09%5Carrow%5B%22f%22%2C%20from%3D2-1%2C%20to%3D1-2%5D%0A%09%5Carrow%5B%22g%22%2C%20from%3D1-2%2C%20to%3D2-3%5D%0A%09%5Carrow%5Bshorten%20%3C%3D5pt%2C%20shorten%20%3E%3D5pt%2C%20Rightarrow%2C%20from%3D1-2%2C%20to%3D0%5D%0A%5Cend%7Btikzcd%7D" alt="\begin{tikzcd}
 	&amp; b \\
 	a &amp;&amp; c
-	\arrow&quot;&quot;{name=0, anchor=center, inner sep=0}, &quot;h&quot;', from=2-1, to=2-3[](<>)
-	\arrow&quot;f&quot;, from=2-1, to=1-2[](<>)
-	\arrow&quot;g&quot;, from=1-2, to=2-3[](<>)
-	\arrowshorten &lt;=5pt, shorten &gt;=5pt, Rightarrow, from=1-2, to=0[](<>)
+	\arrow&quot;&quot;{name=0, anchor=center, inner sep=0}, &quot;h&quot;', from=2-1, to=2-3]
+	\arrow&quot;f&quot;, from=2-1, to=1-2]
+	\arrow&quot;g&quot;, from=1-2, to=2-3]
+	\arrowshorten &lt;=5pt, shorten &gt;=5pt, Rightarrow, from=1-2, to=0]
 \end{tikzcd}" />
 
 The vertical 2-morphism just being the identity, witnessing the equality of $g\circ f$ and $h$. 3-simplices would correspond to the composition of 3 morphisms, which makes sense because it would need to include the data of the composition of pairs of morphisms within that set.
@@ -49,7 +49,7 @@ The vertical 2-morphism just being the identity, witnessing the equality of $g\c
 We are being informal here to get to the point, but it is not too difficult hopefully to see that this defines a simplicial set. In fact, it would appear the nerve really preserves all the information about the original category. This is indeed the case, as one shows that the nerve construction is fully faithful. In other words, the set of functors between two categories are in bijection with the morphisms between their nerves.
 
 # Reflective subcategories
-When a fully faithful functor $C\to D$ admits a left adjoint, we call the left adjoint the reflector or localization. We say that $C$ is a [reflective subcategory](<notes/ntpy/Definitions/Category theory/reflective subcategory.md>) of $D$. 
+When a fully faithful functor $C\to D$ admits a left adjoint, we call the left adjoint the reflector or localization. We say that $C$ is a [reflective subcategory](notes/ntpy/Definitions/Category theory/reflective subcategory.md) of $D$. 
 
 Localizations are of course central to many areas of mathematics, such as commutative algebra for example. Now, this isn't intended to be a video on localization or reflective subcategories, so I will just say a few things. 
 

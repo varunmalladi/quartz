@@ -60,7 +60,7 @@ The group of units $U$ completely describes the multiplicative qualities of $\ma
 
 ### Of integer p-adics
 1. $\mathbb{Z}_p$ carries a natural structure of a ring with identity.
-	- It is an [Integral domain](<notes/ntpy/Definitions/Ring theory/Integral domain.md>)
+	- It is an [Integral domain](notes/ntpy/Definitions/Ring theory/Integral domain.md)
 2. The map $\mathbb{Z}\to\mathbb{Z}_p$ is injective.
 3. Multiplication by $p$ (hence also $p^n$) is an isomorphism from $\mathbb{Z}_p$ to itself.
 4. Let $\epsilon_i$ be the projection $\mathbb{Z}_p\to\mathbb{Z}_{p^i}$ to the $i$th component. The following sequence is exact: $$0\longrightarrow\mathbb{Z}_p\overset{(-)\cdot p^i}{\longrightarrow}\mathbb{Z}_p\overset{\epsilon_i}{\longrightarrow}\mathbb{Z}/(p^i)\longrightarrow 0.$$ 
@@ -72,8 +72,8 @@ The group of units $U$ completely describes the multiplicative qualities of $\ma
 	- The $n$ above is equal to $v_p(z)$.
 	- We denote the group of invertible elements of $\mathbb{Z}_p$ by $U$.
 7. $\mathbb{Z}$ is dense in $\mathbb{Z}_p$.
-7. [Hensel's lemma](<notes/ntpy/Theorems/Ring Theory/Hensel's lemma.md>) a (simple!) root modulo $p$ can be lifted to a root modulo any higher power of $p$. By taking the limit, it follows that the root modulo $p$ can be lifted to a root over the $p$-adic integers.
-8. Suppose $\alpha\in\mathbb{Z}_p$ and $\alpha\equiv 1\mod p$. The function $$ \begin{gather} \exp_\alpha:\mathbb{Z}_p\to\mathbb{Z}_p \\ z=\alpha^z=\{{}_iz\in\mathbb{Z}/(p^i)\}\mapsto \lim_{i\to\infty}\{\alpha^{\tilde{{}_iz}}\} \end{gather}$$ where $\tilde{{}_iz}\in\mathbb{Z}_{\geq 0}$ is equivalent to ${}_iz\mod p^i$ defines a group homomorphism from the additive group of $\mathbb{Z}_p$ to the subgroup $U_1$ of its group of units $U$.
+7. [Hensel's lemma](notes/ntpy/Theorems/Ring Theory/Hensel's lemma.md) a (simple!) root modulo $p$ can be lifted to a root modulo any higher power of $p$. By taking the limit, it follows that the root modulo $p$ can be lifted to a root over the $p$-adic integers.
+8. Suppose $\alpha\in\mathbb{Z}_p$ and $\alpha\equiv 1\mod p$. The function  \begin{gather} \exp_\alpha:\mathbb{Z}_p\to\mathbb{Z}_p \\ z=\alpha^z=\{{}_iz\in\mathbb{Z}/(p^i)\}\mapsto \lim_{i\to\infty}\{\alpha^{\tilde{{}_iz}}\} \end{gather} where $\tilde{{}_iz}\in\mathbb{Z}_{\geq 0}$ is equivalent to ${}_iz\mod p^i$ defines a group homomorphism from the additive group of $\mathbb{Z}_p$ to the subgroup $U_1$ of its group of units $U$.
 
 #### Proofs
 ##### 1
@@ -88,13 +88,13 @@ By (3), multiplication by $p^i$ is an isomorphism. Clearly $\epsilon_i$ is surje
 Clearly $p^i\mathbb{Z}_p\subset\text{ker}\epsilon_i$ since the $i$th coordinate is multiplied by $p^i$ so it vanishes. Conversely, let $x\in\ker\epsilon_i$. Since the $i$th coordinate vanishes, all lower order coordinates vanish as well. So just define $y\in\mathbb{Z}_p$ to be the renumbering of the coordinates of $x$ starting with $x_{i+1}=y_1$. Then clearly $x=p^i\cdot y$.
 ##### 5
 The only nontrivial thing is to show that 3 implies 1. Suppose $p\nmid x$.  To show that $x$ is invertible, it suffices to show that each component is invertible. Consider $x_m$. Its image in $\mathbb{Z}/(p)$ is invertible hence there exists $y,z\in\mathbb{Z}/(p^m)$ such that $xy+pz=1$. We claim then that $x_m$ is invertible in $\mathbb{Z}/(p^m)$:
-$$
+
 \begin{align}
 x(y+ypz+\cdots+yp^{n-1}z^{n-1}) =& xy(1+pz+\cdots+p^{n-1}z^{n-1}) \\
 =& (1-pz)(1+pz+\cdots+p^{n-1}z^{n-1}) \\
 =& 1.
 \end{align}
-$$
+
 ##### 6
 Similar to our discussion in (4). If $x\in\mathbb{Z}_p$ is nonzero, then there exists a largest integer $n$ such that $x_n=0$. Take $u$ to be the renumbering of $x$ starting with $u_1=x_{n+1}$. All its components are nonzero hence $u$ is invertible.
 ##### 7
@@ -125,4 +125,4 @@ $$
 
 
 # Related
-[Absolute value](<notes/ntpy/Definitions/Ring theory/Absolute value.md>)
+[Absolute value](notes/ntpy/Definitions/Ring theory/Absolute value.md)

@@ -10,7 +10,7 @@ title: "discrete G-set"
 
 # Examples
 **Galois actions**
-See: [Galois group](<notes/ntpy/Galois group.md>)
+See: [Galois group](notes/ntpy/Galois group.md)
 
 - Let $K/F$ be a Galois extension, $G=\text{Gal}(K/F)$. 
 - There is a natural action of $G$ on $K/F$ (by definition elements of $G$ are automorphisms of $K/F$).
@@ -23,12 +23,12 @@ Since $G$ is compact, we can see Property 2, that all orbits are finite, directl
 - The orbit of $x$ are the possible places an element $g\in G$ could send $x$. But for eachh $P_i$, $g$ permutes its roots. Hence there are only finitely many places each $\alpha_i$ could be sent, hence the orbit of $x$ is finite.
 
 In fact, for each $\alpha\in F^s$ the orbit $G\alpha$ is precisely the set of roots of the minimal polynomial for $\alpha$. A minimal polynomial is seperable, irreducible, and monic. Conversely, any polynomial satisfying those conditions is the minimal polynomial of some element in $F^s$. So there is a bijection
-$$
+
 \begin{gather}
 \{G\alpha\}_{\alpha\in F^s} \quad \leftrightarrow \quad \{\text{monic, sep, irred, polys over }F\}, \\
 G_\alpha = \{\alpha_1,\dots,\alpha_n\}\mapsto \prod_{i=1}^n(x-\alpha_i) \\ \{\text{roots of }f\text{ in }F^s\}\leftarrow f
 \end{gather}
-$$
+
 where $F^s$ denotes the separable closure.
 
 One aspect of Grothendieck's Galois theory is the weaking of the left side (i.e. the set of orbits) to the set of finite $G$-sets (i.e. the set being acted on in finite). This is a weakening because we have just said that every orbit is finite, implying it is a finite $G$-set.

@@ -4,14 +4,14 @@ title: "Local ring"
 
 Let $R$ be a commutative ring with identity.
 
-**Definition.** $R$ is called _local_ if there exists just one [maximal ideal](<notes/ntpy/Definitions/Ring theory/Maximal ideal.md>) $M\subset R$. Conversely, if there exists an ideal $M$ such that all elements outside of $M$ are invertible, then $R$ is local and $M$ is its maximal ideal.
+**Definition.** $R$ is called _local_ if there exists just one [maximal ideal](notes/ntpy/Definitions/Ring theory/Maximal ideal.md) $M\subset R$. Conversely, if there exists an ideal $M$ such that all elements outside of $M$ are invertible, then $R$ is local and $M$ is its maximal ideal.
 
 **Definition.** The field $A/M$ is called the _residue field_ of $A$.
 
 **Definition.** A ring with only a finite number of maximal ideals is called _semi-local_.
 
 ### Properties
-1. Every element outside of $M$ is invertible. [Maximal ideal](<notes/ntpy/Definitions/Ring theory/Maximal ideal.md>)
+1. Every element outside of $M$ is invertible. [Maximal ideal](notes/ntpy/Definitions/Ring theory/Maximal ideal.md)
 2. (Moved)
 3. Let $\mathfrak{m}\neq (1)$ be an ideal of $A$ such that every $x\in A-\mathfrak{m}$ is a unit in $A$. Then $A$ is a local ring and $\mathfrak{m}$ is its maximal ideal
 4. Let $A$ be a ring and $\mathfrak{m}$ a maximal ideal of $A$ such that every element of $1+\mathfrak{m}$ is a unit in $A$. Then $A$ is a local ring.

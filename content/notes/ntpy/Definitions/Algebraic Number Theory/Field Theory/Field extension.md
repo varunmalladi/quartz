@@ -8,8 +8,8 @@ title: "Field extension"
 Any field homomorphism is automatically injective. A previous definition defined an extension as a field homomorphism, but typically we mean an actual inclusion, and in this view there is no data lost in the notation $K/L$. Specifically, there exist field homomorphisms which are not inclusions, consider the map $\mathbb{R}\to \mathbb{C}$ sending $1\mapsto i$.
 
 # Types of extensions
-- [Normal extensions](<notes/ntpy/Definitions/Algebraic Number Theory/Field Theory/Normal extensions.md>)
-- [Separable extension](<notes/ntpy/Definitions/Algebraic Number Theory/Field Theory/Separable extension.md>)
+- [Normal extensions](notes/ntpy/Definitions/Algebraic Number Theory/Field Theory/Normal extensions.md)
+- [Separable extension](notes/ntpy/Definitions/Algebraic Number Theory/Field Theory/Separable extension.md)
 
 ## Morphisms
 If $K_1$ and $K_2$ are field extensions over $k$, then a homomorphism of extensions $$K_1/k\to K_2/k$$ is a field homomorphism $K_1\to K_2$ that fixes $k$. We denote the set of all such morphisms $$\sum_{K_1/k}^{K_2/k}.$$
@@ -28,7 +28,7 @@ Let $K$ be an algebraic extension of $k$ contained in an algebraic closure $\ove
 # Properties
 Let $K_1$ and $K_2$ be field extensions over $k$, and $\sigma: K_1/k\to K_2/k$ a homomorphism of extensions. Let $P\in k[T]$. 
 
-1. ([Zariski's lemma](<notes/ntpy/Theorems/Field Theory/Zariski's lemma.md>)) 
+1. ([Zariski's lemma](notes/ntpy/Theorems/Field Theory/Zariski's lemma.md)) 
 2. Let $\alpha\in K$ be algebraic over $k$. Let $P_\alpha$ be a monic irreducible polynomial such that $P_\alpha(\alpha)=0$. Then
 	1. $P_\alpha$ exists and is unique
 	2. $k_{P_\alpha}\cong k(\alpha)\cong k[\alpha]$
@@ -38,13 +38,13 @@ Let $K_1$ and $K_2$ be field extensions over $k$, and $\sigma: K_1/k\to K_2/k$ a
 Certainly $P_\alpha$ exists. We just need to show it is unique. By decomposing and dividing, we can assume that $P_\alpha$ is irreducible and monic. Suppose $Q$ is another monic irreducible polynomial such that $Q(\alpha)=0$. Suppose $Q\neq P_\alpha$. Then by the Euclidean algorithm  $P_\alpha G+QH=1$ for some $G,H\in k[T]$. This is impossible, since $P_\alpha(\alpha)=Q(\alpha)=0$. Hence $P=Q$. 
 
 We first show that $k_{P_\alpha}\cong k[\alpha]$. Consider the map
-$$
+
 \begin{gather}
-\phi:kT[](<>)\to K \\
+\phi:k[T]\to K \\
 \phi_k= 1_k \\
 T\mapsto \alpha.
 \end{gather}
-$$
+
 Clearly $\text{im}\phi=k[\alpha]$. Then 
 $$
 \phi(P_\alpha(T))=P_\alpha(\phi(T))=P_\alpha(\alpha)=0.
@@ -70,13 +70,13 @@ $$
 P(\alpha)=a_0+a_1\alpha+\cdots+a_n\alpha^n = 0.
 $$
 Since $\sigma$ fixes $k$, we use the properties of field homomorphisms to obtain
-$$
+
 \begin{align}
 P(\sigma(\alpha)) =& a_0+a_1\sigma(\alpha)+\cdots+a_n\sigma(\alpha)^n \\
 =& \sigma(a_0 + a_1\alpha+\cdots a_n\alpha^n) \\
 =& \sigma(0)=0.
 \end{align}
-$$
+
 
 #### 2
 $k_P=k[T]/(P)$ so that an extension exists is obvious, and that it fixes $k$ follows by the definition of a field homomorphism. Then in particular $\tilde{\sigma}(P(T))=0=P(\tilde{\sigma}(T))$. We can move the $P$ to the outside since the ring homomorphism fixes $k$. 
@@ -105,7 +105,7 @@ _Step 2_
 
 
 # Examples
-1. [Definitions/Algebraic Number Theory/Field Theory/Minimal polynomial](<>)
+1. [Definitions/Algebraic Number Theory/Field Theory/Minimal polynomial]()
 
 
 ## $k(\alpha)$

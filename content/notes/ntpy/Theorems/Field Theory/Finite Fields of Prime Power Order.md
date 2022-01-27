@@ -15,12 +15,12 @@ $$
 \{ x\in|Omega \mid \text{Fr}^f(x)=x \}
 $$
 where
-$$
+
 \begin{gathered}
 \text{Fr}:x\mapsto x^p \\
 \text{Fr}^f: x\mapsto x^{pf}=x^q.
 \end{gathered}
-$$
+
 Hence the roots are precisely the set of fixed points of the $\text{Fr}^f:\Omega\to \Omega$, hence a subfield of $\Omega$, as it is the image of a field homomorphism.
 
 _Pf of statement 2._

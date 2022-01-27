@@ -1,0 +1,9 @@
+{
+  "showLineNumber": false,
+  "vimMode": true,
+  "autoPairMarkdown": false,
+  "autoPairBrackets": false,
+  "alwaysUpdateLinks": true,
+  "legacyEditor": false,
+  "livePreview": true
+}
