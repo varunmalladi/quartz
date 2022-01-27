@@ -1,26 +1,18 @@
 ---
-title: 🪴 Quartz 3
+title: 🖊 rooney's math notes
 ---
-Host your second brain and [digital garden](https://jzhao.xyz/posts/digital-gardening) for free. Quartz features
-1. Extremely fast full-text search by pressing `/`
-2. Display for backlinks of each note
-3. Fully customizable local graph view
-4. Endlessly powerful page and theme customization using CSS
-5. Automatically generated tag and section lists of content
-6. Beautiful link previews
+I use Obsidian to keep track of my notes, and I've ported those here. Click the search bar or type '/' to find a specific note, 
+see on one of the featured notes below, or use the interactive graph at the bottom (which displays "connections" between notes, 
+represented as dots).
 
-## Get Started
-> 📚 [Setup your own digital garden using Quartz](notes/setup.md)
+## Featured
+- [Homotopy category, nerve, and decategorification](<notes/ntpy/Key Ideas/Homotopy theory/homotopy category, nerve, and decategorification.md>)
+- [Representations of sl2C](<notes/ntpy/Key Ideas/Representation theory/repreresentations of sl2C.md>)
+- [Product type](<notes/ntpy/Definitions/Logic/Product type.md>)
 
-Not convinced yet? Look at some [community digital gardens](notes/showcase.md) built with Quartz, or read about [why I made Quartz](notes/philosophy.md) to begin with!
-
-## Content Lists
-If you prefer browsing the contents of this site through a list instead of a graph, you can find content lists here too:
-
-- [All Notes](/notes)
-- [Setup-related Notes](/tags/setup)
-
-## Troubleshooting
-- 🚧 [Troubleshooting and FAQ](notes/troubleshooting.md)
-- 🐛 [Submit an Issue](https://github.com/jackyzha0/quartz/issues)
-- 👀 [Discord Community](https://discord.gg/cRFFHYye7t)
+## Bugs
+The Quartz platform I'm using doesn't currently support the type of links I use in Obsidian. I've written a program which I send my 
+all my notes through before uploading them here, which tries to edit them so that they are Quartz-compatible, but there are some 
+bugs. Most notably,
+- "gather" and "align" environments are broken, as Obsidian requires them to be surrounded by "$$" while this causes MathJax to not render them.
+- Obsidian supports links to pages that have not been created yet— my program changes those links to point to the path "", which happens to be the home page. Thus the home page appears as the largest dot on the graph.
